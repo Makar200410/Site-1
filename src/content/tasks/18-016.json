@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{K2CO3}$: $M = 138$ г/моль. Масса K в формуле: $39 \\times 2 = 78$. Массовая доля: $\\omega = \\dfrac{78}{138} \\times 100\\% \\approx 56.5\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

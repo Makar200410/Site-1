@@ -28,6 +28,7 @@
   "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: из $\\ce{Na2S}$ выделяется газ с запахом тухлых яиц, из $\\ce{Na2SO4}$ видимых изменений нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{H3PO4}$: $M = 98$ г/моль. Масса P в формуле: $31 \\times 1 = 31$. Массовая доля: $\\omega = \\dfrac{31}{98} \\times 100\\% \\approx 31.6\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

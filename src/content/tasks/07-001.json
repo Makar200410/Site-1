@@ -1,7 +1,7 @@
 {
   "id": "07-001",
   "examNumber": 7,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "oksidy",
   "difficulty": "high",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{SiO2}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{SiO2}$ — кислотный оксид: реагирует со щёлочью и с основным оксидом $\\ce{CaO}$, образуя соль. С кислотой, с другим кислотным оксидом и с солью не реагирует.",
   "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "oksidy/oksidy-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "оксиды"

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{Al2(SO4)3}$: $M = 342$ г/моль. Масса Al в формуле: $27 \\times 2 = 54$. Массовая доля: $\\omega = \\dfrac{54}{342} \\times 100\\% \\approx 15.8\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

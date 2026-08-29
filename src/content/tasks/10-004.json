@@ -1,7 +1,7 @@
 {
   "id": "10-004",
   "examNumber": 10,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "soli",
   "difficulty": "base",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{CuSO4}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{CuSO4}$ реагирует с реагентом «Железом $\\ce{Fe}$» (железо вытесняет медь) и с реагентом «Раствором $\\ce{NaOH}$» (выпадает осадок $\\ce{Cu(OH)2}$). С остальными перечисленными веществами видимой реакции нет.",
   "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "soli/soli-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "соли"

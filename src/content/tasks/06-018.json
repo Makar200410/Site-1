@@ -35,7 +35,8 @@
   "solution": "Водород реагирует с кислородом ($\\ce{2H2 + O2 -> 2H2O}$) и с азотом при повышенном давлении и катализаторе ($\\ce{N2 + 3H2 -> 2NH3}$). С золотом, раствором соли и инертным газом реакция не идёт.",
   "hint": "Вспомните типичные реакции неметаллов с металлами, водородом и кислородом.",
   "theoryRefs": [
-    "metally/obshchaya-harakteristika-metallov"
+    "metally/obshchaya-harakteristika-metallov",
+    "nemetally/nemetally-i-ih-soedineniya"
   ],
   "tags": [
     "свойства неметаллов"

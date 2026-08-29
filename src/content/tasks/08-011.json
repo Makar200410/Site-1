@@ -1,7 +1,7 @@
 {
   "id": "08-011",
   "examNumber": 8,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "osnovaniya",
   "difficulty": "high",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{NaOH}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{NaOH}$ — щёлочь: реагирует с кислотой и с раствором соли, если образуется осадок ($\\ce{Mg(OH)2}$). С раствором соли без осадка, другим основанием и водородом не реагирует.",
   "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "osnovaniya/osnovaniya-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "основания"

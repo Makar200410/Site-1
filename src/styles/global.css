@@ -1,6 +1,27 @@
 @import "tailwindcss";
 @import "katex/dist/katex.min.css";
 
+/*
+ * Тема переключается вручную через атрибут [data-theme] на <html> (см.
+ * Header.astro), а не через класс .dark. По умолчанию префикс `dark:` в
+ * Tailwind v4 следует только за prefers-color-scheme и игнорирует этот
+ * атрибут — из-за этого `dark:`-классы не применялись при ручном
+ * переключении темы, если системная тема браузера была светлой (текст
+ * становился нечитаемым на светлом фоне). Синхронизируем `dark:` с той же
+ * логикой, что уже используется для CSS-переменных ниже: явный
+ * data-theme="dark" ИЛИ (системная тёмная тема И data-theme не "light").
+ */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) & {
+      @slot;
+    }
+  }
+}
+
 /* Self-hosted переменный шрифт Inter (кириллица + латиница), без сторонних CDN. */
 @font-face {
   font-family: "Inter";

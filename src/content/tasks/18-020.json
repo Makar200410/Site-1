@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{Ca3(PO4)2}$: $M = 310$ г/моль. Масса P в формуле: $31 \\times 2 = 62$. Массовая доля: $\\omega = \\dfrac{62}{310} \\times 100\\% \\approx 20\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

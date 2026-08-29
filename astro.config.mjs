@@ -5,6 +5,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import { unified as astroMarkdownProcessor } from '@astrojs/markdown-remark';
 
@@ -39,7 +40,7 @@ export default defineConfig({
   ],
   markdown: {
     processor: astroMarkdownProcessor({
-      remarkPlugins: [remarkMath],
+      remarkPlugins: [remarkMath, remarkGfm],
       // throwOnError не настраивается: rehype-katex сам перехватывает ошибки формул
       // и рендерит их как видимый `.katex-error`, вместо падения сборки.
       rehypePlugins: [[rehypeKatex, { strict: false, output: 'htmlAndMathml' }]],

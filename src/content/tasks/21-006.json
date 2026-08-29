@@ -1,20 +1,20 @@
 {
   "id": "21-006",
   "examNumber": 21,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "genetichesk-svyaz-neorg",
   "difficulty": "high",
   "answerType": "extended",
   "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{C -> CO2 -> CaCO3 -> CaO}$.",
-  "correctAnswer": "$\\ce{C + O2 -> CO2}$; $\\ce{CO2 + Ca(OH)2 -> CaCO3v + H2O}$; $\\ce{CaCO3 ->[t] CaO + CO2^}$",
+  "correctAnswer": "$\\ce{C + O2 -> CO2}$; $\\ce{CO2 + Ca(OH)2 -> CaCO3 v + H2O}$; $\\ce{CaCO3 ->[t] CaO + CO2 ^}$",
   "maxScore": 3,
-  "solution": "1) $\\ce{C + O2 -> CO2}$\n\n2) $\\ce{CO2 + Ca(OH)2 -> CaCO3v + H2O}$\n\n3) $\\ce{CaCO3 ->[t] CaO + CO2^}$",
+  "solution": "1) $\\ce{C + O2 -> CO2}$\n\n2) $\\ce{CO2 + Ca(OH)2 -> CaCO3 v + H2O}$\n\n3) $\\ce{CaCO3 ->[t] CaO + CO2 ^}$",
   "criteria": [
     "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
     "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
     "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
   ],
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
   ],
   "tags": [
     "генетическая связь"

@@ -28,6 +28,7 @@
   "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ, с $\\ce{NaCl}$ видимых изменений нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{NaNO3}$: $M = 85$ г/моль. Масса N в формуле: $14 \\times 1 = 14$. Массовая доля: $\\omega = \\dfrac{14}{85} \\times 100\\% \\approx 16.5\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

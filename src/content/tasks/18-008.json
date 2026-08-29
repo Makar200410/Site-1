@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{SiO2}$: $M = 60$ г/моль. Масса O в формуле: $16 \\times 2 = 32$. Массовая доля: $\\omega = \\dfrac{32}{60} \\times 100\\% \\approx 53.3\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

@@ -1,7 +1,7 @@
 {
   "id": "10-002",
   "examNumber": 10,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "soli",
   "difficulty": "base",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{AgNO3}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{AgNO3}$ реагирует с реагентом «Раствором $\\ce{NaCl}$» (выпадает осадок $\\ce{AgCl}$) и с реагентом «Медью $\\ce{Cu}$» (медь вытесняет серебро). С остальными перечисленными веществами видимой реакции нет.",
   "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "soli/soli-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "соли"

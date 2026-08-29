@@ -35,7 +35,8 @@
   "solution": "При нагревании сера реагирует с металлами ($\\ce{Fe + S -> FeS}$) и с кислородом ($\\ce{S + O2 -> SO2}$). С водой, раствором соли и азотом сера не реагирует.",
   "hint": "Вспомните типичные реакции неметаллов с металлами, водородом и кислородом.",
   "theoryRefs": [
-    "metally/obshchaya-harakteristika-metallov"
+    "metally/obshchaya-harakteristika-metallov",
+    "nemetally/nemetally-i-ih-soedineniya"
   ],
   "tags": [
     "свойства неметаллов"

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{Na2SO4}$: $M = 142$ г/моль. Масса Na в формуле: $23 \\times 2 = 46$. Массовая доля: $\\omega = \\dfrac{46}{142} \\times 100\\% \\approx 32.4\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

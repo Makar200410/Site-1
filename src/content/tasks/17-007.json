@@ -28,6 +28,7 @@
   "solution": "Реактив $\\ce{AgNO3}$ позволяет различить эти вещества: с $\\ce{NaCl}$ выпадает белый осадок $\\ce{AgCl}$, с $\\ce{NaNO3}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [

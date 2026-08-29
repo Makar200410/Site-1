@@ -1,20 +1,20 @@
 {
   "id": "21-005",
   "examNumber": 21,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "genetichesk-svyaz-neorg",
   "difficulty": "high",
   "answerType": "extended",
   "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Fe -> FeCl2 -> Fe(OH)2 -> FeSO4}$.",
-  "correctAnswer": "$\\ce{Fe + 2HCl -> FeCl2 + H2^}$; $\\ce{FeCl2 + 2NaOH -> Fe(OH)2v + 2NaCl}$; $\\ce{Fe(OH)2 + H2SO4 -> FeSO4 + 2H2O}$",
+  "correctAnswer": "$\\ce{Fe + 2HCl -> FeCl2 + H2 ^}$; $\\ce{FeCl2 + 2NaOH -> Fe(OH)2 v + 2NaCl}$; $\\ce{Fe(OH)2 + H2SO4 -> FeSO4 + 2H2O}$",
   "maxScore": 3,
-  "solution": "1) $\\ce{Fe + 2HCl -> FeCl2 + H2^}$\n\n2) $\\ce{FeCl2 + 2NaOH -> Fe(OH)2v + 2NaCl}$\n\n3) $\\ce{Fe(OH)2 + H2SO4 -> FeSO4 + 2H2O}$",
+  "solution": "1) $\\ce{Fe + 2HCl -> FeCl2 + H2 ^}$\n\n2) $\\ce{FeCl2 + 2NaOH -> Fe(OH)2 v + 2NaCl}$\n\n3) $\\ce{Fe(OH)2 + H2SO4 -> FeSO4 + 2H2O}$",
   "criteria": [
     "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
     "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
     "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
   ],
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
   ],
   "tags": [
     "генетическая связь"

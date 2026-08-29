@@ -28,6 +28,7 @@
   "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{H2SO4}$ выпадает белый осадок $\\ce{BaSO4}$, с $\\ce{HCl}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [

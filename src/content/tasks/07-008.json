@@ -1,7 +1,7 @@
 {
   "id": "07-008",
   "examNumber": 7,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "oksidy",
   "difficulty": "advanced",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{BaO}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{BaO}$ — основный оксид активного металла: реагирует с кислотой ($\\ce{BaO + 2HCl -> ...}$) и с водой, образуя щёлочь. С другим основным оксидом и щёлочью не реагирует.",
   "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "oksidy/oksidy-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "оксиды"

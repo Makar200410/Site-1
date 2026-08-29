@@ -1,7 +1,7 @@
 {
   "id": "07-002",
   "examNumber": 7,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "oksidy",
   "difficulty": "base",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{MgO}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{MgO}$ — основный оксид: реагирует с кислотой и с кислотным оксидом $\\ce{SO3}$ (образуя соль). С водой (не растворяется), щёлочью и другим основным оксидом не реагирует.",
   "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "oksidy/oksidy-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "оксиды"

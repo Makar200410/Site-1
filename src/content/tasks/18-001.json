@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{BaSO4}$: $M = 233$ г/моль. Масса O в формуле: $16 \\times 4 = 64$. Массовая доля: $\\omega = \\dfrac{64}{233} \\times 100\\% \\approx 27.5\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

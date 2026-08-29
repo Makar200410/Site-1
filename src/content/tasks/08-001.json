@@ -1,7 +1,7 @@
 {
   "id": "08-001",
   "examNumber": 8,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "osnovaniya",
   "difficulty": "base",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{KOH}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{KOH}$ — щёлочь: реагирует с кислотой (нейтрализация) и с кислотным оксидом, образуя соль и воду. С солью без осадка, другим основанием и кислородом не реагирует.",
   "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "osnovaniya/osnovaniya-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "основания"

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{CaCl2}$: $M = 111$ г/моль. Масса Cl в формуле: $35.5 \\times 2 = 71$. Массовая доля: $\\omega = \\dfrac{71}{111} \\times 100\\% \\approx 64\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

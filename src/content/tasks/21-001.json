@@ -1,7 +1,7 @@
 {
   "id": "21-001",
   "examNumber": 21,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "genetichesk-svyaz-neorg",
   "difficulty": "advanced",
   "answerType": "extended",
   "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Na -> Na2O -> NaOH -> Na2CO3}$.",
@@ -14,7 +14,7 @@
     "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
   ],
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
   ],
   "tags": [
     "генетическая связь"

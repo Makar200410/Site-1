@@ -34,7 +34,9 @@
   "maxScore": 2,
   "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
-  "theoryRefs": [],
+  "theoryRefs": [
+    "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"
+  ],
   "tags": [
     "классификация реакций"
   ]

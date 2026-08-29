@@ -1,7 +1,7 @@
 {
   "id": "07-018",
   "examNumber": 7,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "oksidy",
   "difficulty": "high",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует $\\ce{Cr2O3}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{Cr2O3}$ — амфотерный оксид: проявляет двойственные свойства, реагируя и с кислотой, и со щёлочью. С основным оксидом, кислотным оксидом и водой не реагирует.",
   "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "oksidy/oksidy-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "оксиды"

@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{CuSO4}$: $M = 160$ г/моль. Масса O в формуле: $16 \\times 4 = 64$. Массовая доля: $\\omega = \\dfrac{64}{160} \\times 100\\% \\approx 40\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

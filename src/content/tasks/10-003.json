@@ -1,7 +1,7 @@
 {
   "id": "10-003",
   "examNumber": 10,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "soli",
   "difficulty": "base",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{K2CO3}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{K2CO3}$ реагирует с реагентом «Серной кислотой $\\ce{H2SO4}$» (выделяется углекислый газ) и с реагентом «Раствором $\\ce{BaCl2}$» (выпадает осадок $\\ce{BaCO3}$). С остальными перечисленными веществами видимой реакции нет.",
   "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "soli/soli-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "соли"

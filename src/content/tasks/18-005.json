@@ -11,7 +11,7 @@
   "solution": "Молярная масса $\\ce{CaCO3}$: $M = 100$ г/моль. Масса Ca в формуле: $40 \\times 1 = 40$. Массовая доля: $\\omega = \\dfrac{40}{100} \\times 100\\% \\approx 40\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
-    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+    "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"
   ],
   "tags": [
     "массовая доля элемента"

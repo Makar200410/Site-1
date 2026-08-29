@@ -28,6 +28,7 @@
   "solution": "При взаимодействии $\\ce{K2CO3}$ и $\\ce{HNO3}$ наблюдается: выделяется бесцветный газ без запаха, вызывающий помутнение известковой воды.",
   "hint": "Определите продукты реакции и вспомните их характерные физические признаки (цвет осадка, запах газа).",
   "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [

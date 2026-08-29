@@ -1,7 +1,7 @@
 {
   "id": "10-007",
   "examNumber": 10,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "soli",
   "difficulty": "advanced",
   "answerType": "multiple",
   "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{BaCl2}$? Выберите два верных ответа.",
@@ -35,7 +35,7 @@
   "solution": "$\\ce{BaCl2}$ реагирует с реагентом «Раствором $\\ce{Na2SO4}$» (выпадает осадок $\\ce{BaSO4}$) и с реагентом «Раствором $\\ce{AgNO3}$» (выпадает осадок $\\ce{AgCl}$). С остальными перечисленными веществами видимой реакции нет.",
   "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "soli/soli-klassifikatsiya-i-svoystva"
   ],
   "tags": [
     "соли"
