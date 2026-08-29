@@ -8,28 +8,28 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
+      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
     }
   ],
   "correctAnswer": [
-    "A",
-    "E"
+    "C",
+    "D"
   ],
   "maxScore": 2,
   "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",

@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{Sc}$, если его порядковый номер 21, а атомная масса приблизительно 45?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Ne}$, если его порядковый номер 10, а атомная масса приблизительно 20?",
   "options": [
     {
       "id": "A",
-      "text": "26"
+      "text": "10"
     },
     {
       "id": "B",
-      "text": "24"
+      "text": "11"
     },
     {
       "id": "C",
-      "text": "21"
+      "text": "20"
     },
     {
       "id": "D",
-      "text": "25"
+      "text": "8"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Массовое число $A = 45$, число протонов $Z = 21$. Число нейтронов $N = A - Z = 45 - 21 = 24$.",
+  "solution": "Массовое число $A = 20$, число протонов $Z = 10$. Число нейтронов $N = A - Z = 20 - 10 = 10$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

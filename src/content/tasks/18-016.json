@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{Al2O3}$ ($M = 102$ г/моль, $M(O) = 16$ г/моль, 3 атома O в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 47.1,
+  "statement": "Вычислите массовую долю (в %) элемента K в веществе $\\ce{K2CO3}$ ($M = 138$ г/моль, $M(K) = 39$ г/моль, 2 атома K в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 56.5,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{Al2O3}$: $M = 102$ г/моль. Масса O в формуле: $16 \\times 3 = 48$. Массовая доля: $\\omega = \\dfrac{48}{102} \\times 100\\% \\approx 47.1\\%$.",
+  "solution": "Молярная масса $\\ce{K2CO3}$: $M = 138$ г/моль. Масса K в формуле: $39 \\times 2 = 78$. Массовая доля: $\\omega = \\dfrac{78}{138} \\times 100\\% \\approx 56.5\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

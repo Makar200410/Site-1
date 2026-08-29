@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{H2SO4}$ ($M = 98$ г/моль, $M(O) = 16$ г/моль, 4 атома O в формуле). Ответ округлите до десятых долей процента.",
+  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{H3PO4}$ ($M = 98$ г/моль, $M(O) = 16$ г/моль, 4 атома O в формуле). Ответ округлите до десятых долей процента.",
   "correctAnswer": 65.3,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{H2SO4}$: $M = 98$ г/моль. Масса O в формуле: $16 \\times 4 = 64$. Массовая доля: $\\omega = \\dfrac{64}{98} \\times 100\\% \\approx 65.3\\%$.",
+  "solution": "Молярная масса $\\ce{H3PO4}$: $M = 98$ г/моль. Масса O в формуле: $16 \\times 4 = 64$. Массовая доля: $\\omega = \\dfrac{64}{98} \\times 100\\% \\approx 65.3\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

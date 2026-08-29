@@ -4,7 +4,7 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Na2O}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{KOH}$?",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Соль (кислая)"
+      "text": "Кислота"
     },
     {
       "id": "C",
-      "text": "Оксид"
+      "text": "Соль (средняя)"
     },
     {
       "id": "D",
-      "text": "Соль (средняя)"
+      "text": "Оксид"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{Na2O}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{KOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

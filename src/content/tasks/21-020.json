@@ -1,0 +1,22 @@
+{
+  "id": "21-020",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "advanced",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Zn -> ZnCl2 -> Zn(OH)2 -> ZnO}$.",
+  "correctAnswer": "$\\ce{Zn + 2HCl -> ZnCl2 + H2 ^}$; $\\ce{ZnCl2 + 2NaOH -> Zn(OH)2 v + 2NaCl}$; $\\ce{Zn(OH)2 ->[t] ZnO + H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{Zn + 2HCl -> ZnCl2 + H2 ^}$\n\n2) $\\ce{ZnCl2 + 2NaOH -> Zn(OH)2 v + 2NaCl}$\n\n3) $\\ce{Zn(OH)2 ->[t] ZnO + H2O}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

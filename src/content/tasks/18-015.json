@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента Ca в веществе $\\ce{Ca3(PO4)2}$ ($M = 310$ г/моль, $M(Ca) = 40$ г/моль, 3 атома Ca в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 38.7,
+  "statement": "Вычислите массовую долю (в %) элемента H в веществе $\\ce{H2SO4}$ ($M = 98$ г/моль, $M(H) = 1$ г/моль, 2 атома H в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 2,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{Ca3(PO4)2}$: $M = 310$ г/моль. Масса Ca в формуле: $40 \\times 3 = 120$. Массовая доля: $\\omega = \\dfrac{120}{310} \\times 100\\% \\approx 38.7\\%$.",
+  "solution": "Молярная масса $\\ce{H2SO4}$: $M = 98$ г/моль. Масса H в формуле: $1 \\times 2 = 2$. Массовая доля: $\\omega = \\dfrac{2}{98} \\times 100\\% \\approx 2\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

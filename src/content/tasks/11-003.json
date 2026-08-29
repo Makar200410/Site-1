@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "base",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций обмена.",
+  "statement": "Выберите два уравнения реакций разложения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
+      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
+      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     }
   ],
   "correctAnswer": [
-    "A",
-    "C"
+    "B",
+    "D"
   ],
   "maxScore": 2,
-  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

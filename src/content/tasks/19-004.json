@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "В 90 г воды растворили 15 г соды. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
-  "correctAnswer": 14.3,
+  "statement": "В 90 г воды растворили 5 г хлорида натрия. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 5.3,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Масса раствора: $15 + 90 = 105$ г. Массовая доля: $\\omega = \\dfrac{15}{105} \\times 100\\% \\approx 14.3\\%$.",
+  "solution": "Масса раствора: $5 + 90 = 95$ г. Массовая доля: $\\omega = \\dfrac{5}{95} \\times 100\\% \\approx 5.3\\%$.",
   "hint": "Масса раствора = масса вещества + масса растворителя.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"

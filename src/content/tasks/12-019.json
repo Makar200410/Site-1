@@ -1,0 +1,37 @@
+{
+  "id": "12-019",
+  "examNumber": 12,
+  "topicId": "kachestvennye-reaktsii",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Какой признак наблюдается при взаимодействии растворов $\\ce{BaCl2}$ и $\\ce{Na2SO4}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Выпадает белый осадок, нерастворимый в кислотах"
+    },
+    {
+      "id": "B",
+      "text": "Выпадает белый творожистый осадок, темнеющий на свету"
+    },
+    {
+      "id": "C",
+      "text": "Выделяется бесцветный газ без запаха, вызывающий помутнение известковой воды"
+    },
+    {
+      "id": "D",
+      "text": "Малиновая окраска раствора исчезает"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 2,
+  "solution": "При взаимодействии $\\ce{BaCl2}$ и $\\ce{Na2SO4}$ наблюдается: выпадает белый осадок, нерастворимый в кислотах.",
+  "hint": "Определите продукты реакции и вспомните их характерные физические признаки (цвет осадка, запах газа).",
+  "theoryRefs": [
+    "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "качественные реакции"
+  ]
+}

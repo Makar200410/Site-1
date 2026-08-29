@@ -2,30 +2,30 @@
   "id": "05-015",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{NaOH}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Cu(OH)2}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (средняя)"
-    },
-    {
-      "id": "B",
-      "text": "Кислота"
-    },
-    {
-      "id": "C",
       "text": "Оксид"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "Основание"
+    },
+    {
+      "id": "C",
+      "text": "Соль (средняя)"
+    },
+    {
+      "id": "D",
+      "text": "Соль (кислая)"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{NaOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{Cu(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

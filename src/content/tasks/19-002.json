@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "В 240 г воды растворили 8 г сахара. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
-  "correctAnswer": 3.2,
+  "statement": "В 95 г воды растворили 5 г сахара. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 5,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Масса раствора: $8 + 240 = 248$ г. Массовая доля: $\\omega = \\dfrac{8}{248} \\times 100\\% \\approx 3.2\\%$.",
+  "solution": "Масса раствора: $5 + 95 = 100$ г. Массовая доля: $\\omega = \\dfrac{5}{100} \\times 100\\% \\approx 5\\%$.",
   "hint": "Масса раствора = масса вещества + масса растворителя.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"

@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "high",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций соединения.",
+  "statement": "Выберите два уравнения реакций обмена.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
+      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
-    },
-    {
-      "id": "C",
-      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
-    },
-    {
-      "id": "D",
       "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+    },
+    {
       "id": "E",
-      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
+      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     }
   ],
   "correctAnswer": [
-    "C",
+    "D",
     "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

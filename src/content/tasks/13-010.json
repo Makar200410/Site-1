@@ -4,24 +4,24 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{H2S}$?",
+  "statement": "Является ли C12H22O11 (сахароза) электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
-      "text": "Слабый электролит"
+      "text": "Неэлектролит"
     },
     {
       "id": "B",
-      "text": "Сильный электролит"
+      "text": "Слабый электролит"
     },
     {
       "id": "C",
-      "text": "Неэлектролит"
+      "text": "Сильный электролит"
     }
   ],
   "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{H2S}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "C12H22O11 (сахароза) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

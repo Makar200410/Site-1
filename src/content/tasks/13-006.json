@@ -2,26 +2,26 @@
   "id": "13-006",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{HNO2}$?",
+  "statement": "К какому типу электролитов относится $\\ce{KCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "Сильный электролит"
+      "text": "Слабый электролит"
     },
     {
       "id": "B",
-      "text": "Неэлектролит"
+      "text": "Сильный электролит"
     },
     {
       "id": "C",
-      "text": "Слабый электролит"
+      "text": "Неэлектролит"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{HNO2}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "$\\ce{KCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

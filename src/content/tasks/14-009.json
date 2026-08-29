@@ -8,24 +8,24 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
+      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{BaCl2}$ и $\\ce{Na2SO4}$"
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{K2SO4}$ и $\\ce{NaNO3}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "solution": "Реакция между $\\ce{NaCl}$ и $\\ce{KNO3}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
   "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

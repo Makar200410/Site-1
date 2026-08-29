@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента C в веществе $\\ce{K2CO3}$ ($M = 138$ г/моль, $M(C) = 12$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 8.7,
+  "statement": "Вычислите массовую долю (в %) элемента Fe в веществе $\\ce{Fe2O3}$ ($M = 160$ г/моль, $M(Fe) = 56$ г/моль, 2 атома Fe в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 70,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{K2CO3}$: $M = 138$ г/моль. Масса C в формуле: $12 \\times 1 = 12$. Массовая доля: $\\omega = \\dfrac{12}{138} \\times 100\\% \\approx 8.7\\%$.",
+  "solution": "Молярная масса $\\ce{Fe2O3}$: $M = 160$ г/моль. Масса Fe в формуле: $56 \\times 2 = 112$. Массовая доля: $\\omega = \\dfrac{112}{160} \\times 100\\% \\approx 70\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

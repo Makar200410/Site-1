@@ -8,23 +8,23 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
+      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     }
   ],
   "correctAnswer": [

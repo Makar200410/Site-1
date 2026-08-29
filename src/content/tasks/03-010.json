@@ -8,22 +8,22 @@
   "options": [
     {
       "id": "A",
-      "text": "32"
+      "text": "30"
     },
     {
       "id": "B",
-      "text": "27"
+      "text": "32"
     },
     {
       "id": "C",
-      "text": "33"
+      "text": "34"
     },
     {
       "id": "D",
-      "text": "59"
+      "text": "27"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "maxScore": 1,
   "solution": "Массовое число $A = 59$, число протонов $Z = 27$. Число нейтронов $N = A - Z = 59 - 27 = 32$.",
   "hint": "Используйте формулу N = A − Z.",

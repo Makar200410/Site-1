@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{KOH}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{CO2}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (средняя)"
-    },
-    {
-      "id": "B",
-      "text": "Основание"
-    },
-    {
-      "id": "C",
       "text": "Оксид"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "Кислота"
+    },
+    {
+      "id": "C",
+      "text": "Основание"
+    },
+    {
+      "id": "D",
+      "text": "Соль (средняя)"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{KOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{CO2}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

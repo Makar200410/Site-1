@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{Na2CO3}$ и $\\ce{Na2SO4}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaOH}$ и $\\ce{Ba(OH)2}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{KOH}$"
+      "text": "$\\ce{KCl}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaOH}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{HCl}$"
     },
     {
-      "id": "D",
+      "id": "C",
       "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Na2SO4}$"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ $\\ce{CO2}$, с $\\ce{Na2SO4}$ видимых изменений нет.",
+  "solution": "Реактив $\\ce{Na2SO4}$ позволяет различить эти вещества: с $\\ce{Ba(OH)2}$ выпадает белый осадок $\\ce{BaSO4}$, с $\\ce{NaOH}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

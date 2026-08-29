@@ -2,30 +2,30 @@
   "id": "05-009",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Ca(OH)2}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Al(NO3)3}$?",
   "options": [
     {
       "id": "A",
-      "text": "Оксид"
-    },
-    {
-      "id": "B",
       "text": "Основание"
     },
     {
+      "id": "B",
+      "text": "Соль (средняя)"
+    },
+    {
       "id": "C",
-      "text": "Кислота"
+      "text": "Оксид"
     },
     {
       "id": "D",
-      "text": "Соль (средняя)"
+      "text": "Кислота"
     }
   ],
   "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{Ca(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{Al(NO3)3}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

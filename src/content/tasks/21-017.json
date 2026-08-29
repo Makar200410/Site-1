@@ -1,0 +1,22 @@
+{
+  "id": "21-017",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "base",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Mg -> MgSO4 -> Mg(OH)2 -> MgO}$.",
+  "correctAnswer": "$\\ce{Mg + H2SO4 -> MgSO4 + H2 ^}$; $\\ce{MgSO4 + 2NaOH -> Mg(OH)2 v + Na2SO4}$; $\\ce{Mg(OH)2 ->[t] MgO + H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{Mg + H2SO4 -> MgSO4 + H2 ^}$\n\n2) $\\ce{MgSO4 + 2NaOH -> Mg(OH)2 v + Na2SO4}$\n\n3) $\\ce{Mg(OH)2 ->[t] MgO + H2O}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

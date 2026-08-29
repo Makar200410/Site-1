@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{NaNO3}$ ($M = 85$ г/моль, $M(O) = 16$ г/моль, 3 атома O в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 56.5,
+  "statement": "Вычислите массовую долю (в %) элемента S в веществе $\\ce{BaSO4}$ ($M = 233$ г/моль, $M(S) = 32$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 13.7,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{NaNO3}$: $M = 85$ г/моль. Масса O в формуле: $16 \\times 3 = 48$. Массовая доля: $\\omega = \\dfrac{48}{85} \\times 100\\% \\approx 56.5\\%$.",
+  "solution": "Молярная масса $\\ce{BaSO4}$: $M = 233$ г/моль. Масса S в формуле: $32 \\times 1 = 32$. Массовая доля: $\\omega = \\dfrac{32}{233} \\times 100\\% \\approx 13.7\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

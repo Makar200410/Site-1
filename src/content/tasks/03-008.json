@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{N}$, если его порядковый номер 7, а атомная масса приблизительно 14?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Fe}$, если его порядковый номер 26, а атомная масса приблизительно 56?",
   "options": [
     {
       "id": "A",
-      "text": "9"
+      "text": "26"
     },
     {
       "id": "B",
-      "text": "14"
+      "text": "30"
     },
     {
       "id": "C",
-      "text": "5"
+      "text": "32"
     },
     {
       "id": "D",
-      "text": "7"
+      "text": "56"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Массовое число $A = 14$, число протонов $Z = 7$. Число нейтронов $N = A - Z = 14 - 7 = 7$.",
+  "solution": "Массовое число $A = 56$, число протонов $Z = 26$. Число нейтронов $N = A - Z = 56 - 26 = 30$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

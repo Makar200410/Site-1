@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{HCl}$ и $\\ce{H2SO4}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{K2CO3}$ и $\\ce{KCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{H2O}$"
+      "text": "$\\ce{KNO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{BaCl2}$"
+      "text": "$\\ce{H2O}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH}$"
+      "text": "$\\ce{HCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{KNO3}$"
+      "text": "$\\ce{NaOH}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{H2SO4}$ выпадает белый осадок $\\ce{BaSO4}$, с $\\ce{HCl}$ осадка нет.",
+  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{K2CO3}$ выделяется газ $\\ce{CO2}$, с $\\ce{KCl}$ видимых изменений нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Fe2O3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{K2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "Основание"
+      "text": "Оксид"
     },
     {
       "id": "B",
-      "text": "Соль (кислая)"
-    },
-    {
-      "id": "C",
       "text": "Кислота"
     },
     {
+      "id": "C",
+      "text": "Соль (кислая)"
+    },
+    {
       "id": "D",
-      "text": "Оксид"
+      "text": "Соль (средняя)"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "$\\ce{Fe2O3}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{K2SO4}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

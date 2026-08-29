@@ -1,0 +1,22 @@
+{
+  "id": "21-019",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "high",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{S -> H2S -> SO2 -> H2SO3}$.",
+  "correctAnswer": "$\\ce{H2 + S ->[t] H2S}$; $\\ce{2H2S + 3O2 ->[t] 2SO2 + 2H2O}$; $\\ce{SO2 + H2O -> H2SO3}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{H2 + S ->[t] H2S}$\n\n2) $\\ce{2H2S + 3O2 ->[t] 2SO2 + 2H2O}$\n\n3) $\\ce{SO2 + H2O -> H2SO3}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "21-015",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "base",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{H2 -> HCl -> NaCl -> AgCl}$.",
+  "correctAnswer": "$\\ce{H2 + Cl2 -> 2HCl}$; $\\ce{HCl + NaOH -> NaCl + H2O}$; $\\ce{NaCl + AgNO3 -> AgCl v + NaNO3}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{H2 + Cl2 -> 2HCl}$\n\n2) $\\ce{HCl + NaOH -> NaCl + H2O}$\n\n3) $\\ce{NaCl + AgNO3 -> AgCl v + NaNO3}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

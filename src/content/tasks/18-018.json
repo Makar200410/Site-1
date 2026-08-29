@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента Ca в веществе $\\ce{CaCl2}$ ($M = 111$ г/моль, $M(Ca) = 40$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 36,
+  "statement": "Вычислите массовую долю (в %) элемента Zn в веществе $\\ce{ZnS}$ ($M = 97$ г/моль, $M(Zn) = 65$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 67,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{CaCl2}$: $M = 111$ г/моль. Масса Ca в формуле: $40 \\times 1 = 40$. Массовая доля: $\\omega = \\dfrac{40}{111} \\times 100\\% \\approx 36\\%$.",
+  "solution": "Молярная масса $\\ce{ZnS}$: $M = 97$ г/моль. Масса Zn в формуле: $65 \\times 1 = 65$. Массовая доля: $\\omega = \\dfrac{65}{97} \\times 100\\% \\approx 67\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

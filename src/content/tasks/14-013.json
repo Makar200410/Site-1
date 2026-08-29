@@ -8,7 +8,7 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+      "text": "$\\ce{MgSO4}$ и $\\ce{KNO3}$"
     },
     {
       "id": "B",
@@ -16,16 +16,16 @@
     },
     {
       "id": "C",
-      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
+      "text": "$\\ce{AgNO3}$ и $\\ce{KCl}$"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{Na2CO3}$ и $\\ce{HCl}$ идёт до конца, так как выделяется газ $\\ce{CO2}$.",
+  "solution": "Реакция между $\\ce{AgNO3}$ и $\\ce{KCl}$ идёт до конца, так как образуется осадок $\\ce{AgCl}$.",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

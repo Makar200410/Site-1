@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{Na}$, если его порядковый номер 11, а атомная масса приблизительно 23?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{O}$, если его порядковый номер 8, а атомная масса приблизительно 16?",
   "options": [
     {
       "id": "A",
-      "text": "11"
+      "text": "10"
     },
     {
       "id": "B",
-      "text": "12"
+      "text": "6"
     },
     {
       "id": "C",
-      "text": "14"
+      "text": "8"
     },
     {
       "id": "D",
-      "text": "10"
+      "text": "9"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Массовое число $A = 23$, число протонов $Z = 11$. Число нейтронов $N = A - Z = 23 - 11 = 12$.",
+  "solution": "Массовое число $A = 16$, число протонов $Z = 8$. Число нейтронов $N = A - Z = 16 - 8 = 8$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

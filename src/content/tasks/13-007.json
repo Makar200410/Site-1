@@ -2,9 +2,9 @@
   "id": "13-007",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "base",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{NaCl}$?",
+  "statement": "К какому типу электролитов относится $\\ce{H2O}$?",
   "options": [
     {
       "id": "A",
@@ -12,16 +12,16 @@
     },
     {
       "id": "B",
-      "text": "Слабый электролит"
+      "text": "Сильный электролит"
     },
     {
       "id": "C",
-      "text": "Сильный электролит"
+      "text": "Слабый электролит"
     }
   ],
   "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{NaCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{H2O}$ диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

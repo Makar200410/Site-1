@@ -1,0 +1,22 @@
+{
+  "id": "21-010",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "high",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{P -> P2O5 -> H3PO4 -> Ca3(PO4)2}$.",
+  "correctAnswer": "$\\ce{4P + 5O2 ->[t] 2P2O5}$; $\\ce{P2O5 + 3H2O -> 2H3PO4}$; $\\ce{2H3PO4 + 3Ca(OH)2 -> Ca3(PO4)2 v + 6H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{4P + 5O2 ->[t] 2P2O5}$\n\n2) $\\ce{P2O5 + 3H2O -> 2H3PO4}$\n\n3) $\\ce{2H3PO4 + 3Ca(OH)2 -> Ca3(PO4)2 v + 6H2O}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

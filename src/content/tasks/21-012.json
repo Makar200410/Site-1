@@ -1,0 +1,22 @@
+{
+  "id": "21-012",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "base",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Ba -> BaO -> Ba(OH)2 -> BaSO4}$.",
+  "correctAnswer": "$\\ce{2Ba + O2 -> 2BaO}$; $\\ce{BaO + H2O -> Ba(OH)2}$; $\\ce{Ba(OH)2 + H2SO4 -> BaSO4 v + 2H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{2Ba + O2 -> 2BaO}$\n\n2) $\\ce{BaO + H2O -> Ba(OH)2}$\n\n3) $\\ce{Ba(OH)2 + H2SO4 -> BaSO4 v + 2H2O}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

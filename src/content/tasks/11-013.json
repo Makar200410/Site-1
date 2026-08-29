@@ -8,23 +8,23 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+    },
+    {
       "id": "E",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     }
   ],
   "correctAnswer": [

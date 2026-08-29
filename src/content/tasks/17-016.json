@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{NH4Cl}$ и $\\ce{NaCl}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{NaNO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{AgNO3}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{HCl}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{H2O}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{BaCl2}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{NaOH}$ (при нагревании)"
+      "text": "$\\ce{AgNO3}$"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{NaOH}$ (при нагревании) позволяет различить эти вещества: из $\\ce{NH4Cl}$ выделяется газ с резким запахом аммиака, из $\\ce{NaCl}$ — нет.",
+  "solution": "Реактив $\\ce{AgNO3}$ позволяет различить эти вещества: с $\\ce{NaCl}$ выпадает белый осадок $\\ce{AgCl}$, с $\\ce{NaNO3}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

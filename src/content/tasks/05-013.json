@@ -2,30 +2,30 @@
   "id": "05-013",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "advanced",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{ZnO}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{KH2PO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (средняя)"
-    },
-    {
-      "id": "B",
-      "text": "Оксид"
-    },
-    {
-      "id": "C",
       "text": "Соль (кислая)"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "Кислота"
+    },
+    {
+      "id": "C",
+      "text": "Основание"
+    },
+    {
+      "id": "D",
+      "text": "Соль (средняя)"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{ZnO}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{KH2PO4}$ содержит одновременно металл, незамещённый водород и кислотный остаток — это соль (кислая).",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

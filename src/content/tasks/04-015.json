@@ -2,17 +2,17 @@
   "id": "04-015",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Какова валентность элемента Si в соединении $\\ce{SiH4}$?",
+  "statement": "Какова валентность элемента C в соединении $\\ce{CO2}$?",
   "options": [
     {
       "id": "A",
-      "text": "IV"
+      "text": "II"
     },
     {
       "id": "B",
-      "text": "V"
+      "text": "III"
     },
     {
       "id": "C",
@@ -20,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "VII"
+      "text": "IV"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{SiH4}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность Si равна IV.",
+  "solution": "По формуле $\\ce{CO2}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность C равна IV.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

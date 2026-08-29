@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента H в веществе $\\ce{H3PO4}$ ($M = 98$ г/моль, $M(H) = 1$ г/моль, 3 атома H в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 3.1,
+  "statement": "Вычислите массовую долю (в %) элемента Mg в веществе $\\ce{MgSO4}$ ($M = 120$ г/моль, $M(Mg) = 24$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 20,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{H3PO4}$: $M = 98$ г/моль. Масса H в формуле: $1 \\times 3 = 3$. Массовая доля: $\\omega = \\dfrac{3}{98} \\times 100\\% \\approx 3.1\\%$.",
+  "solution": "Молярная масса $\\ce{MgSO4}$: $M = 120$ г/моль. Масса Mg в формуле: $24 \\times 1 = 24$. Массовая доля: $\\omega = \\dfrac{24}{120} \\times 100\\% \\approx 20\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

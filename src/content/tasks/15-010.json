@@ -4,15 +4,15 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Na + Cl2 -> 2NaCl}$ окислителем является:",
+  "statement": "В реакции $\\ce{2K + 2H2O -> 2KOH + H2}$ окислителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Оба элемента одновременно"
+      "text": "Элемент H"
     },
     {
       "id": "B",
-      "text": "Элемент Cl"
+      "text": "Элемент K"
     },
     {
       "id": "C",
@@ -20,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "Элемент Na"
+      "text": "Оба элемента одновременно"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Cl понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "H понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Ba(OH)2}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{HCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (кислая)"
-    },
-    {
-      "id": "B",
       "text": "Оксид"
     },
     {
-      "id": "C",
+      "id": "B",
       "text": "Кислота"
     },
     {
+      "id": "C",
+      "text": "Соль (кислая)"
+    },
+    {
       "id": "D",
-      "text": "Основание"
+      "text": "Соль (средняя)"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{Ba(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{HCl}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

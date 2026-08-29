@@ -2,9 +2,9 @@
   "id": "05-001",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Mn2O7}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{HNO3}$?",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Основание"
-    },
-    {
-      "id": "C",
       "text": "Оксид"
     },
     {
-      "id": "D",
+      "id": "C",
       "text": "Соль (кислая)"
+    },
+    {
+      "id": "D",
+      "text": "Кислота"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "$\\ce{Mn2O7}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{HNO3}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

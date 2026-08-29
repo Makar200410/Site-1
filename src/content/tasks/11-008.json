@@ -4,23 +4,23 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "advanced",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций соединения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
+      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
+      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
     },
     {
       "id": "E",
@@ -28,11 +28,11 @@
     }
   ],
   "correctAnswer": [
-    "B",
-    "D"
+    "C",
+    "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

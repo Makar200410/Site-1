@@ -1,0 +1,22 @@
+{
+  "id": "21-008",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "base",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Mg -> MgO -> MgCl2 -> Mg(OH)2}$.",
+  "correctAnswer": "$\\ce{2Mg + O2 -> 2MgO}$; $\\ce{MgO + 2HCl -> MgCl2 + H2O}$; $\\ce{MgCl2 + 2NaOH -> Mg(OH)2 v + 2NaCl}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{2Mg + O2 -> 2MgO}$\n\n2) $\\ce{MgO + 2HCl -> MgCl2 + H2O}$\n\n3) $\\ce{MgCl2 + 2NaOH -> Mg(OH)2 v + 2NaCl}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

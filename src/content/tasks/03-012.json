@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{Fe}$, если его порядковый номер 26, а атомная масса приблизительно 56?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Ca}$, если его порядковый номер 20, а атомная масса приблизительно 40?",
   "options": [
     {
       "id": "A",
-      "text": "56"
+      "text": "20"
     },
     {
       "id": "B",
-      "text": "30"
+      "text": "22"
     },
     {
       "id": "C",
-      "text": "31"
+      "text": "21"
     },
     {
       "id": "D",
-      "text": "26"
+      "text": "40"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Массовое число $A = 56$, число протонов $Z = 26$. Число нейтронов $N = A - Z = 56 - 26 = 30$.",
+  "solution": "Массовое число $A = 40$, число протонов $Z = 20$. Число нейтронов $N = A - Z = 40 - 20 = 20$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

@@ -2,30 +2,30 @@
   "id": "04-018",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Какова валентность элемента O в соединении $\\ce{H2O}$?",
+  "statement": "Какова валентность элемента S в соединении $\\ce{SO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "V"
+      "text": "IV"
     },
     {
       "id": "B",
-      "text": "VI"
+      "text": "II"
     },
     {
       "id": "C",
-      "text": "III"
+      "text": "VI"
     },
     {
       "id": "D",
-      "text": "II"
+      "text": "VII"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{H2O}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность O равна II.",
+  "solution": "По формуле $\\ce{SO3}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность S равна VI.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

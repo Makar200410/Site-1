@@ -2,9 +2,9 @@
   "id": "05-003",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{NaCl}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{H3PO4}$?",
   "options": [
     {
       "id": "A",
@@ -16,16 +16,16 @@
     },
     {
       "id": "C",
-      "text": "Кислота"
+      "text": "Основание"
     },
     {
       "id": "D",
-      "text": "Соль (средняя)"
+      "text": "Кислота"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "$\\ce{NaCl}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
+  "solution": "$\\ce{H3PO4}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

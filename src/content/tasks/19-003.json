@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "В 40 г воды растворили 12 г нитрата калия. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
-  "correctAnswer": 23.1,
+  "statement": "В 180 г воды растворили 15 г хлорида натрия. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 7.7,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Масса раствора: $12 + 40 = 52$ г. Массовая доля: $\\omega = \\dfrac{12}{52} \\times 100\\% \\approx 23.1\\%$.",
+  "solution": "Масса раствора: $15 + 180 = 195$ г. Массовая доля: $\\omega = \\dfrac{15}{195} \\times 100\\% \\approx 7.7\\%$.",
   "hint": "Масса раствора = масса вещества + масса растворителя.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"

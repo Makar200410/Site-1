@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента K в веществе $\\ce{KNO3}$ ($M = 101$ г/моль, $M(K) = 39$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 38.6,
+  "statement": "Вычислите массовую долю (в %) элемента Fe в веществе $\\ce{Fe(OH)3}$ ($M = 107$ г/моль, $M(Fe) = 56$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 52.3,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{KNO3}$: $M = 101$ г/моль. Масса K в формуле: $39 \\times 1 = 39$. Массовая доля: $\\omega = \\dfrac{39}{101} \\times 100\\% \\approx 38.6\\%$.",
+  "solution": "Молярная масса $\\ce{Fe(OH)3}$: $M = 107$ г/моль. Масса Fe в формуле: $56 \\times 1 = 56$. Массовая доля: $\\omega = \\dfrac{56}{107} \\times 100\\% \\approx 52.3\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

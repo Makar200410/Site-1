@@ -2,9 +2,9 @@
   "id": "13-014",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{H2SO4}$?",
+  "statement": "К какому типу электролитов относится $\\ce{CH3COOH}$?",
   "options": [
     {
       "id": "A",
@@ -12,16 +12,16 @@
     },
     {
       "id": "B",
-      "text": "Слабый электролит"
+      "text": "Неэлектролит"
     },
     {
       "id": "C",
-      "text": "Неэлектролит"
+      "text": "Слабый электролит"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{H2SO4}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{CH3COOH}$ диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

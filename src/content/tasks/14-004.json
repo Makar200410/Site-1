@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
+      "text": "$\\ce{Pb(NO3)2}$ и $\\ce{KI}$"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{CuSO4}$ и $\\ce{NaOH}$ идёт до конца, так как образуется осадок $\\ce{Cu(OH)2}$.",
+  "solution": "Реакция между $\\ce{Pb(NO3)2}$ и $\\ce{KI}$ идёт до конца, так как образуется осадок $\\ce{PbI2}$.",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

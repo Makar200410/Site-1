@@ -4,15 +4,15 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$ окислителем является:",
+  "statement": "В реакции $\\ce{Zn + S -> ZnS}$ окислителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Элемент Al"
+      "text": "Элемент Zn"
     },
     {
       "id": "B",
-      "text": "Элемент Fe"
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
       "id": "C",
@@ -20,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Элемент S"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Fe понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "S понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

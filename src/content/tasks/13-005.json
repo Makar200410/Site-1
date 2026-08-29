@@ -2,17 +2,17 @@
   "id": "13-005",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{Na2SO4}$?",
+  "statement": "Является ли Fe(OH)3 электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
-      "text": "Сильный электролит"
+      "text": "Слабый электролит"
     },
     {
       "id": "B",
-      "text": "Слабый электролит"
+      "text": "Сильный электролит"
     },
     {
       "id": "C",
@@ -21,7 +21,7 @@
   ],
   "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{Na2SO4}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "Fe(OH)3 диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

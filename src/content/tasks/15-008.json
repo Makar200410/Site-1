@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Mg + CO2 -> 2MgO + C}$ окислителем является:",
+  "statement": "В реакции $\\ce{Fe + CuSO4 -> FeSO4 + Cu}$ окислителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Элемент Mg"
+      "text": "Элемент Fe"
     },
     {
       "id": "B",
-      "text": "Элемент C"
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
       "id": "C",
-      "text": "Оба элемента одновременно"
+      "text": "Элемент Cu"
     },
     {
       "id": "D",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Оба элемента одновременно"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "C понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "Cu понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

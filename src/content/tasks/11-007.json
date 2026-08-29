@@ -8,27 +8,27 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{S + O2 -> SO2}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
+    },
+    {
       "id": "E",
-      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
-    "D",
+    "B",
     "E"
   ],
   "maxScore": 2,

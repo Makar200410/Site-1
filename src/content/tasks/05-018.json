@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{SO3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{H2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (средняя)"
+      "text": "Кислота"
     },
     {
       "id": "B",
-      "text": "Основание"
-    },
-    {
-      "id": "C",
       "text": "Оксид"
     },
     {
+      "id": "C",
+      "text": "Соль (кислая)"
+    },
+    {
       "id": "D",
-      "text": "Кислота"
+      "text": "Основание"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{SO3}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{H2SO4}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

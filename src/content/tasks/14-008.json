@@ -4,29 +4,29 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Между какой парой веществ реакция ионного обмена идёт до конца?",
+  "statement": "Между какой парой веществ реакция ионного обмена практически не идёт?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{AgNO3}$ и $\\ce{KCl}$"
+      "text": "$\\ce{Pb(NO3)2}$ и $\\ce{KI}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{AgNO3}$ и $\\ce{KCl}$ идёт до конца, так как образуется осадок $\\ce{AgCl}$.",
-  "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
+  "solution": "Реакция между $\\ce{KNO3}$ и $\\ce{NaCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],

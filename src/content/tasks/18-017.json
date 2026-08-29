@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента N в веществе $\\ce{NH4NO3}$ ($M = 80$ г/моль, $M(N) = 14$ г/моль, 2 атома N в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 35,
+  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{Al2(SO4)3}$ ($M = 342$ г/моль, $M(O) = 16$ г/моль, 12 атомов O в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 56.1,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{NH4NO3}$: $M = 80$ г/моль. Масса N в формуле: $14 \\times 2 = 28$. Массовая доля: $\\omega = \\dfrac{28}{80} \\times 100\\% \\approx 35\\%$.",
+  "solution": "Молярная масса $\\ce{Al2(SO4)3}$: $M = 342$ г/моль. Масса O в формуле: $16 \\times 12 = 192$. Массовая доля: $\\omega = \\dfrac{192}{342} \\times 100\\% \\approx 56.1\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

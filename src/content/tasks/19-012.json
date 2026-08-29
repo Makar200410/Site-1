@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Сколько граммов сахара потребуется для приготовления 100 г раствора с массовой долей 20%?",
-  "correctAnswer": 20,
+  "statement": "Сколько граммов хлорида натрия потребуется для приготовления 400 г раствора с массовой долей 20%?",
+  "correctAnswer": 80,
   "tolerance": 0.5,
   "maxScore": 1,
-  "solution": "$m_{вещества} = \\omega \\times m_{раствора} = 0.2 \\times 100 = 20$ г.",
+  "solution": "$m_{вещества} = \\omega \\times m_{раствора} = 0.2 \\times 400 = 80$ г.",
   "hint": "Масса вещества = массовая доля × масса раствора.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"

@@ -2,30 +2,30 @@
   "id": "04-017",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Какова валентность элемента C в соединении $\\ce{CH4}$?",
+  "statement": "Какова валентность элемента P в соединении $\\ce{P2O5}$?",
   "options": [
     {
       "id": "A",
-      "text": "VI"
+      "text": "V"
     },
     {
       "id": "B",
-      "text": "VII"
-    },
-    {
-      "id": "C",
       "text": "IV"
     },
     {
+      "id": "C",
+      "text": "I"
+    },
+    {
       "id": "D",
-      "text": "III"
+      "text": "VII"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{CH4}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность C равна IV.",
+  "solution": "По формуле $\\ce{P2O5}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность P равна V.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

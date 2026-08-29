@@ -1,0 +1,22 @@
+{
+  "id": "21-013",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "high",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Fe -> Fe2O3 -> FeCl3 -> Fe(OH)3}$.",
+  "correctAnswer": "$\\ce{4Fe + 3O2 ->[t] 2Fe2O3}$; $\\ce{Fe2O3 + 6HCl -> 2FeCl3 + 3H2O}$; $\\ce{FeCl3 + 3NaOH -> Fe(OH)3 v + 3NaCl}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{4Fe + 3O2 ->[t] 2Fe2O3}$\n\n2) $\\ce{Fe2O3 + 6HCl -> 2FeCl3 + 3H2O}$\n\n3) $\\ce{FeCl3 + 3NaOH -> Fe(OH)3 v + 3NaCl}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

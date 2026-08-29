@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{NaNO3}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{Na2CO3}$ и $\\ce{Na2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{NaOH}$"
-    },
-    {
-      "id": "B",
       "text": "$\\ce{H2O}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{KOH}$"
+    },
+    {
       "id": "C",
-      "text": "$\\ce{BaCl2}$"
+      "text": "$\\ce{NaOH}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{AgNO3}$"
+      "text": "$\\ce{HCl}$"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{AgNO3}$ позволяет различить эти вещества: с $\\ce{NaCl}$ выпадает белый осадок $\\ce{AgCl}$, с $\\ce{NaNO3}$ осадка нет.",
+  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ $\\ce{CO2}$, с $\\ce{Na2SO4}$ видимых изменений нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

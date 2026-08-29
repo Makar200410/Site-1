@@ -2,26 +2,26 @@
   "id": "13-016",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Является ли Cu(OH)2 электролитом? Выберите верную характеристику.",
+  "statement": "К какому типу электролитов относится $\\ce{HCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "Слабый электролит"
+      "text": "Неэлектролит"
     },
     {
       "id": "B",
-      "text": "Неэлектролит"
+      "text": "Слабый электролит"
     },
     {
       "id": "C",
       "text": "Сильный электролит"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Cu(OH)2 диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "$\\ce{HCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

@@ -8,28 +8,28 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
+      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
+      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     }
   ],
   "correctAnswer": [
     "A",
-    "E"
+    "D"
   ],
   "maxScore": 2,
   "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",

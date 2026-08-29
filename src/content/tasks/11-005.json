@@ -4,15 +4,15 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "base",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций замещения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
+      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
     },
     {
       "id": "C",
@@ -20,19 +20,19 @@
     },
     {
       "id": "D",
-      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
+      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
-    "A",
-    "D"
+    "C",
+    "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

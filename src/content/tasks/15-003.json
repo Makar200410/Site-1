@@ -4,15 +4,15 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ восстановителем является:",
+  "statement": "В реакции $\\ce{C + O2 -> CO2}$ восстановителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Оба элемента одновременно"
+      "text": "Элемент C"
     },
     {
       "id": "B",
-      "text": "Элемент Mg"
+      "text": "Оба элемента одновременно"
     },
     {
       "id": "C",
@@ -23,9 +23,9 @@
       "text": "Элемент O"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Mg повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "C повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

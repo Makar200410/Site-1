@@ -8,22 +8,22 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{BaCl2}$ и $\\ce{Na2SO4}$"
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
   "solution": "Реакция между $\\ce{Na2SO4}$ и $\\ce{KCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
   "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",

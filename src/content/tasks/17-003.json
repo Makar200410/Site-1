@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{Na2S}$ и $\\ce{Na2SO4}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaNO3}$ и $\\ce{Na2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{KCl}$"
+      "text": "$\\ce{K2SO4}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaOH}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{H2O}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{BaCl2}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{HCl}$"
+      "text": "$\\ce{NaCl}$"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: из $\\ce{Na2S}$ выделяется газ с запахом тухлых яиц, из $\\ce{Na2SO4}$ видимых изменений нет.",
+  "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{Na2SO4}$ выпадает осадок $\\ce{BaSO4}$, с $\\ce{NaNO3}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

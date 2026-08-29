@@ -2,26 +2,26 @@
   "id": "13-017",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Является ли Ba(OH)2 электролитом? Выберите верную характеристику.",
+  "statement": "К какому типу электролитов относится $\\ce{NaCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "Неэлектролит"
-    },
-    {
-      "id": "B",
       "text": "Слабый электролит"
     },
     {
-      "id": "C",
+      "id": "B",
       "text": "Сильный электролит"
+    },
+    {
+      "id": "C",
+      "text": "Неэлектролит"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Ba(OH)2 полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{NaCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

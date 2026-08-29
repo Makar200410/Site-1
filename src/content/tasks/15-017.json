@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "В реакции $\\ce{H2 + Cl2 -> 2HCl}$ восстановителем является:",
+  "statement": "В реакции $\\ce{Fe + CuSO4 -> FeSO4 + Cu}$ восстановителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Элемент Fe"
     },
     {
       "id": "B",
-      "text": "Элемент H"
-    },
-    {
-      "id": "C",
       "text": "Оба элемента одновременно"
     },
     {
+      "id": "C",
+      "text": "Ни один из элементов не меняет степень окисления"
+    },
+    {
       "id": "D",
-      "text": "Элемент Cl"
+      "text": "Элемент Cu"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "H повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "Fe повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

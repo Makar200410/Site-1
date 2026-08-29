@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$ окислителем является:",
+  "statement": "В реакции $\\ce{2Na + Cl2 -> 2NaCl}$ окислителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Элемент Cl"
     },
     {
       "id": "B",
-      "text": "Элемент Al"
+      "text": "Элемент Na"
     },
     {
       "id": "C",
-      "text": "Оба элемента одновременно"
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
       "id": "D",
-      "text": "Элемент Fe"
+      "text": "Оба элемента одновременно"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Fe понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "Cl понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

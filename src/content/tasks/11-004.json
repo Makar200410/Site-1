@@ -8,28 +8,28 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
+      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
+      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{S + O2 -> SO2}$"
+      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
     }
   ],
   "correctAnswer": [
     "B",
-    "C"
+    "E"
   ],
   "maxScore": 2,
   "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",

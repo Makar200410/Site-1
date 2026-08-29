@@ -1,0 +1,22 @@
+{
+  "id": "21-011",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "advanced",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Al -> Al2O3 -> AlCl3 -> Al(OH)3}$.",
+  "correctAnswer": "$\\ce{4Al + 3O2 -> 2Al2O3}$; $\\ce{Al2O3 + 6HCl -> 2AlCl3 + 3H2O}$; $\\ce{AlCl3 + 3NaOH -> Al(OH)3 v + 3NaCl}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{4Al + 3O2 -> 2Al2O3}$\n\n2) $\\ce{Al2O3 + 6HCl -> 2AlCl3 + 3H2O}$\n\n3) $\\ce{AlCl3 + 3NaOH -> Al(OH)3 v + 3NaCl}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

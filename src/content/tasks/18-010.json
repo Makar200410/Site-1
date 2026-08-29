@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента S в веществе $\\ce{Al2(SO4)3}$ ($M = 342$ г/моль, $M(S) = 32$ г/моль, 3 атома S в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 28.1,
+  "statement": "Вычислите массовую долю (в %) элемента C в веществе $\\ce{CaCO3}$ ($M = 100$ г/моль, $M(C) = 12$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 12,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{Al2(SO4)3}$: $M = 342$ г/моль. Масса S в формуле: $32 \\times 3 = 96$. Массовая доля: $\\omega = \\dfrac{96}{342} \\times 100\\% \\approx 28.1\\%$.",
+  "solution": "Молярная масса $\\ce{CaCO3}$: $M = 100$ г/моль. Масса C в формуле: $12 \\times 1 = 12$. Массовая доля: $\\omega = \\dfrac{12}{100} \\times 100\\% \\approx 12\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

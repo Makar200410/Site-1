@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Fe(OH)3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{ZnO}$?",
   "options": [
     {
       "id": "A",
-      "text": "Соль (средняя)"
+      "text": "Оксид"
     },
     {
       "id": "B",
-      "text": "Кислота"
-    },
-    {
-      "id": "C",
       "text": "Основание"
     },
     {
+      "id": "C",
+      "text": "Соль (кислая)"
+    },
+    {
       "id": "D",
-      "text": "Оксид"
+      "text": "Кислота"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{Fe(OH)3}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{ZnO}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

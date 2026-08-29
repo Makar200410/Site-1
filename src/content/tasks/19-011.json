@@ -4,7 +4,7 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Сколько граммов глюкозы потребуется для приготовления 300 г раствора с массовой долей 12%?",
+  "statement": "Сколько граммов поваренной соли потребуется для приготовления 300 г раствора с массовой долей 12%?",
   "correctAnswer": 36,
   "tolerance": 0.5,
   "maxScore": 1,

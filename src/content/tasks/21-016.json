@@ -1,0 +1,22 @@
+{
+  "id": "21-016",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "advanced",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Cu -> CuCl2 -> Cu(OH)2 -> CuO}$.",
+  "correctAnswer": "$\\ce{Cu + Cl2 ->[t] CuCl2}$; $\\ce{CuCl2 + 2NaOH -> Cu(OH)2 v + 2NaCl}$; $\\ce{Cu(OH)2 ->[t] CuO + H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{Cu + Cl2 ->[t] CuCl2}$\n\n2) $\\ce{CuCl2 + 2NaOH -> Cu(OH)2 v + 2NaCl}$\n\n3) $\\ce{Cu(OH)2 ->[t] CuO + H2O}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

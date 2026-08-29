@@ -4,7 +4,7 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "В реакции $\\ce{Zn + 2HCl -> ZnCl2 + H2}$ восстановителем является:",
+  "statement": "В реакции $\\ce{Cu + Cl2 -> CuCl2}$ восстановителем является:",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Оба элемента одновременно"
+      "text": "Элемент Cu"
     },
     {
       "id": "C",
-      "text": "Элемент H"
+      "text": "Элемент Cl"
     },
     {
       "id": "D",
-      "text": "Элемент Zn"
+      "text": "Оба элемента одновременно"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Zn повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "Cu повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

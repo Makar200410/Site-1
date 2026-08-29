@@ -4,7 +4,7 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{Zn + 2HCl -> ZnCl2 + H2}$ окислителем является:",
+  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ окислителем является:",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Элемент Zn"
-    },
-    {
-      "id": "C",
       "text": "Оба элемента одновременно"
     },
     {
+      "id": "C",
+      "text": "Элемент Mg"
+    },
+    {
       "id": "D",
-      "text": "Элемент H"
+      "text": "Элемент O"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "H понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "O понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

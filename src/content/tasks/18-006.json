@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента Cu в веществе $\\ce{CuSO4}$ ($M = 160$ г/моль, $M(Cu) = 64$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 40,
+  "statement": "Вычислите массовую долю (в %) элемента Ca в веществе $\\ce{CaCl2}$ ($M = 111$ г/моль, $M(Ca) = 40$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 36,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{CuSO4}$: $M = 160$ г/моль. Масса Cu в формуле: $64 \\times 1 = 64$. Массовая доля: $\\omega = \\dfrac{64}{160} \\times 100\\% \\approx 40\\%$.",
+  "solution": "Молярная масса $\\ce{CaCl2}$: $M = 111$ г/моль. Масса Ca в формуле: $40 \\times 1 = 40$. Массовая доля: $\\omega = \\dfrac{40}{111} \\times 100\\% \\approx 36\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

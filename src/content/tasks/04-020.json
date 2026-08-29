@@ -2,30 +2,30 @@
   "id": "04-020",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "base",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "Какова валентность элемента C в соединении $\\ce{CO2}$?",
+  "statement": "Какова валентность элемента Cl в соединении $\\ce{Cl2O7}$?",
   "options": [
     {
       "id": "A",
-      "text": "VII"
+      "text": "V"
     },
     {
       "id": "B",
-      "text": "I"
+      "text": "IV"
     },
     {
       "id": "C",
-      "text": "II"
+      "text": "VII"
     },
     {
       "id": "D",
-      "text": "IV"
+      "text": "III"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{CO2}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность C равна IV.",
+  "solution": "По формуле $\\ce{Cl2O7}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность Cl равна VII.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

@@ -1,0 +1,22 @@
+{
+  "id": "21-014",
+  "examNumber": 21,
+  "topicId": "genetichesk-svyaz-neorg",
+  "difficulty": "high",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Si -> SiO2 -> Na2SiO3 -> H2SiO3}$.",
+  "correctAnswer": "$\\ce{Si + O2 ->[t] SiO2}$; $\\ce{SiO2 + 2NaOH ->[t] Na2SiO3 + H2O}$; $\\ce{Na2SiO3 + 2HCl -> 2NaCl + H2SiO3 v}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{Si + O2 ->[t] SiO2}$\n\n2) $\\ce{SiO2 + 2NaOH ->[t] Na2SiO3 + H2O}$\n\n3) $\\ce{Na2SiO3 + 2HCl -> 2NaCl + H2SiO3 v}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "genetichesk-svyaz-neorg/geneticheskaya-svyaz-mezhdu-klassami"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

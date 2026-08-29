@@ -4,7 +4,7 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{Na2CO3}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{KOH}$ и $\\ce{NaCl}$?",
   "options": [
     {
       "id": "A",
@@ -12,7 +12,7 @@
     },
     {
       "id": "B",
-      "text": "$\\ce{NaOH}$"
+      "text": "$\\ce{KNO3}$"
     },
     {
       "id": "C",
@@ -20,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "$\\ce{KCl}$"
+      "text": "Фенолфталеин"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ, с $\\ce{NaCl}$ видимых изменений нет.",
+  "solution": "Реактив Фенолфталеин позволяет различить эти вещества: с $\\ce{KOH}$ раствор окрашивается в малиновый цвет, с $\\ce{NaCl}$ окраска не меняется.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

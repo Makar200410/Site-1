@@ -4,7 +4,7 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{HNO3}$?",
+  "statement": "К какому типу электролитов относится $\\ce{NaOH}$?",
   "options": [
     {
       "id": "A",
@@ -21,7 +21,7 @@
   ],
   "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{HNO3}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{NaOH}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
