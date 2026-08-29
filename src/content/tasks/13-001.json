@@ -1,0 +1,36 @@
+{
+  "id": "13-001",
+  "examNumber": 13,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Между какой парой веществ реакция ионного обмена идёт до конца?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{BaCl2}$ и $\\ce{Na2SO4}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{NaNO3}$ и $\\ce{KCl}$"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "При смешении растворов $\\ce{BaCl2}$ и $\\ce{Na2SO4}$ образуется нерастворимый осадок $\\ce{BaSO4}$ — реакция идёт до конца. В остальных парах все возможные продукты растворимы, реакция обмена практически не идёт.",
+  "hint": "Проверьте по таблице растворимости, не образуется ли осадок.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "ионный обмен"
+  ]
+}

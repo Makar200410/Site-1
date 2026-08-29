@@ -1,0 +1,36 @@
+{
+  "id": "02-001",
+  "examNumber": 2,
+  "topicId": "periodicheskiy-zakon",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "В каком ряду элементы расположены в порядке усиления металлических свойств?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Al, Mg, Na}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{Na, Mg, Al}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Mg, Na, Al}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Al, Na, Mg}$"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "В периоде слева направо металлические свойства ослабевают, значит, справа налево — усиливаются. В 3-м периоде порядок Na, Mg, Al — по возрастанию номера группы, металлические свойства убывают. В обратном порядке (Al, Mg, Na) свойства усиливаются.",
+  "hint": "В периоде слева направо металлические свойства ослабевают.",
+  "theoryRefs": [
+    "periodicheskiy-zakon/periodicheskiy-zakon-i-sistema-mendeleeva"
+  ],
+  "tags": [
+    "периодический закон"
+  ]
+}

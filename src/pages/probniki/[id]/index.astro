@@ -1,0 +1,27 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import MockExam from '@/components/islands/mock/MockExam';
+import { getCollection, getEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const variants = await getCollection('mocks');
+  return variants.map((v) => ({ params: { id: v.id } }));
+}
+
+const { id } = Astro.params;
+const variant = await getEntry('mocks', id)!;
+
+const allTasks = await getCollection('tasks');
+const byId = new Map(allTasks.map((t) => [t.data.id, t]));
+const taskRefs = variant!.data.taskIds.map((taskId) => {
+  const t = byId.get(taskId);
+  if (!t) throw new Error(`Пробник "${id}": задание с id="${taskId}" не найдено в коллекции tasks`);
+  return { id: taskId, examNumber: t.data.examNumber };
+});
+---
+
+<BaseLayout title={`${variant!.data.title} — пробник ОГЭ по химии`} description="Прохождение пробного варианта." noindex>
+  <section class="mx-auto max-w-3xl px-4 py-6">
+    <MockExam client:load variantId={id} title={variant!.data.title} taskRefs={taskRefs} />
+  </section>
+</BaseLayout>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /trenazher/sessiya/
+Disallow: /probniki/*/
+Disallow: /moy-progress/
+Disallow: /poisk/
+
+Sitemap: https://oge-himia.ru/sitemap-index.xml

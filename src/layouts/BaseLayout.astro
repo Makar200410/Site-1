@@ -1,0 +1,108 @@
+---
+import '@/styles/global.css';
+import { isNoindexPath } from '@/lib/seo';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+
+interface Props {
+  title: string; // до 60 символов, без шаблонной генерации
+  description: string; // 150–160 символов
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+  ogImage?: string;
+}
+
+const { title, description, jsonLd, noindex, ogImage } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const resolvedNoindex = noindex ?? isNoindexPath(Astro.url.pathname);
+
+const defaultOgSlug = Astro.url.pathname.replace(/^\//, '').replace(/\/$/, '') || 'index';
+const ogImageURL = new URL(ogImage ?? `/og/${defaultOgSlug}.png`, Astro.site);
+
+const jsonLdList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    {resolvedNoindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="ОГЭ Химия" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <link rel="preload" href="/fonts/inter-cyrillic-var.woff2" as="font" type="font/woff2" crossorigin />
+
+    {jsonLdList.map((entry) => (
+      <script type="application/ld+json" set:html={JSON.stringify(entry)} is:inline />
+    ))}
+
+    <script is:inline>
+      // Применяем сохранённую тему до отрисовки, чтобы избежать мигания (FOUC).
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          if (saved === 'light' || saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-[var(--bg-elevated)] focus:px-4 focus:py-2 focus:text-[var(--text)] focus:shadow-lg"
+    >
+      Перейти к содержимому
+    </a>
+    <Header />
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <script define:vars={{ YM_ID: import.meta.env.PUBLIC_YM_ID ?? '' }}>
+      // Яндекс.Метрика подключается отложенно и не блокирует загрузку контента.
+      if (YM_ID) {
+        window.addEventListener(
+          'load',
+          function () {
+            setTimeout(function () {
+              (function (m, e, t, r, i, k, a) {
+                m[i] =
+                  m[i] ||
+                  function () {
+                    (m[i].a = m[i].a || []).push(arguments);
+                  };
+                m[i].l = 1 * new Date();
+                (k = e.createElement(t)), (a = e.getElementsByTagName(t)[0]);
+                k.async = true;
+                k.src = r;
+                a.parentNode.insertBefore(k, a);
+              })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+              window.ym(YM_ID, 'init', { clickmap: true, trackLinks: true, accurateTrackBounce: true });
+            }, 2000);
+          },
+          { once: true },
+        );
+      }
+    </script>
+  </body>
+</html>

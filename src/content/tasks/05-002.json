@@ -1,0 +1,36 @@
+{
+  "id": "05-002",
+  "examNumber": 5,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Какова степень окисления азота в ионе аммония $\\ce{NH4+}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "−3"
+    },
+    {
+      "id": "B",
+      "text": "+3"
+    },
+    {
+      "id": "C",
+      "text": "−5"
+    },
+    {
+      "id": "D",
+      "text": "+5"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Заряд иона равен +1. Водород имеет степень окисления +1, всего 4 атома: $+1 \\times 4 = +4$. Тогда для азота: $x + 4 = +1 \\Rightarrow x = -3$.",
+  "hint": "Сумма степеней окисления в ионе равна заряду иона.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "степень окисления"
+  ]
+}

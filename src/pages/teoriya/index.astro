@@ -1,0 +1,70 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { CODIFIER_SECTIONS, CODIFIER_TOPICS } from '@/config/exam';
+import { breadcrumbListJsonLd, learningResourceJsonLd } from '@/lib/seo';
+
+const theoryEntries = await getCollection('theory');
+const countByTopic = new Map<string, number>();
+for (const e of theoryEntries) {
+  countByTopic.set(e.data.topicId, (countByTopic.get(e.data.topicId) ?? 0) + 1);
+}
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Теория', url: '/teoriya/' },
+];
+const jsonLd = [
+  breadcrumbListJsonLd(breadcrumbs, siteUrl),
+  learningResourceJsonLd({
+    title: 'Теория по химии для ОГЭ',
+    description: 'Все разделы кодификатора ФИПИ по химии: от строения атома до расчётов по уравнениям реакций.',
+    url: '/teoriya/',
+    siteUrl,
+  }),
+];
+---
+
+<BaseLayout
+  title="Теория по химии для ОГЭ — все темы кодификатора"
+  description="Теория для подготовки к ОГЭ по химии по разделам кодификатора ФИПИ: строение атома, вещества, реакции, металлы и неметаллы, расчётные задачи."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Теория по химии</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">
+      Материал сгруппирован по разделам кодификатора ОГЭ по химии. Каждая статья заканчивается блоком
+      «Проверь себя» и ссылками на разбор конкретных заданий экзамена.
+    </p>
+
+    {CODIFIER_SECTIONS.map((section) => {
+      const topics = CODIFIER_TOPICS.filter((t) => t.section === section);
+      return (
+        <div class="mt-10">
+          <h2 class="text-lg font-bold text-[var(--text)]">{section}</h2>
+          <ul class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {topics.map((topic) => {
+              const count = countByTopic.get(topic.id) ?? 0;
+              return (
+                <li>
+                  <a
+                    href={`/teoriya/${topic.id}/`}
+                    class="tap-target flex h-full flex-col justify-between rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4 transition-colors hover:border-brand-400"
+                  >
+                    <span class="font-semibold text-[var(--text)]">{topic.title}</span>
+                    <span class="mt-2 text-sm text-[var(--text-muted)]">
+                      {count > 0 ? `${count} ${count === 1 ? 'статья' : 'статьи'}` : 'Скоро'}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      );
+    })}
+  </section>
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Поиск по сайту — ОГЭ Химия" description="Поиск по теории, заданиям и справочнику." noindex>
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Поиск по сайту</h1>
+    <div id="search" class="mt-6"></div>
+  </section>
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (window.PagefindUI) {
+        new window.PagefindUI({ element: '#search', showSubResults: true, showImages: false });
+      }
+    });
+  </script>
+</BaseLayout>
+
+<style is:global>
+  #search {
+    --pagefind-ui-primary: #227a6a;
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: var(--bg);
+    --pagefind-ui-border: var(--border);
+    --pagefind-ui-font: inherit;
+  }
+</style>

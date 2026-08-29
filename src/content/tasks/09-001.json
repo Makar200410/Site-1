@@ -1,0 +1,43 @@
+{
+  "id": "09-001",
+  "examNumber": 9,
+  "topicId": "kisloty",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует соляная кислота $\\ce{HCl}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Zn}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{Cu}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Au}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Ag}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "Соляная кислота реагирует с цинком, стоящим до водорода в ряду активности ($\\ce{Zn + 2HCl -> ZnCl2 + H2 ^}$), и со щёлочью — реакция нейтрализации ($\\ce{HCl + NaOH -> NaCl + H2O}$). С медью, золотом и серебром (все — после водорода) кислота не реагирует.",
+  "hint": "Кислота реагирует с металлами до водорода и с основаниями.",
+  "theoryRefs": [
+    "kisloty/kisloty-klassifikatsiya-i-svoystva"
+  ],
+  "tags": [
+    "кислоты"
+  ]
+}

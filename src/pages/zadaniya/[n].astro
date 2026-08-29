@@ -1,0 +1,127 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import ChemHtml from '@/components/ChemHtml.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+import { EXAM_TASKS_META, DIFFICULTY_LABELS } from '@/config/exam';
+import { breadcrumbListJsonLd, faqPageJsonLd, learningResourceJsonLd } from '@/lib/seo';
+
+export async function getStaticPaths() {
+  return EXAM_TASKS_META.map((task) => ({ params: { n: String(task.number) } }));
+}
+
+const n = Number(Astro.params.n);
+const meta = EXAM_TASKS_META.find((t) => t.number === n)!;
+const guide = await getEntry('zadaniya', String(n).padStart(2, '0'));
+
+const allTasks = await getCollection('tasks');
+const allTheory = await getCollection('theory');
+const theoryById = new Map(allTheory.map((t) => [t.id, t]));
+
+const examples = allTasks.filter((t) => t.data.examNumber === n).slice(0, 5);
+const theoryRefs = [...new Set(examples.flatMap((t) => t.data.theoryRefs))]
+  .map((id) => theoryById.get(id))
+  .filter((t): t is NonNullable<typeof t> => Boolean(t));
+
+const siteUrl = Astro.site!.toString();
+const url = `/zadaniya/${n}/`;
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Задания', url: '/zadaniya/' },
+  { name: `Задание ${n}`, url },
+];
+
+const jsonLd: Record<string, unknown>[] = [
+  breadcrumbListJsonLd(breadcrumbs, siteUrl),
+  learningResourceJsonLd({
+    title: `Задание ${n} ОГЭ по химии`,
+    description: meta.skillsChecked,
+    url,
+    siteUrl,
+  }),
+];
+if (guide && guide.data.faq.length > 0) {
+  jsonLd.push(faqPageJsonLd(guide.data.faq));
+}
+
+const rendered = guide ? await render(guide) : null;
+---
+
+<BaseLayout
+  title={guide?.data.title ?? `Задание ${n} ОГЭ по химии: ${meta.title}`}
+  description={guide?.data.description ?? meta.skillsChecked}
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <article class="mx-auto max-w-3xl px-4 py-8">
+    <p class="text-sm font-medium text-brand-600">Задание {n} из 24</p>
+    <h1 class="mt-1 text-3xl font-extrabold text-[var(--text)]">Задание {n} ОГЭ по химии: {meta.title}</h1>
+
+    <div class="mt-4 flex flex-wrap gap-2 text-sm">
+      <span class="rounded-full border border-[var(--border)] px-3 py-1 text-[var(--text-muted)]">Часть {meta.part}</span>
+      <span class="rounded-full border border-[var(--border)] px-3 py-1 text-[var(--text-muted)]">До {meta.maxScore} {meta.maxScore === 1 ? 'балла' : 'баллов'}</span>
+      {meta.part === 2 && <span class="rounded-full border border-accent-500/40 bg-accent-500/10 px-3 py-1 text-accent-600">Самопроверка по критериям</span>}
+    </div>
+
+    <section class="mt-6 rounded-lg border-l-4 border-brand-400 bg-brand-50 p-4 dark:bg-brand-950/40" aria-label="Что проверяет задание">
+      <p class="font-semibold text-[var(--text)]">Что проверяет это задание</p>
+      <p class="mt-1 text-[15px] text-[var(--text)]">{meta.skillsChecked}</p>
+    </section>
+
+    {rendered && (
+      <div class="prose-chem mt-8 text-[var(--text)]">
+        <rendered.Content />
+      </div>
+    )}
+
+    {examples.length > 0 && (
+      <section class="mt-10" aria-labelledby="examples-heading">
+        <h2 id="examples-heading" class="text-xl font-bold text-[var(--text)]">Примеры с решениями</h2>
+        <div class="mt-4 space-y-6">
+          {examples.map((task, i) => (
+            <details class="group rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4" open={i === 0}>
+              <summary class="tap-target flex cursor-pointer list-none items-center justify-between font-semibold text-[var(--text)]">
+                <span>Пример {i + 1}</span>
+                <span class="rounded-full bg-[var(--bg-muted)] px-2 py-0.5 text-xs font-medium text-[var(--text-muted)]">{DIFFICULTY_LABELS[task.data.difficulty]}</span>
+              </summary>
+              <div class="mt-3 border-t border-[var(--border)] pt-3">
+                <ChemHtml source={task.data.statement} />
+                {task.data.options && (
+                  <ul class="mt-3 space-y-1.5 text-[15px]">
+                    {task.data.options.map((opt) => (
+                      <li class="flex gap-2"><span class="font-semibold">{opt.id})</span> <ChemHtml source={opt.text} /></li>
+                    ))}
+                  </ul>
+                )}
+                <p class="mt-4 text-sm font-semibold text-brand-700 dark:text-brand-300">Разбор решения</p>
+                <ChemHtml source={task.data.solution} class="mt-1" />
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {theoryRefs.length > 0 && (
+      <nav class="mt-10" aria-label="Теория по теме">
+        <h2 class="text-lg font-bold text-[var(--text)]">Теория для этого задания</h2>
+        <ul class="mt-3 flex flex-wrap gap-2">
+          {theoryRefs.map((t) => (
+            <li>
+              <a href={`/teoriya/${t.data.topicId}/${t.id.split('/').slice(1).join('/')}/`} class="tap-target inline-flex items-center rounded-full border border-[var(--border)] px-3 py-1.5 text-sm text-[var(--text)] hover:border-brand-400">
+                {t.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
+
+    <a
+      href={`/trenazher/?examNumber=${n}`}
+      class="tap-target mt-10 flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-brand-700"
+    >
+      Тренировать задание {n}
+    </a>
+  </article>
+</BaseLayout>

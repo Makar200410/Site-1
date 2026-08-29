@@ -1,0 +1,43 @@
+{
+  "id": "08-002",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует оксид серы(VI) $\\ce{SO3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{HCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{CO2}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Cu}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{SO3}$ — кислотный оксид: реагирует с водой, образуя кислоту ($\\ce{SO3 + H2O -> H2SO4}$), и со щёлочью ($\\ce{SO3 + 2NaOH -> Na2SO4 + H2O}$). С кислотой, другим кислотным оксидом и металлом не реагирует.",
+  "hint": "Кислотный оксид реагирует со щелочами и часто с водой.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

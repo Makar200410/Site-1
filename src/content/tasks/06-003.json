@@ -1,0 +1,37 @@
+{
+  "id": "06-003",
+  "examNumber": 6,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "single",
+  "statement": "Какой оксид является амфотерным?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Na2O}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{SO3}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Al2O3}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{CO}$"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "$\\ce{Al2O3}$ проявляет двойственные свойства: реагирует и с кислотами, и со щелочами — это признак амфотерного оксида. $\\ce{Na2O}$ — основный, $\\ce{SO3}$ — кислотный, $\\ce{CO}$ — несолеобразующий.",
+  "hint": "Амфотерный оксид реагирует и с кислотами, и со щелочами.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "классификация веществ",
+    "оксиды"
+  ]
+}

@@ -1,0 +1,42 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import ActivitySeries from '@/components/islands/reference/ActivitySeries';
+import { breadcrumbListJsonLd } from '@/lib/seo';
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Справочник', url: '/spravochnik/' },
+  { name: 'Ряд активности металлов', url: '/spravochnik/ryad-aktivnosti-metallov/' },
+];
+const jsonLd = breadcrumbListJsonLd(breadcrumbs, siteUrl);
+---
+
+<BaseLayout
+  title="Ряд активности металлов (электрохимический ряд напряжений)"
+  description="Электрохимический ряд напряжений металлов: от лития до золота. Используется для определения возможности реакций металлов с кислотами и солями."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Ряд активности металлов</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">
+      Электрохимический ряд напряжений металлов показывает, насколько легко металл отдаёт электроны и переходит в
+      раствор в виде иона.
+    </p>
+    <div class="mt-8 overflow-x-auto">
+      <ActivitySeries client:visible />
+    </div>
+
+    <section class="prose-chem mt-10 max-w-2xl text-[var(--text)]">
+      <h2>Как использовать ряд активности</h2>
+      <ul>
+        <li>Металл вытесняет из соли другой металл, если он расположен левее в ряду.</li>
+        <li>Металлы левее водорода реагируют с разбавленными кислотами-неокислителями (HCl, H₂SO₄ разб.) с выделением водорода.</li>
+        <li>Металлы правее водорода (Cu, Hg, Ag, Pt, Au) с этими кислотами не реагируют.</li>
+        <li>Чем левее металл, тем он активнее и тем труднее восстановить его катион до простого вещества.</li>
+      </ul>
+    </section>
+  </section>
+</BaseLayout>

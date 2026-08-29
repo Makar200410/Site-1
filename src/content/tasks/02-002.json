@@ -1,0 +1,37 @@
+{
+  "id": "02-002",
+  "examNumber": 2,
+  "topicId": "periodicheskiy-zakon",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "У какого из элементов радиус атома наибольший?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Li}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{Na}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{K}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Rb}$"
+    }
+  ],
+  "correctAnswer": "D",
+  "maxScore": 1,
+  "solution": "Все элементы — щелочные металлы одной группы. В группе сверху вниз радиус атома увеличивается с ростом числа электронных уровней. Рубидий стоит ниже всех перечисленных, значит, его радиус наибольший.",
+  "hint": "В группе радиус атома растёт сверху вниз.",
+  "theoryRefs": [
+    "periodicheskiy-zakon/periodicheskiy-zakon-i-sistema-mendeleeva"
+  ],
+  "tags": [
+    "периодический закон",
+    "радиус атома"
+  ]
+}

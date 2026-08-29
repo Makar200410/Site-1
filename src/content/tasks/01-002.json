@@ -1,0 +1,37 @@
+{
+  "id": "01-002",
+  "examNumber": 1,
+  "topicId": "stroenie-atoma",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Сколько нейтронов содержится в атоме хлора $\\ce{Cl}$ (атомная масса ≈ 35, порядковый номер 17)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "17"
+    },
+    {
+      "id": "B",
+      "text": "18"
+    },
+    {
+      "id": "C",
+      "text": "35"
+    },
+    {
+      "id": "D",
+      "text": "52"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Массовое число $A = 35$ (округлённая атомная масса), число протонов $Z = 17$. Число нейтронов $N = A - Z = 35 - 17 = 18$.",
+  "hint": "Используйте формулу N = A − Z.",
+  "theoryRefs": [
+    "stroenie-atoma/stroenie-atoma"
+  ],
+  "tags": [
+    "строение атома",
+    "нейтроны"
+  ]
+}

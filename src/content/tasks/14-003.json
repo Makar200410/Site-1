@@ -1,0 +1,36 @@
+{
+  "id": "14-003",
+  "examNumber": 14,
+  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
+  "difficulty": "high",
+  "answerType": "single",
+  "statement": "В реакции $\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$ элемент, который восстанавливается, — это:",
+  "options": [
+    {
+      "id": "A",
+      "text": "Алюминий"
+    },
+    {
+      "id": "B",
+      "text": "Кислород"
+    },
+    {
+      "id": "C",
+      "text": "Железо"
+    },
+    {
+      "id": "D",
+      "text": "Ни один элемент не меняет степень окисления"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "Железо понижает степень окисления с +3 (в $\\ce{Fe2O3}$) до 0 (простое вещество) — это процесс восстановления. Алюминий, наоборот, повышает степень окисления с 0 до +3 — окисляется.",
+  "hint": "Восстановление — это понижение степени окисления.",
+  "theoryRefs": [
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+  ],
+  "tags": [
+    "ОВР"
+  ]
+}

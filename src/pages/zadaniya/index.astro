@@ -1,0 +1,71 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { EXAM_TASKS_META, EXAM_CONFIG } from '@/config/exam';
+import { breadcrumbListJsonLd, learningResourceJsonLd } from '@/lib/seo';
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Задания', url: '/zadaniya/' },
+];
+const jsonLd = [
+  breadcrumbListJsonLd(breadcrumbs, siteUrl),
+  learningResourceJsonLd({
+    title: 'Разбор всех заданий ОГЭ по химии',
+    description: 'Что проверяет каждое из 24 заданий ОГЭ по химии и как его решать.',
+    url: '/zadaniya/',
+    siteUrl,
+  }),
+];
+
+const part1 = EXAM_TASKS_META.filter((t) => t.part === 1);
+const part2 = EXAM_TASKS_META.filter((t) => t.part === 2);
+---
+
+<BaseLayout
+  title="Разбор всех 24 заданий ОГЭ по химии"
+  description="Полный разбор каждого из 24 заданий ОГЭ по химии: что проверяет, алгоритм решения, примеры и ссылка на тренажёр."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Все задания ОГЭ по химии</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">
+      Экзамен состоит из {EXAM_CONFIG.totalTasks} заданий: {EXAM_CONFIG.part1Tasks} с кратким ответом и{' '}
+      {EXAM_CONFIG.part2Tasks} с развёрнутым, максимум {EXAM_CONFIG.maxPrimaryScore} первичных баллов за{' '}
+      {EXAM_CONFIG.durationMinutes} минут. Выберите номер, чтобы увидеть разбор.
+    </p>
+
+    <h2 class="mt-10 text-xl font-bold text-[var(--text)]">Часть 1 — краткий ответ</h2>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {part1.map((task) => (
+        <li>
+          <a href={`/zadaniya/${task.number}/`} class="tap-target flex h-full items-start gap-3 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4 hover:border-brand-400">
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-700 dark:bg-brand-950 dark:text-brand-300">{task.number}</span>
+            <span>
+              <span class="block font-semibold text-[var(--text)]">{task.title}</span>
+              <span class="mt-0.5 block text-xs text-[var(--text-muted)]">до {task.maxScore} балла</span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <h2 class="mt-10 text-xl font-bold text-[var(--text)]">Часть 2 — развёрнутый ответ</h2>
+    <p class="mt-1 text-sm text-[var(--text-muted)]">Проверяются самостоятельно по критериям — балл выставляете себе сами.</p>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {part2.map((task) => (
+        <li>
+          <a href={`/zadaniya/${task.number}/`} class="tap-target flex h-full items-start gap-3 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4 hover:border-brand-400">
+            <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent-500/15 text-sm font-bold text-accent-600">{task.number}</span>
+            <span>
+              <span class="block font-semibold text-[var(--text)]">{task.title}</span>
+              <span class="mt-0.5 block text-xs text-[var(--text-muted)]">до {task.maxScore} баллов</span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

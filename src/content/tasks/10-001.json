@@ -1,0 +1,43 @@
+{
+  "id": "10-001",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор хлорида бария $\\ce{BaCl2}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Na2SO4}$ (раствор)"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{AgNO3}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{KCl}$ (раствор)"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Cu}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{O2}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{BaCl2}$ реагирует с $\\ce{Na2SO4}$ с образованием осадка $\\ce{BaSO4v}$ (A) и с $\\ce{AgNO3}$ с образованием осадка $\\ce{AgClv}$ (B). С хлоридом калия (общий ион, реакция не идёт), медью и кислородом хлорид бария не реагирует.",
+  "hint": "Ищите вариант, где образуется нерастворимый продукт.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

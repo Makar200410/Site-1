@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { breadcrumbListJsonLd } from '@/lib/seo';
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Справочник', url: '/spravochnik/' },
+];
+const jsonLd = breadcrumbListJsonLd(breadcrumbs, siteUrl);
+
+const items = [
+  { href: '/spravochnik/tablitsa-mendeleeva/', title: 'Периодическая таблица Менделеева', desc: 'Все элементы с атомной массой и категорией — тапните по элементу.' },
+  { href: '/spravochnik/rastvorimost/', title: 'Таблица растворимости', desc: 'Растворимость кислот, оснований и солей в воде.' },
+  { href: '/spravochnik/ryad-aktivnosti-metallov/', title: 'Ряд активности металлов', desc: 'Электрохимический ряд напряжений металлов.' },
+];
+---
+
+<BaseLayout
+  title="Справочник по химии для ОГЭ"
+  description="Справочные таблицы, разрешённые на ОГЭ по химии: периодическая таблица, таблица растворимости, ряд активности металлов."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Справочник</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">
+      Материалы, которые разрешено использовать на экзамене. Доступны отдельными страницами и как всплывающая
+      панель прямо внутри тренажёра и пробника.
+    </p>
+    <ul class="mt-8 grid gap-4 sm:grid-cols-3">
+      {items.map((item) => (
+        <li>
+          <a href={item.href} class="tap-target flex h-full flex-col rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-5 hover:border-brand-400">
+            <span class="font-semibold text-[var(--text)]">{item.title}</span>
+            <span class="mt-1.5 text-sm text-[var(--text-muted)]">{item.desc}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

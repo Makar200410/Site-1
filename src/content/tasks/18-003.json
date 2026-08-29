@@ -1,0 +1,19 @@
+{
+  "id": "18-003",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) кальция в фосфате кальция $\\ce{Ca3(PO4)2}$ ($M = 310$ г/моль, $M(\\ce{Ca}) = 40$ г/моль, 3 атома кальция в формуле). Ответ округлите до целого числа.",
+  "correctAnswer": 39,
+  "tolerance": 1,
+  "maxScore": 1,
+  "solution": "Масса кальция в формуле: $40 \\times 3 = 120$. Массовая доля: $\\omega = \\dfrac{120}{310} \\times 100\\% \\approx 38{,}7\\% \\approx 39\\%$.",
+  "hint": "Учтите индекс 3 перед скобкой у кальция.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

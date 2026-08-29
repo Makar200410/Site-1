@@ -1,0 +1,21 @@
+{
+  "id": "21-001",
+  "examNumber": 21,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "advanced",
+  "answerType": "extended",
+  "statement": "Составьте молекулярное, полное и сокращённое ионное уравнения реакции между раствором нитрата серебра и раствором хлорида калия.",
+  "maxScore": 2,
+  "correctAnswer": "Ag+ + Cl- -> AgCl(осадок)",
+  "solution": "Молекулярное уравнение: $\\ce{AgNO3 + KCl -> AgClv + KNO3}$.\n\nПолное ионное: $\\ce{Ag+ + NO3- + K+ + Cl- -> AgClv + K+ + NO3-}$.\n\nСокращённое ионное (сократили ионы-«зрители» $\\ce{K+}$ и $\\ce{NO3-}$): $\\ce{Ag+ + Cl- -> AgClv}$.",
+  "criteria": [
+    "Верно составлено молекулярное уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлены полное и сокращённое ионные уравнения, осадок записан в виде формулы (1 балл)"
+  ],
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "ионное уравнение"
+  ]
+}

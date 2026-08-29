@@ -1,0 +1,43 @@
+{
+  "id": "08-001",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует оксид кальция $\\ce{CaO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{CaCO3}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Fe}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{CaO}$ — основный оксид: реагирует с кислотами ($\\ce{CaO + 2HCl -> CaCl2 + H2O}$) и с водой ($\\ce{CaO + H2O -> Ca(OH)2}$). С щёлочью, солью и металлом основный оксид не реагирует.",
+  "hint": "Основный оксид реагирует с кислотами и часто с водой.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

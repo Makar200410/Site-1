@@ -1,0 +1,19 @@
+{
+  "id": "18-002",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) азота в нитрате аммония $\\ce{NH4NO3}$ ($M = 80$ г/моль, $M(\\ce{N}) = 14$ г/моль, в формуле 2 атома азота). Ответ округлите до целого числа.",
+  "correctAnswer": 35,
+  "tolerance": 1,
+  "maxScore": 1,
+  "solution": "Масса азота в формуле: $14 \\times 2 = 28$. Массовая доля: $\\omega = \\dfrac{28}{80} \\times 100\\% = 35\\%$.",
+  "hint": "В формуле два атома азота — не забудьте их оба учесть.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

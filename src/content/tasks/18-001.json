@@ -1,0 +1,19 @@
+{
+  "id": "18-001",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "base",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) кислорода в оксиде магния $\\ce{MgO}$ ($M(\\ce{Mg}) = 24$, $M(\\ce{O}) = 16$ г/моль). Ответ округлите до целого числа.",
+  "correctAnswer": 40,
+  "tolerance": 1,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{MgO}$: $24 + 16 = 40$ г/моль. Массовая доля кислорода: $\\omega = \\dfrac{16}{40} \\times 100\\% = 40\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю кислорода в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

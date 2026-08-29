@@ -1,0 +1,84 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { CODIFIER_TOPICS, getCodifierTopic } from '@/config/exam';
+import { breadcrumbListJsonLd, learningResourceJsonLd } from '@/lib/seo';
+
+export async function getStaticPaths() {
+  return CODIFIER_TOPICS.map((topic) => ({ params: { topic: topic.id } }));
+}
+
+const { topic: topicId } = Astro.params;
+const topic = getCodifierTopic(topicId)!;
+
+const allTheory = await getCollection('theory');
+const articles = allTheory
+  .filter((e) => e.data.topicId === topicId)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Теория', url: '/teoriya/' },
+  { name: topic.title, url: `/teoriya/${topic.id}/` },
+];
+const jsonLd = [
+  breadcrumbListJsonLd(breadcrumbs, siteUrl),
+  learningResourceJsonLd({ title: topic.title, description: `Теория по теме «${topic.title}» для ОГЭ по химии.`, url: `/teoriya/${topic.id}/`, siteUrl }),
+];
+---
+
+<BaseLayout
+  title={`${topic.title} — теория ОГЭ по химии`}
+  description={`Теория по теме «${topic.title}»: разбор понятий, примеры и задания ОГЭ по химии для отработки.`}
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <p class="text-sm font-medium text-brand-600">{topic.section}</p>
+    <h1 class="mt-1 text-3xl font-extrabold text-[var(--text)]">{topic.title}</h1>
+
+    {articles.length === 0 ? (
+      <p class="mt-6 text-[var(--text-muted)]">Статьи по этой теме уже пишутся и скоро появятся здесь.</p>
+    ) : (
+      <ul class="mt-6 space-y-3">
+        {articles.map((article) => (
+          <li>
+            <a
+              href={`/teoriya/${topic.id}/${article.id.split('/').slice(1).join('/')}/`}
+              class="tap-target block rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4 hover:border-brand-400"
+              data-theory-link={article.id}
+            >
+              <span class="flex items-center justify-between gap-3">
+                <span class="font-semibold text-[var(--text)]">{article.data.title}</span>
+                <span class="theory-read-badge hidden shrink-0 rounded-full bg-brand-100 px-2 py-0.5 text-xs font-medium text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                  прочитано
+                </span>
+              </span>
+              <span class="mt-1 block text-sm text-[var(--text-muted)]">{article.data.description}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+
+  <script is:inline>
+    (function () {
+      try {
+        var raw = localStorage.getItem('oge-himiya:progress');
+        if (!raw) return;
+        var state = JSON.parse(raw);
+        var theory = (state && state.theory) || {};
+        document.querySelectorAll('[data-theory-link]').forEach(function (el) {
+          var id = el.getAttribute('data-theory-link');
+          if (theory[id]) {
+            var badge = el.querySelector('.theory-read-badge');
+            if (badge) badge.classList.remove('hidden');
+          }
+        });
+      } catch (e) {}
+    })();
+  </script>
+</BaseLayout>

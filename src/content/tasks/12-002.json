@@ -1,0 +1,36 @@
+{
+  "id": "12-002",
+  "examNumber": 12,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Какое из перечисленных веществ является неэлектролитом?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствор глюкозы"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{H2SO4}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{KCl}$"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Глюкоза — органическое вещество, не диссоциирует на ионы в растворе, поэтому не проводит электрический ток — это неэлектролит. Остальные вещества — сильные электролиты.",
+  "hint": "Неэлектролиты — типичные органические вещества вроде сахаров.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "электролиты"
+  ]
+}

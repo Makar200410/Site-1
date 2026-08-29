@@ -1,0 +1,12 @@
+---
+import { renderChemMarkdown } from '@/lib/markdown';
+
+interface Props {
+  source: string;
+  class?: string;
+}
+const { source, class: className } = Astro.props;
+const html = await renderChemMarkdown(source);
+---
+
+<div class:list={['prose-chem', className]} set:html={html} />

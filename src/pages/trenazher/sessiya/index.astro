@@ -1,0 +1,10 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import TrainerSession from '@/components/islands/trainer/TrainerSession';
+---
+
+<BaseLayout title="Тренировка — ОГЭ Химия" description="Сессия тренажёра." noindex>
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <TrainerSession client:load />
+  </section>
+</BaseLayout>

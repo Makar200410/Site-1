@@ -1,0 +1,43 @@
+---
+type Kind = 'definition' | 'important' | 'mistake' | 'example';
+
+interface Props {
+  kind: Kind;
+  title?: string;
+}
+const { kind, title } = Astro.props;
+
+const presets: Record<Kind, { icon: string; label: string; classes: string }> = {
+  definition: {
+    icon: '📘',
+    label: 'Определение',
+    classes: 'border-brand-300 bg-brand-50 dark:border-brand-700 dark:bg-brand-950/40',
+  },
+  important: {
+    icon: '❗',
+    label: 'Важно',
+    classes: 'border-accent-500/50 bg-[#fbf1e4] dark:border-accent-500/40 dark:bg-[#2a2013]',
+  },
+  mistake: {
+    icon: '⚠️',
+    label: 'Типичная ошибка',
+    classes: 'border-danger-500/50 bg-[#fbeaea] dark:border-danger-500/40 dark:bg-[#2b1717]',
+  },
+  example: {
+    icon: '✏️',
+    label: 'Пример',
+    classes: 'border-[var(--border)] bg-[var(--bg-muted)]',
+  },
+};
+const preset = presets[kind];
+---
+
+<div class={`not-prose my-5 rounded-lg border-l-4 p-4 ${preset.classes}`} role="note" aria-label={preset.label}>
+  <p class="mb-1.5 flex items-center gap-2 text-sm font-bold text-[var(--text)]">
+    <span aria-hidden="true">{preset.icon}</span>
+    {title ?? preset.label}
+  </p>
+  <div class="prose-chem text-[15px] text-[var(--text)]">
+    <slot />
+  </div>
+</div>

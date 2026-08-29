@@ -1,0 +1,36 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import SolubilityTable from '@/components/islands/reference/SolubilityTable';
+import { breadcrumbListJsonLd } from '@/lib/seo';
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Справочник', url: '/spravochnik/' },
+  { name: 'Таблица растворимости', url: '/spravochnik/rastvorimost/' },
+];
+const jsonLd = breadcrumbListJsonLd(breadcrumbs, siteUrl);
+---
+
+<BaseLayout
+  title="Таблица растворимости кислот, оснований и солей"
+  description="Таблица растворимости солей, кислот и оснований в воде для ОГЭ по химии: наведите на ячейку, чтобы подсветить строку и столбец."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Таблица растворимости</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">
+      Растворимость солей, кислот и оснований в воде. Наведите курсор (или коснитесь) на ячейку — подсветятся её строка и столбец.
+      Нужна для заданий на ионные уравнения и определение возможности реакции обмена.
+    </p>
+    <div class="mt-6">
+      <SolubilityTable client:visible />
+    </div>
+    <p class="mt-6 max-w-2xl text-xs text-[var(--text-muted)]">
+      Отдельные пограничные значения (М/Н) могут немного отличаться между разными изданиями справочников — используйте
+      таблицу как ориентир, а не единственный источник истины.
+    </p>
+  </section>
+</BaseLayout>

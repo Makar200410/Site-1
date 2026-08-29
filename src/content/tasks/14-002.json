@@ -1,0 +1,36 @@
+{
+  "id": "14-002",
+  "examNumber": 14,
+  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ восстановителем является:",
+  "options": [
+    {
+      "id": "A",
+      "text": "Кислород"
+    },
+    {
+      "id": "B",
+      "text": "Магний"
+    },
+    {
+      "id": "C",
+      "text": "Оксид магния"
+    },
+    {
+      "id": "D",
+      "text": "Ни один из элементов не меняет степень окисления"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Магний повышает степень окисления с 0 до +2, отдавая электроны кислороду, — значит, магний восстановитель. Кислород понижает степень окисления с 0 до −2 — окислитель.",
+  "hint": "Восстановитель отдаёт электроны и повышает степень окисления.",
+  "theoryRefs": [
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+  ],
+  "tags": [
+    "ОВР"
+  ]
+}

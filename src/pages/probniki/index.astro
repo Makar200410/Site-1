@@ -1,0 +1,57 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { EXAM_CONFIG } from '@/config/exam';
+import { breadcrumbListJsonLd, learningResourceJsonLd } from '@/lib/seo';
+
+const variants = await getCollection('mocks');
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Пробники', url: '/probniki/' },
+];
+const jsonLd = [
+  breadcrumbListJsonLd(breadcrumbs, siteUrl),
+  learningResourceJsonLd({
+    title: 'Пробные варианты ОГЭ по химии',
+    description: 'Полные варианты ОГЭ по химии на 24 задания с таймером 180 минут.',
+    url: '/probniki/',
+    siteUrl,
+  }),
+];
+---
+
+<BaseLayout
+  title="Пробные варианты ОГЭ по химии с таймером"
+  description="Полные пробные варианты ОГЭ по химии: 24 задания в порядке экзамена, таймер 180 минут, автосохранение ответов, подсчёт первичного балла и оценки."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Пробные варианты</h1>
+    <p class="mt-3 text-[var(--text-muted)]">
+      Полный вариант — {EXAM_CONFIG.totalTasks} заданий в порядке настоящего экзамена, {EXAM_CONFIG.durationMinutes} минут на
+      таймере. Ответы сохраняются автоматически, поэтому прогресс не потеряется при закрытии вкладки.
+    </p>
+
+    {variants.length === 0 ? (
+      <p class="mt-8 text-[var(--text-muted)]">Варианты уже готовятся и скоро появятся здесь.</p>
+    ) : (
+      <ul class="mt-8 space-y-3">
+        {variants.map((v) => (
+          <li>
+            <a href={`/probniki/${v.id}/`} class="tap-target flex items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-5 hover:border-brand-400">
+              <span>
+                <span class="block font-semibold text-[var(--text)]">{v.data.title}</span>
+                <span class="mt-1 block text-sm text-[var(--text-muted)]">{EXAM_CONFIG.totalTasks} заданий · {EXAM_CONFIG.durationMinutes} минут</span>
+              </span>
+              <span aria-hidden="true" class="text-brand-600">→</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</BaseLayout>

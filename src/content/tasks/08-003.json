@@ -1,0 +1,44 @@
+{
+  "id": "08-003",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует амфотерный оксид $\\ce{ZnO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{CaO}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{CO2}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{BaSO4}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "Амфотерный оксид $\\ce{ZnO}$ реагирует и с кислотой ($\\ce{ZnO + 2HCl -> ZnCl2 + H2O}$), и со щёлочью ($\\ce{ZnO + 2NaOH -> Na2ZnO2 + H2O}$). С основным оксидом, кислотным оксидом и нерастворимой солью не реагирует.",
+  "hint": "Амфотерный оксид реагирует и с кислотами, и со щелочами.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды",
+    "амфотерность"
+  ]
+}

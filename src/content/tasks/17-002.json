@@ -1,0 +1,34 @@
+{
+  "id": "17-002",
+  "examNumber": 17,
+  "topicId": "organicheskie-veshestva-vvedenie",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "К какому классу органических соединений относится вещество $\\ce{C2H5OH}$ (этанол)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Углеводороды"
+    },
+    {
+      "id": "B",
+      "text": "Спирты"
+    },
+    {
+      "id": "C",
+      "text": "Карбоновые кислоты"
+    },
+    {
+      "id": "D",
+      "text": "Углеводы"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Наличие функциональной группы $\\ce{-OH}$, связанной с атомом углерода, указывает на класс спиртов.",
+  "hint": "Ищите функциональную группу -OH.",
+  "theoryRefs": [],
+  "tags": [
+    "органическая химия"
+  ]
+}

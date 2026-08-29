@@ -1,0 +1,43 @@
+{
+  "id": "09-002",
+  "examNumber": 9,
+  "topicId": "kisloty",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует гидроксид натрия $\\ce{NaOH}$ в растворе? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{CO2}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{CuSO4}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{NaCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{KOH}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Fe}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{NaOH}$ реагирует с кислотным оксидом $\\ce{CO2}$ ($\\ce{2NaOH + CO2 -> Na2CO3 + H2O}$) и с раствором соли, если образуется осадок ($\\ce{2NaOH + CuSO4 -> Cu(OH)2v + Na2SO4}$). С $\\ce{NaCl}$, $\\ce{KOH}$ (оба щёлочи, реакция не идёт) и с металлом железом $\\ce{NaOH}$ не реагирует.",
+  "hint": "Щёлочь реагирует с кислотными оксидами и с растворимыми солями, если образуется осадок.",
+  "theoryRefs": [
+    "kisloty/kisloty-klassifikatsiya-i-svoystva"
+  ],
+  "tags": [
+    "основания"
+  ]
+}

@@ -1,0 +1,21 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProgressDashboard from '@/components/islands/progress/ProgressDashboard';
+import { getCollection } from 'astro:content';
+import { EXAM_TASKS_META } from '@/config/exam';
+
+const allTasks = await getCollection('tasks');
+const taskIdToExamNumber: Record<string, number> = {};
+for (const t of allTasks) taskIdToExamNumber[t.data.id] = t.data.examNumber;
+
+const examTasksMeta = EXAM_TASKS_META.map((t) => ({ number: t.number, title: t.title }));
+---
+
+<BaseLayout title="Мой прогресс — ОГЭ Химия" description="Ваш личный прогресс подготовки к ОГЭ по химии." noindex>
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Мой прогресс</h1>
+    <div class="mt-6">
+      <ProgressDashboard client:load examTasksMeta={examTasksMeta} taskIdToExamNumber={taskIdToExamNumber} />
+    </div>
+  </section>
+</BaseLayout>

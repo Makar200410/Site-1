@@ -1,0 +1,36 @@
+{
+  "id": "06-001",
+  "examNumber": 6,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "К какому классу неорганических веществ относится $\\ce{CaO}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Оксид"
+    },
+    {
+      "id": "B",
+      "text": "Основание"
+    },
+    {
+      "id": "C",
+      "text": "Соль"
+    },
+    {
+      "id": "D",
+      "text": "Кислота"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "$\\ce{CaO}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид (оксид кальция).",
+  "hint": "Оксид состоит только из элемента и кислорода.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "классификация веществ"
+  ]
+}

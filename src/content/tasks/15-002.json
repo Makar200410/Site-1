@@ -1,0 +1,59 @@
+{
+  "id": "15-002",
+  "examNumber": 15,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "matching",
+  "statement": "Установите соответствие между парой реагирующих веществ (левый столбец) и продуктом реакции, содержащим осадок (правый столбец).",
+  "matchingLeft": [
+    {
+      "id": "А",
+      "text": "$\\ce{BaCl2 + Na2SO4}$"
+    },
+    {
+      "id": "Б",
+      "text": "$\\ce{AgNO3 + KCl}$"
+    },
+    {
+      "id": "В",
+      "text": "$\\ce{CuSO4 + NaOH}$"
+    },
+    {
+      "id": "Г",
+      "text": "$\\ce{Na2CO3 + CaCl2}$"
+    }
+  ],
+  "matchingRight": [
+    {
+      "id": "1",
+      "text": "$\\ce{CaCO3}$"
+    },
+    {
+      "id": "2",
+      "text": "$\\ce{Cu(OH)2}$"
+    },
+    {
+      "id": "3",
+      "text": "$\\ce{BaSO4}$"
+    },
+    {
+      "id": "4",
+      "text": "$\\ce{AgCl}$"
+    },
+    {
+      "id": "5",
+      "text": "$\\ce{NaCl}$"
+    }
+  ],
+  "correctAnswer": "А-3,Б-4,В-2,Г-1",
+  "maxScore": 2,
+  "solution": "А: $\\ce{BaCl2 + Na2SO4 -> BaSO4v + 2NaCl}$. Б: $\\ce{AgNO3 + KCl -> AgClv + KNO3}$. В: $\\ce{CuSO4 + 2NaOH -> Cu(OH)2v + Na2SO4}$. Г: $\\ce{Na2CO3 + CaCl2 -> CaCO3v + 2NaCl}$.",
+  "hint": "Сверьтесь с таблицей растворимости для каждой пары.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "генетическая связь",
+    "осадки"
+  ]
+}

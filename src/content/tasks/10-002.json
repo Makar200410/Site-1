@@ -1,0 +1,43 @@
+{
+  "id": "10-002",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор карбоната натрия $\\ce{Na2CO3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{CaCl2}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{NaNO3}$ (раствор)"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Au}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{O2}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Na2CO3}$ реагирует с кислотой с выделением газа ($\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2^}$) (A) и с хлоридом кальция с образованием осадка $\\ce{CaCO3v}$ (B). С нитратом натрия, золотом и кислородом карбонат натрия не реагирует.",
+  "hint": "Карбонаты реагируют с кислотами (выделяется газ) и со многими солями кальция/бария.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

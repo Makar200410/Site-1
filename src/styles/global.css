@@ -1,0 +1,180 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+/* Self-hosted переменный шрифт Inter (кириллица + латиница), без сторонних CDN. */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-cyrillic-var.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin-var.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Спокойная "взрослая" палитра: глубокий сине-зелёный + нейтральные серые. */
+  --color-brand-50: #eefaf7;
+  --color-brand-100: #d4f1ea;
+  --color-brand-200: #a9e3d6;
+  --color-brand-300: #78ceba;
+  --color-brand-400: #4bb39d;
+  --color-brand-500: #2f9682;
+  --color-brand-600: #227a6a;
+  --color-brand-700: #1e6256;
+  --color-brand-800: #1c4f46;
+  --color-brand-900: #1a423b;
+  --color-brand-950: #0b2521;
+
+  --color-accent-500: #cc7a2e;
+  --color-accent-600: #b3661f;
+
+  --color-danger-500: #d64545;
+  --color-danger-600: #b93636;
+}
+
+/* Токены темы: переопределяются в [data-theme="dark"] и по prefers-color-scheme. */
+:root {
+  --bg: #fbfaf8;
+  --bg-elevated: #ffffff;
+  --bg-muted: #f2f0ec;
+  --text: #1a1d1c;
+  --text-muted: #55524c;
+  --border: #e2ded5;
+  --focus-ring: #2f9682;
+}
+
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --bg: #14181a;
+    --bg-elevated: #1c2124;
+    --bg-muted: #21262a;
+    --text: #eef1f0;
+    --text-muted: #b3b8b5;
+    --border: #313a3d;
+    --focus-ring: #4bb39d;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #14181a;
+  --bg-elevated: #1c2124;
+  --bg-muted: #21262a;
+  --text: #eef1f0;
+  --text-muted: #b3b8b5;
+  --border: #313a3d;
+  --focus-ring: #4bb39d;
+}
+
+html {
+  color-scheme: light dark;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Видимый фокус для полной навигации с клавиатуры. */
+:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Область нажатия интерактивных элементов ≥44×44px обеспечивается утилитой .tap-target */
+.tap-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Длинные химические уравнения не ломают вёрстку на узких экранах. */
+.katex-display,
+.math-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25em;
+}
+.katex {
+  font-size: 1.05em;
+}
+
+::selection {
+  background: var(--color-brand-200);
+  color: var(--color-brand-950);
+}
+
+.prose-chem {
+  max-width: 68ch;
+}
+.prose-chem h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 2.25em;
+  margin-bottom: 0.75em;
+  scroll-margin-top: 5rem;
+}
+.prose-chem h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 1.75em;
+  margin-bottom: 0.6em;
+  scroll-margin-top: 5rem;
+}
+.prose-chem p {
+  margin-block: 1em;
+}
+.prose-chem ul,
+.prose-chem ol {
+  margin-block: 1em;
+  padding-inline-start: 1.4em;
+}
+.prose-chem ul {
+  list-style: disc;
+}
+.prose-chem ol {
+  list-style: decimal;
+}
+.prose-chem li {
+  margin-block: 0.35em;
+}
+.prose-chem a {
+  color: var(--color-brand-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+:root[data-theme="dark"] .prose-chem a {
+  color: var(--color-brand-300);
+}
+.prose-chem table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-block: 1.25em;
+  display: block;
+  overflow-x: auto;
+}
+.prose-chem th,
+.prose-chem td {
+  border: 1px solid var(--border);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}

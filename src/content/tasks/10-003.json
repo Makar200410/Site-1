@@ -1,0 +1,43 @@
+{
+  "id": "10-003",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор сульфата меди(II) $\\ce{CuSO4}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Fe}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Ag}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{K2SO4}$ (раствор)"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Au}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "Железо активнее меди и вытесняет её из раствора соли ($\\ce{Fe + CuSO4 -> FeSO4 + Cuv}$) (A). Щёлочь образует осадок гидроксида меди ($\\ce{CuSO4 + 2NaOH -> Cu(OH)2v + Na2SO4}$) (B). Серебро и золото менее активны, чем медь, и не вытесняют её; с сульфатом калия реакция не идёт (общий ион).",
+  "hint": "Более активный металл вытесняет менее активный из раствора соли.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

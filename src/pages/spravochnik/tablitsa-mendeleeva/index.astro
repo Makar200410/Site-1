@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import PeriodicTable from '@/components/islands/reference/PeriodicTable';
+import { breadcrumbListJsonLd, faqPageJsonLd } from '@/lib/seo';
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Справочник', url: '/spravochnik/' },
+  { name: 'Таблица Менделеева', url: '/spravochnik/tablitsa-mendeleeva/' },
+];
+const faq = [
+  { question: 'Сколько элементов в периодической таблице?', answer: 'На данный момент открыто и подтверждено 118 химических элементов, от водорода (H) до оганесона (Og).' },
+  { question: 'Что означает номер группы и периода?', answer: 'Период — номер энергетического уровня, на котором расположены внешние электроны атома. Группа отражает число электронов на внешнем уровне (для главных подгрупп) и во многом определяет химические свойства элемента.' },
+];
+const jsonLd = [breadcrumbListJsonLd(breadcrumbs, siteUrl), faqPageJsonLd(faq)];
+---
+
+<BaseLayout
+  title="Таблица Менделеева — интерактивная периодическая система"
+  description="Интерактивная периодическая таблица Менделеева: тапните по элементу, чтобы увидеть атомную массу, период, группу и категорию."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Периодическая таблица Менделеева</h1>
+    <p class="mt-3 max-w-2xl text-[var(--text-muted)]">Тапните по элементу, чтобы увидеть его атомную массу, период, группу и категорию.</p>
+    <div class="mt-6">
+      <PeriodicTable client:visible />
+    </div>
+
+    <section class="prose-chem mt-12 max-w-2xl text-[var(--text)]">
+      <h2>Частые вопросы</h2>
+      {faq.map((item) => (
+        <>
+          <h3>{item.question}</h3>
+          <p>{item.answer}</p>
+        </>
+      ))}
+    </section>
+  </section>
+</BaseLayout>

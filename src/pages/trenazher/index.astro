@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import TrainerSetup from '@/components/islands/trainer/TrainerSetup';
+import { getCollection } from 'astro:content';
+import { EXAM_TASKS_META, CODIFIER_TOPICS } from '@/config/exam';
+import { breadcrumbListJsonLd } from '@/lib/seo';
+
+const allTasks = await getCollection('tasks');
+const taskIndex = allTasks.map((t) => ({
+  id: t.data.id,
+  examNumber: t.data.examNumber,
+  topicId: t.data.topicId,
+  difficulty: t.data.difficulty,
+  answerType: t.data.answerType,
+  maxScore: t.data.maxScore,
+}));
+
+const examTasks = EXAM_TASKS_META.map((t) => ({ number: t.number, title: t.title }));
+const topics = CODIFIER_TOPICS.map((t) => ({ id: t.id, title: t.title }));
+
+const siteUrl = Astro.site!.toString();
+const breadcrumbs = [
+  { name: 'Главная', url: '/' },
+  { name: 'Тренажёр', url: '/trenazher/' },
+];
+const jsonLd = breadcrumbListJsonLd(breadcrumbs, siteUrl);
+---
+
+<BaseLayout
+  title="Тренажёр по химии — отработайте любое задание ОГЭ"
+  description="Настройте тренировку по номеру задания, теме или уровню сложности и отрабатывайте задания ОГЭ по химии в своём темпе с мгновенной проверкой."
+  jsonLd={jsonLd}
+>
+  <Breadcrumbs items={breadcrumbs} />
+  <section class="mx-auto max-w-3xl px-4 py-8">
+    <h1 class="text-3xl font-extrabold text-[var(--text)]">Тренажёр</h1>
+    <p class="mt-3 text-[var(--text-muted)]">
+      Выберите, что тренировать: конкретное задание, тему или уровень сложности. Проверка — мгновенная,
+      с полным разбором после каждого ответа.
+    </p>
+    <div class="mt-6">
+      <TrainerSetup client:load taskIndex={taskIndex} examTasks={examTasks} topics={topics} />
+    </div>
+  </section>
+</BaseLayout>

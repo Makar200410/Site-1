@@ -1,0 +1,44 @@
+{
+  "id": "11-003",
+  "examNumber": 11,
+  "topicId": "himicheskie-reaktsii-klassifikatsiya",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "Выберите два уравнения окислительно-восстановительных реакций.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{BaCl2 + H2SO4 -> BaSO4 + 2HCl}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "ОВР сопровождаются изменением степеней окисления. В A цинк (0 → +2) и водород (+1 → 0) меняют степень окисления. В C натрий (0 → +1) и хлор (0 → −1) тоже меняют. В B, D, E степени окисления всех элементов не меняются — это реакции обмена и соединения без переноса электронов.",
+  "hint": "В ОВР меняются степени окисления хотя бы двух элементов.",
+  "theoryRefs": [
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+  ],
+  "tags": [
+    "классификация реакций",
+    "ОВР"
+  ]
+}

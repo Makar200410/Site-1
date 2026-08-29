@@ -1,0 +1,153 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { websiteJsonLd } from '@/lib/seo';
+import { EXAM_CONFIG, GRADE_SCALE } from '@/config/exam';
+import { getCollection } from 'astro:content';
+
+const jsonLd = websiteJsonLd(Astro.site!.toString());
+
+const theoryEntries = await getCollection('theory');
+const taskEntries = await getCollection('tasks');
+const featuredTheory = theoryEntries.slice(0, 6);
+
+const modules = [
+  {
+    href: '/teoriya/',
+    title: 'Теория',
+    desc: 'Все темы кодификатора ФИПИ: определения, примеры, типичные ошибки.',
+    icon: '📘',
+  },
+  {
+    href: '/zadaniya/',
+    title: 'Разбор заданий',
+    desc: 'Что проверяет каждое из 24 заданий и как его решать — с примерами.',
+    icon: '🧪',
+  },
+  {
+    href: '/trenazher/',
+    title: 'Тренажёр',
+    desc: 'Отработайте любое задание по номеру, теме или уровню сложности.',
+    icon: '🎯',
+  },
+  {
+    href: '/probniki/',
+    title: 'Пробники',
+    desc: 'Полный вариант на 24 задания с таймером 180 минут, как на экзамене.',
+    icon: '⏱️',
+  },
+  {
+    href: '/spravochnik/',
+    title: 'Справочник',
+    desc: 'Таблица Менделеева, растворимость, ряд активности металлов.',
+    icon: '📊',
+  },
+  {
+    href: '/moy-progress/',
+    title: 'Мой прогресс',
+    desc: 'Слабые темы, история пробников, серия дней подряд — без регистрации.',
+    icon: '📈',
+  },
+];
+---
+
+<BaseLayout
+  title="Подготовка к ОГЭ по химии — теория, тренажёр, пробники"
+  description="Бесплатная подготовка к ОГЭ по химии: теория по кодификатору, тренажёр по всем 24 заданиям, пробные варианты с таймером и справочные таблицы. Без регистрации."
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto max-w-6xl px-4 pb-4 pt-10 sm:pt-16">
+    <h1 class="max-w-2xl text-4xl font-extrabold leading-tight text-[var(--text)] sm:text-5xl">
+      Готовимся к <span class="text-brand-600">ОГЭ по химии</span> по-честному
+    </h1>
+    <p class="mt-4 max-w-xl text-lg text-[var(--text-muted)]">
+      Теория, тренажёр по каждому заданию и пробники на время. Бесплатно, без регистрации и рекламы —
+      весь прогресс хранится в вашем браузере.
+    </p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="/trenazher/" class="tap-target inline-flex items-center rounded-lg bg-brand-600 px-6 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-brand-700">
+        Начать тренировку
+      </a>
+      <a href="/probniki/" class="tap-target inline-flex items-center rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] px-6 py-3.5 text-base font-semibold text-[var(--text)] hover:border-brand-400">
+        Пройти пробник
+      </a>
+    </div>
+
+    <dl class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div class="rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+        <dt class="text-xs text-[var(--text-muted)]">Заданий на экзамене</dt>
+        <dd class="mt-1 text-2xl font-extrabold text-[var(--text)]">{EXAM_CONFIG.totalTasks}</dd>
+      </div>
+      <div class="rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+        <dt class="text-xs text-[var(--text-muted)]">Первичных баллов</dt>
+        <dd class="mt-1 text-2xl font-extrabold text-[var(--text)]">{EXAM_CONFIG.maxPrimaryScore}</dd>
+      </div>
+      <div class="rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+        <dt class="text-xs text-[var(--text-muted)]">Минут на экзамен</dt>
+        <dd class="mt-1 text-2xl font-extrabold text-[var(--text)]">{EXAM_CONFIG.durationMinutes}</dd>
+      </div>
+      <div class="rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+        <dt class="text-xs text-[var(--text-muted)]">Заданий в базе</dt>
+        <dd class="mt-1 text-2xl font-extrabold text-[var(--text)]">{taskEntries.length}+</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="text-2xl font-bold text-[var(--text)]">С чего начать</h2>
+    <ul class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {modules.map((m) => (
+        <li>
+          <a href={m.href} class="tap-target flex h-full flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-5 transition-colors hover:border-brand-400">
+            <span class="text-2xl" aria-hidden="true">{m.icon}</span>
+            <span class="mt-3 font-bold text-[var(--text)]">{m.title}</span>
+            <span class="mt-1 text-sm text-[var(--text-muted)]">{m.desc}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {featuredTheory.length > 0 && (
+    <section class="mx-auto max-w-6xl px-4 py-10">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-[var(--text)]">Популярные темы</h2>
+        <a href="/teoriya/" class="text-sm font-medium text-brand-600 hover:underline">Вся теория →</a>
+      </div>
+      <ul class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {featuredTheory.map((article) => (
+          <li>
+            <a
+              href={`/teoriya/${article.data.topicId}/${article.id.split('/').slice(1).join('/')}/`}
+              class="tap-target block rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4 hover:border-brand-400"
+            >
+              <span class="block font-semibold text-[var(--text)]">{article.data.title}</span>
+              <span class="mt-1 block text-sm text-[var(--text-muted)]">{article.data.description}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="mx-auto max-w-6xl px-4 py-10">
+    <h2 class="text-2xl font-bold text-[var(--text)]">Шкала оценивания</h2>
+    <div class="mt-5 overflow-x-auto">
+      <table class="w-full min-w-[420px] border-collapse text-left text-sm">
+        <thead>
+          <tr class="border-b border-[var(--border)] text-[var(--text-muted)]">
+            <th class="py-2 pr-4">Первичный балл</th>
+            <th class="py-2">Отметка</th>
+          </tr>
+        </thead>
+        <tbody>
+          {GRADE_SCALE.map((band) => (
+            <tr class="border-b border-[var(--border)]">
+              <td class="py-2 pr-4 text-[var(--text)]">{band.minScore}–{band.maxScore}</td>
+              <td class="py-2 font-semibold text-[var(--text)]">{band.label}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</BaseLayout>
