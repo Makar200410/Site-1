@@ -2,9 +2,9 @@
   "id": "05-019",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Fe2(SO4)3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{KOH}$?",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Кислота"
-    },
-    {
-      "id": "C",
       "text": "Основание"
     },
     {
-      "id": "D",
+      "id": "C",
       "text": "Оксид"
+    },
+    {
+      "id": "D",
+      "text": "Кислота"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{Fe2(SO4)3}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
+  "solution": "$\\ce{KOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

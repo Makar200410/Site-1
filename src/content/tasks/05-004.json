@@ -2,17 +2,17 @@
   "id": "05-004",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{HNO3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Fe(OH)3}$?",
   "options": [
     {
       "id": "A",
-      "text": "Кислота"
+      "text": "Соль (средняя)"
     },
     {
       "id": "B",
-      "text": "Соль (кислая)"
+      "text": "Кислота"
     },
     {
       "id": "C",
@@ -23,9 +23,9 @@
       "text": "Оксид"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{HNO3}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
+  "solution": "$\\ce{Fe(OH)3}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && pagefind --site dist --output-subdir pagefind --exclude-selectors \".katex-mathml,#search\"",
+    "build": "astro build && pagefind --site dist --output-subdir pagefind --exclude-selectors \".katex,#search\"",
     "preview": "astro preview",
     "check": "astro check"
   },

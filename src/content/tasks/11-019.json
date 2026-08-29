@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "high",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций замещения.",
+  "statement": "Выберите два уравнения реакций обмена.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     }
   ],
   "correctAnswer": [
-    "B",
-    "D"
+    "A",
+    "B"
   ],
   "maxScore": 2,
-  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

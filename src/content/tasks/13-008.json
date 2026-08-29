@@ -4,7 +4,7 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{CH3COOH}$?",
+  "statement": "К какому типу электролитов относится $\\ce{KCl}$?",
   "options": [
     {
       "id": "A",
@@ -19,9 +19,9 @@
       "text": "Неэлектролит"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{CH3COOH}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "$\\ce{KCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

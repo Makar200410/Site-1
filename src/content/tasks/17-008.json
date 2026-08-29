@@ -4,7 +4,7 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaNO3}$ и $\\ce{Na2SO4}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{FeCl2}$ и $\\ce{FeCl3}$?",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "$\\ce{K2SO4}$"
+      "text": "$\\ce{KCl}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{BaCl2}$"
+      "text": "$\\ce{HCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{NaCl}$"
+      "text": "$\\ce{NaOH}$"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{Na2SO4}$ выпадает осадок $\\ce{BaSO4}$, с $\\ce{NaNO3}$ осадка нет.",
+  "solution": "Реактив $\\ce{NaOH}$ позволяет различить эти вещества: осадки различаются по цвету: бело-зелёный $\\ce{Fe(OH)2}$ и красно-бурый $\\ce{Fe(OH)3}$.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

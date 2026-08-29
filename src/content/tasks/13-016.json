@@ -2,9 +2,9 @@
   "id": "13-016",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Является ли C6H12O6 (глюкоза) электролитом? Выберите верную характеристику.",
+  "statement": "Является ли Cu(OH)2 электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
@@ -19,9 +19,9 @@
       "text": "Сильный электролит"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "C6H12O6 (глюкоза) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
+  "solution": "Cu(OH)2 диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

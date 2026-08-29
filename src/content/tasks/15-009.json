@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Na + Cl2 -> 2NaCl}$ восстановителем является:",
+  "statement": "В реакции $\\ce{Zn + 2HCl -> ZnCl2 + H2}$ восстановителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Элемент Na"
-    },
-    {
-      "id": "B",
-      "text": "Элемент Cl"
-    },
-    {
-      "id": "C",
       "text": "Ни один из элементов не меняет степень окисления"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "Оба элемента одновременно"
+    },
+    {
+      "id": "C",
+      "text": "Элемент H"
+    },
+    {
+      "id": "D",
+      "text": "Элемент Zn"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Na повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "Zn повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

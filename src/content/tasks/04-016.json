@@ -2,30 +2,30 @@
   "id": "04-016",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Какова валентность элемента N в соединении $\\ce{NH3}$?",
+  "statement": "Какова валентность элемента S в соединении $\\ce{SO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "IV"
+      "text": "VI"
     },
     {
       "id": "B",
-      "text": "III"
-    },
-    {
-      "id": "C",
       "text": "II"
     },
     {
+      "id": "C",
+      "text": "III"
+    },
+    {
       "id": "D",
-      "text": "VII"
+      "text": "I"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{NH3}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность N равна III.",
+  "solution": "По формуле $\\ce{SO3}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность S равна VI.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

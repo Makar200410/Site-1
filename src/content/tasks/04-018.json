@@ -2,30 +2,30 @@
   "id": "04-018",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Какова валентность элемента Si в соединении $\\ce{SiH4}$?",
+  "statement": "Какова валентность элемента O в соединении $\\ce{H2O}$?",
   "options": [
     {
       "id": "A",
-      "text": "III"
+      "text": "V"
     },
     {
       "id": "B",
-      "text": "IV"
+      "text": "VI"
     },
     {
       "id": "C",
-      "text": "II"
+      "text": "III"
     },
     {
       "id": "D",
-      "text": "VI"
+      "text": "II"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{SiH4}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность Si равна IV.",
+  "solution": "По формуле $\\ce{H2O}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность O равна II.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

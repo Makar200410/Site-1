@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$ восстановителем является:",
+  "statement": "В реакции $\\ce{Cu + Cl2 -> CuCl2}$ восстановителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Элемент Cl"
     },
     {
       "id": "B",
-      "text": "Элемент Fe"
+      "text": "Элемент Cu"
     },
     {
       "id": "C",
-      "text": "Оба элемента одновременно"
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
       "id": "D",
-      "text": "Элемент Al"
+      "text": "Оба элемента одновременно"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Al повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "Cu повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

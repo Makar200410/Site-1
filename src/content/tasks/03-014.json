@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{C}$, если его порядковый номер 6, а атомная масса приблизительно 12?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Ti}$, если его порядковый номер 22, а атомная масса приблизительно 48?",
   "options": [
     {
       "id": "A",
-      "text": "7"
+      "text": "26"
     },
     {
       "id": "B",
-      "text": "8"
+      "text": "28"
     },
     {
       "id": "C",
-      "text": "6"
+      "text": "22"
     },
     {
       "id": "D",
-      "text": "4"
+      "text": "27"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Массовое число $A = 12$, число протонов $Z = 6$. Число нейтронов $N = A - Z = 12 - 6 = 6$.",
+  "solution": "Массовое число $A = 48$, число протонов $Z = 22$. Число нейтронов $N = A - Z = 48 - 22 = 26$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

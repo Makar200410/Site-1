@@ -4,11 +4,11 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "Между какой парой веществ реакция ионного обмена идёт до конца?",
+  "statement": "Между какой парой веществ реакция ионного обмена практически не идёт?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
+      "text": "$\\ce{AgNO3}$ и $\\ce{KCl}$"
     },
     {
       "id": "B",
@@ -16,17 +16,17 @@
     },
     {
       "id": "C",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
+      "text": "$\\ce{BaCl2}$ и $\\ce{Na2SO4}$"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{CuSO4}$ и $\\ce{NaOH}$ идёт до конца, так как образуется осадок $\\ce{Cu(OH)2}$.",
-  "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
+  "solution": "Реакция между $\\ce{KNO3}$ и $\\ce{NaCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],

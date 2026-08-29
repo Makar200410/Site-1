@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{Br}$, если его порядковый номер 35, а атомная масса приблизительно 80?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Sc}$, если его порядковый номер 21, а атомная масса приблизительно 45?",
   "options": [
     {
       "id": "A",
-      "text": "80"
+      "text": "26"
     },
     {
       "id": "B",
-      "text": "35"
+      "text": "24"
     },
     {
       "id": "C",
-      "text": "43"
+      "text": "21"
     },
     {
       "id": "D",
-      "text": "45"
+      "text": "25"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Массовое число $A = 80$, число протонов $Z = 35$. Число нейтронов $N = A - Z = 80 - 35 = 45$.",
+  "solution": "Массовое число $A = 45$, число протонов $Z = 21$. Число нейтронов $N = A - Z = 45 - 21 = 24$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

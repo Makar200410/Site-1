@@ -4,7 +4,7 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "advanced",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций соединения.",
+  "statement": "Выберите два уравнения реакций разложения.",
   "options": [
     {
       "id": "A",
@@ -12,11 +12,11 @@
     },
     {
       "id": "B",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     },
     {
       "id": "D",
@@ -24,15 +24,15 @@
     },
     {
       "id": "E",
-      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
+      "text": "$\\ce{S + O2 -> SO2}$"
     }
   ],
   "correctAnswer": [
-    "C",
-    "E"
+    "B",
+    "D"
   ],
   "maxScore": 2,
-  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

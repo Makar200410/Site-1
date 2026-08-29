@@ -2,17 +2,17 @@
   "id": "05-001",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{KOH}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Mn2O7}$?",
   "options": [
     {
       "id": "A",
-      "text": "Основание"
+      "text": "Соль (средняя)"
     },
     {
       "id": "B",
-      "text": "Кислота"
+      "text": "Основание"
     },
     {
       "id": "C",
@@ -20,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "Соль (средняя)"
+      "text": "Соль (кислая)"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{KOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{Mn2O7}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

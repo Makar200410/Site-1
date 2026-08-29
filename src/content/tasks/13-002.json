@@ -2,9 +2,9 @@
   "id": "13-002",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Является ли C2H5OH (этанол) электролитом? Выберите верную характеристику.",
+  "statement": "Является ли C12H22O11 (сахароза) электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
@@ -21,7 +21,7 @@
   ],
   "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "C2H5OH (этанол) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
+  "solution": "C12H22O11 (сахароза) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

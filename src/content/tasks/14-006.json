@@ -8,22 +8,22 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
   "solution": "Реакция между $\\ce{NaOH}$ и $\\ce{HCl}$ идёт до конца, так как образуется вода (реакция нейтрализации).",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",

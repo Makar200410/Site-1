@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента S в веществе $\\ce{ZnS}$ ($M = 97$ г/моль, $M(S) = 32$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 33,
+  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{Fe(OH)3}$ ($M = 107$ г/моль, $M(O) = 16$ г/моль, 3 атома O в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 44.9,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{ZnS}$: $M = 97$ г/моль. Масса S в формуле: $32 \\times 1 = 32$. Массовая доля: $\\omega = \\dfrac{32}{97} \\times 100\\% \\approx 33\\%$.",
+  "solution": "Молярная масса $\\ce{Fe(OH)3}$: $M = 107$ г/моль. Масса O в формуле: $16 \\times 3 = 48$. Массовая доля: $\\omega = \\dfrac{48}{107} \\times 100\\% \\approx 44.9\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

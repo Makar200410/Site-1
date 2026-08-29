@@ -8,27 +8,27 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{S + O2 -> SO2}$"
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
+      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+      "text": "$\\ce{S + O2 -> SO2}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     }
   ],
   "correctAnswer": [
-    "D",
+    "B",
     "E"
   ],
   "maxScore": 2,

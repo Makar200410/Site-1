@@ -2,30 +2,30 @@
   "id": "05-020",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Ca(OH)2}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{AgNO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "Оксид"
-    },
-    {
-      "id": "B",
       "text": "Соль (средняя)"
     },
     {
+      "id": "B",
+      "text": "Основание"
+    },
+    {
       "id": "C",
-      "text": "Соль (кислая)"
+      "text": "Оксид"
     },
     {
       "id": "D",
-      "text": "Основание"
+      "text": "Кислота"
     }
   ],
-  "correctAnswer": "D",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{Ca(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{AgNO3}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

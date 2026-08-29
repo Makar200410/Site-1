@@ -8,22 +8,22 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
+      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
   "solution": "Реакция между $\\ce{K2CO3}$ и $\\ce{H2SO4}$ идёт до конца, так как выделяется газ $\\ce{CO2}$.",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",

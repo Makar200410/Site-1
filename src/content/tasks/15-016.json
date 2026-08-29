@@ -4,19 +4,19 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Mg + CO2 -> 2MgO + C}$ окислителем является:",
+  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ окислителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "Элемент Mg"
     },
     {
       "id": "B",
-      "text": "Элемент C"
+      "text": "Элемент O"
     },
     {
       "id": "C",
-      "text": "Элемент Mg"
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
       "id": "D",
@@ -25,7 +25,7 @@
   ],
   "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "C понижает степень окисления, принимая электроны — это окислитель.",
+  "solution": "O понижает степень окисления, принимая электроны — это окислитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

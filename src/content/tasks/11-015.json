@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "high",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций соединения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
+      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
     }
   ],
   "correctAnswer": [
-    "D",
-    "E"
+    "A",
+    "D"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

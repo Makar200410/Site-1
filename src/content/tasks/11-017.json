@@ -4,19 +4,19 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "high",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций обмена.",
+  "statement": "Выберите два уравнения реакций замещения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
+      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
     },
     {
       "id": "D",
@@ -24,15 +24,15 @@
     },
     {
       "id": "E",
-      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     }
   ],
   "correctAnswer": [
     "A",
-    "C"
+    "D"
   ],
   "maxScore": 2,
-  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

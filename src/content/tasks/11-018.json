@@ -8,28 +8,28 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
-    "A",
-    "E"
+    "B",
+    "D"
   ],
   "maxScore": 2,
   "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",

@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "advanced",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{SiO2}$ ($M = 60$ г/моль, $M(O) = 16$ г/моль, 2 атома O в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 53.3,
+  "statement": "Вычислите массовую долю (в %) элемента C в веществе $\\ce{K2CO3}$ ($M = 138$ г/моль, $M(C) = 12$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 8.7,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{SiO2}$: $M = 60$ г/моль. Масса O в формуле: $16 \\times 2 = 32$. Массовая доля: $\\omega = \\dfrac{32}{60} \\times 100\\% \\approx 53.3\\%$.",
+  "solution": "Молярная масса $\\ce{K2CO3}$: $M = 138$ г/моль. Масса C в формуле: $12 \\times 1 = 12$. Массовая доля: $\\omega = \\dfrac{12}{138} \\times 100\\% \\approx 8.7\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

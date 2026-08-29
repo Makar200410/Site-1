@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "high",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{KOH}$ и $\\ce{NaCl}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{HCl}$ и $\\ce{H2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "Фенолфталеин"
+      "text": "$\\ce{BaCl2}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{KNO3}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{H2O}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{KNO3}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{HCl}$"
+      "text": "$\\ce{NaOH}$"
     }
   ],
   "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Реактив Фенолфталеин позволяет различить эти вещества: с $\\ce{KOH}$ раствор окрашивается в малиновый цвет, с $\\ce{NaCl}$ окраска не меняется.",
+  "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{H2SO4}$ выпадает белый осадок $\\ce{BaSO4}$, с $\\ce{HCl}$ осадка нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

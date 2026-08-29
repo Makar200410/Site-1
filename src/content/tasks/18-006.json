@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{Al2O3}$ ($M = 102$ г/моль, $M(O) = 16$ г/моль, 3 атома O в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 47.1,
+  "statement": "Вычислите массовую долю (в %) элемента Cu в веществе $\\ce{CuSO4}$ ($M = 160$ г/моль, $M(Cu) = 64$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 40,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{Al2O3}$: $M = 102$ г/моль. Масса O в формуле: $16 \\times 3 = 48$. Массовая доля: $\\omega = \\dfrac{48}{102} \\times 100\\% \\approx 47.1\\%$.",
+  "solution": "Молярная масса $\\ce{CuSO4}$: $M = 160$ г/моль. Масса Cu в формуле: $64 \\times 1 = 64$. Массовая доля: $\\omega = \\dfrac{64}{160} \\times 100\\% \\approx 40\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

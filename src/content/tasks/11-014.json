@@ -4,7 +4,7 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "advanced",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций соединения.",
   "options": [
     {
       "id": "A",
@@ -12,27 +12,27 @@
     },
     {
       "id": "B",
-      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
     }
   ],
   "correctAnswer": [
-    "C",
-    "D"
+    "A",
+    "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

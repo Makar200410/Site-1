@@ -8,24 +8,24 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
     },
     {
+      "id": "C",
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{AgNO3}$ и $\\ce{KCl}$"
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
     }
   ],
   "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{AgNO3}$ и $\\ce{KCl}$ идёт до конца, так как образуется осадок $\\ce{AgCl}$.",
+  "solution": "Реакция между $\\ce{CuSO4}$ и $\\ce{NaOH}$ идёт до конца, так как образуется осадок $\\ce{Cu(OH)2}$.",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

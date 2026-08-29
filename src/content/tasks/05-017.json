@@ -4,28 +4,28 @@
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{NaOH}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Ba(OH)2}$?",
   "options": [
     {
       "id": "A",
-      "text": "Кислота"
+      "text": "Соль (кислая)"
     },
     {
       "id": "B",
-      "text": "Основание"
-    },
-    {
-      "id": "C",
       "text": "Оксид"
     },
     {
+      "id": "C",
+      "text": "Кислота"
+    },
+    {
       "id": "D",
-      "text": "Соль (кислая)"
+      "text": "Основание"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "$\\ce{NaOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "solution": "$\\ce{Ba(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

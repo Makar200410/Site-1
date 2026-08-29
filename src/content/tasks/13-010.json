@@ -2,9 +2,9 @@
   "id": "13-010",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "base",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{HNO3}$?",
+  "statement": "К какому типу электролитов относится $\\ce{H2S}$?",
   "options": [
     {
       "id": "A",
@@ -19,9 +19,9 @@
       "text": "Неэлектролит"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "$\\ce{HNO3}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{H2S}$ диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

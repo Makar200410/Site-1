@@ -81,7 +81,7 @@ const rendered = guide ? await render(guide) : null;
           {examples.map((task, i) => (
             <details class="group rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] p-4" open={i === 0}>
               <summary class="tap-target flex cursor-pointer list-none items-center justify-between font-semibold text-[var(--text)]">
-                <span>Пример {i + 1}</span>
+                <span>Пример {i + 1}</span>{' '}
                 <span class="rounded-full bg-[var(--bg-muted)] px-2 py-0.5 text-xs font-medium text-[var(--text-muted)]">{DIFFICULTY_LABELS[task.data.difficulty]}</span>
               </summary>
               <div class="mt-3 border-t border-[var(--border)] pt-3">

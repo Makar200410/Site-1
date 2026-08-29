@@ -2,9 +2,9 @@
   "id": "05-002",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "advanced",
+  "difficulty": "high",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{AgNO3}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{NaHCO3}$?",
   "options": [
     {
       "id": "A",
@@ -12,20 +12,20 @@
     },
     {
       "id": "B",
-      "text": "Кислота"
-    },
-    {
-      "id": "C",
       "text": "Соль (средняя)"
     },
     {
-      "id": "D",
+      "id": "C",
       "text": "Соль (кислая)"
+    },
+    {
+      "id": "D",
+      "text": "Кислота"
     }
   ],
   "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{AgNO3}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
+  "solution": "$\\ce{NaHCO3}$ содержит одновременно металл, незамещённый водород и кислотный остаток — это соль (кислая).",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

@@ -2,30 +2,30 @@
   "id": "04-020",
   "examNumber": 4,
   "topicId": "valentnost-stepen-okisleniya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Какова валентность элемента P в соединении $\\ce{P2O5}$?",
+  "statement": "Какова валентность элемента C в соединении $\\ce{CO2}$?",
   "options": [
     {
       "id": "A",
-      "text": "II"
+      "text": "VII"
     },
     {
       "id": "B",
-      "text": "VI"
+      "text": "I"
     },
     {
       "id": "C",
-      "text": "V"
+      "text": "II"
     },
     {
       "id": "D",
       "text": "IV"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "По формуле $\\ce{P2O5}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность P равна V.",
+  "solution": "По формуле $\\ce{CO2}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность C равна IV.",
   "hint": "Валентность всегда записывается римской цифрой без знака.",
   "theoryRefs": [
     "valentnost-stepen-okisleniya/stepen-okisleniya"

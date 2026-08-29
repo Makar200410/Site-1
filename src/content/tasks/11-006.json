@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "base",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций соединения.",
+  "statement": "Выберите два уравнения реакций замещения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
+      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
-    },
-    {
-      "id": "D",
       "text": "$\\ce{CaO + CO2 -> CaCO3}$"
     },
     {
+      "id": "D",
+      "text": "$\\ce{S + O2 -> SO2}$"
+    },
+    {
       "id": "E",
-      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
-    "C",
-    "D"
+    "A",
+    "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

@@ -2,9 +2,9 @@
   "id": "13-004",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{H2O}$?",
+  "statement": "К какому типу электролитов относится $\\ce{KOH}$?",
   "options": [
     {
       "id": "A",
@@ -19,9 +19,9 @@
       "text": "Слабый электролит"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{H2O}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "$\\ce{KOH}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

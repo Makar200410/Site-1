@@ -3,7 +3,7 @@ import type { FullTask, UserAnswer, AnsweredRecord, SessionConfig } from '@/lib/
 import { SESSION_STORAGE_KEY, checkAnswer } from '@/lib/trainer-types';
 import { fetchTasksByIds } from '@/lib/fetch-tasks';
 import { recordTaskAttempt } from '@/lib/progress';
-import { DIFFICULTY_LABELS } from '@/config/exam';
+import { DIFFICULTY_LABELS, getCodifierTopic } from '@/config/exam';
 import TaskAnswerInput from '@/components/islands/shared/TaskAnswerInput';
 import ReferencePanel from '@/components/islands/reference/ReferencePanel';
 
@@ -304,11 +304,14 @@ export default function TrainerSession() {
 
             {task.theoryRefs.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-2">
-                {task.theoryRefs.map((ref) => (
-                  <a key={ref} href={`/teoriya/${ref}/`} className="tap-target inline-flex items-center rounded-full border border-[var(--border)] px-3 py-1.5 text-sm text-[var(--text)] hover:border-brand-400">
-                    Теория →
-                  </a>
-                ))}
+                {task.theoryRefs.map((ref) => {
+                  const topic = getCodifierTopic(ref.split('/')[0]);
+                  return (
+                    <a key={ref} href={`/teoriya/${ref}/`} className="tap-target inline-flex items-center rounded-full border border-[var(--border)] px-3 py-1.5 text-sm text-[var(--text)] hover:border-brand-400">
+                      {topic ? topic.title : 'Теория'} →
+                    </a>
+                  );
+                })}
               </div>
             )}
 

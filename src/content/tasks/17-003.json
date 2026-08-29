@@ -4,28 +4,28 @@
   "topicId": "kachestvennye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{Na2CO3}$?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{Na2S}$ и $\\ce{Na2SO4}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{NaOH}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{HCl}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{KCl}$"
     },
     {
-      "id": "D",
+      "id": "B",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
       "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{HCl}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ, с $\\ce{NaCl}$ видимых изменений нет.",
+  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: из $\\ce{Na2S}$ выделяется газ с запахом тухлых яиц, из $\\ce{Na2SO4}$ видимых изменений нет.",
   "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
   "theoryRefs": [
     "kachestvennye-reaktsii/kachestvennye-reaktsii-na-iony-i-veshestva",

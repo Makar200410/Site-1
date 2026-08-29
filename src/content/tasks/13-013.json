@@ -2,13 +2,13 @@
   "id": "13-013",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Является ли C12H22O11 (сахароза) электролитом? Выберите верную характеристику.",
+  "statement": "К какому типу электролитов относится $\\ce{HCl}$?",
   "options": [
     {
       "id": "A",
-      "text": "Слабый электролит"
+      "text": "Сильный электролит"
     },
     {
       "id": "B",
@@ -16,12 +16,12 @@
     },
     {
       "id": "C",
-      "text": "Сильный электролит"
+      "text": "Слабый электролит"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "C12H22O11 (сахароза) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
+  "solution": "$\\ce{HCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

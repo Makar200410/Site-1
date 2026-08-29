@@ -4,24 +4,24 @@
   "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{Na2SO4}$?",
+  "statement": "К какому типу электролитов относится $\\ce{KNO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "Сильный электролит"
-    },
-    {
-      "id": "B",
       "text": "Неэлектролит"
     },
     {
-      "id": "C",
+      "id": "B",
       "text": "Слабый электролит"
+    },
+    {
+      "id": "C",
+      "text": "Сильный электролит"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{Na2SO4}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "solution": "$\\ce{KNO3}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

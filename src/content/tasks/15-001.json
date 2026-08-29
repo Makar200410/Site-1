@@ -4,28 +4,28 @@
   "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{Fe + CuSO4 -> FeSO4 + Cu}$ восстановителем является:",
+  "statement": "В реакции $\\ce{2Al + 3S -> Al2S3}$ восстановителем является:",
   "options": [
     {
       "id": "A",
-      "text": "Элемент Fe"
-    },
-    {
-      "id": "B",
-      "text": "Элемент Cu"
-    },
-    {
-      "id": "C",
       "text": "Ни один из элементов не меняет степень окисления"
     },
     {
-      "id": "D",
+      "id": "B",
       "text": "Оба элемента одновременно"
+    },
+    {
+      "id": "C",
+      "text": "Элемент S"
+    },
+    {
+      "id": "D",
+      "text": "Элемент Al"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Fe повышает степень окисления, отдавая электроны — это восстановитель.",
+  "solution": "Al повышает степень окисления, отдавая электроны — это восстановитель.",
   "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
     "okislitelno-vosstanovitelnye-reaktsii/ovr"

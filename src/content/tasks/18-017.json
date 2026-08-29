@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента P в веществе $\\ce{H3PO4}$ ($M = 98$ г/моль, $M(P) = 31$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 31.6,
+  "statement": "Вычислите массовую долю (в %) элемента N в веществе $\\ce{NH4NO3}$ ($M = 80$ г/моль, $M(N) = 14$ г/моль, 2 атома N в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 35,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{H3PO4}$: $M = 98$ г/моль. Масса P в формуле: $31 \\times 1 = 31$. Массовая доля: $\\omega = \\dfrac{31}{98} \\times 100\\% \\approx 31.6\\%$.",
+  "solution": "Молярная масса $\\ce{NH4NO3}$: $M = 80$ г/моль. Масса N в формуле: $14 \\times 2 = 28$. Массовая доля: $\\omega = \\dfrac{28}{80} \\times 100\\% \\approx 35\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "base",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций замещения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
-    },
-    {
-      "id": "B",
-      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
-    },
-    {
-      "id": "C",
       "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{S + O2 -> SO2}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
+    },
+    {
       "id": "D",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
     }
   ],
   "correctAnswer": [
-    "C",
+    "D",
     "E"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

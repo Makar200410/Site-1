@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "advanced",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций замещения.",
+  "statement": "Выберите два уравнения реакций соединения.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+      "text": "$\\ce{CaO + CO2 -> CaCO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
+      "text": "$\\ce{Na2O + H2O -> 2NaOH}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
+      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2Na + Cl2 -> 2NaCl}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
-    "C",
-    "D"
+    "A",
+    "C"
   ],
   "maxScore": 2,
-  "solution": "Реакция замещения — это взаимодействие простого и сложного веществ с заменой составной части. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"

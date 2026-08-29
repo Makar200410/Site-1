@@ -2,9 +2,9 @@
   "id": "13-017",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "high",
+  "difficulty": "advanced",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{H2SO3}$?",
+  "statement": "Является ли Ba(OH)2 электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
@@ -19,9 +19,9 @@
       "text": "Сильный электролит"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{H2SO3}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "Ba(OH)2 полностью диссоциирует на ионы в растворе — это сильный электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

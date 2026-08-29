@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "В 285 г воды растворили 12 г хлорида натрия. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
-  "correctAnswer": 4,
+  "statement": "В 180 г воды растворили 25 г сульфата меди(II). Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 12.2,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Масса раствора: $12 + 285 = 297$ г. Массовая доля: $\\omega = \\dfrac{12}{297} \\times 100\\% \\approx 4\\%$.",
+  "solution": "Масса раствора: $25 + 180 = 205$ г. Массовая доля: $\\omega = \\dfrac{25}{205} \\times 100\\% \\approx 12.2\\%$.",
   "hint": "Масса раствора = масса вещества + масса растворителя.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"

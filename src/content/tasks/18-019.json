@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "high",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента N в веществе $\\ce{NaNO3}$ ($M = 85$ г/моль, $M(N) = 14$ г/моль). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 16.5,
+  "statement": "Вычислите массовую долю (в %) элемента Mg в веществе $\\ce{MgO}$ ($M = 40$ г/моль, $M(Mg) = 24$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 60,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{NaNO3}$: $M = 85$ г/моль. Масса N в формуле: $14 \\times 1 = 14$. Массовая доля: $\\omega = \\dfrac{14}{85} \\times 100\\% \\approx 16.5\\%$.",
+  "solution": "Молярная масса $\\ce{MgO}$: $M = 40$ г/моль. Масса Mg в формуле: $24 \\times 1 = 24$. Массовая доля: $\\omega = \\dfrac{24}{40} \\times 100\\% \\approx 60\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

@@ -2,9 +2,9 @@
   "id": "13-012",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому типу электролитов относится $\\ce{HNO2}$?",
+  "statement": "К какому типу электролитов относится $\\ce{CH3COOH}$?",
   "options": [
     {
       "id": "A",
@@ -21,7 +21,7 @@
   ],
   "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "$\\ce{HNO2}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "solution": "$\\ce{CH3COOH}$ диссоциирует на ионы лишь частично — это слабый электролит.",
   "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

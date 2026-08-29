@@ -4,11 +4,11 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "Вычислите массовую долю (в %) элемента H в веществе $\\ce{NH4NO3}$ ($M = 80$ г/моль, $M(H) = 1$ г/моль, 4 атома H в формуле). Ответ округлите до десятых долей процента.",
-  "correctAnswer": 5,
+  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{BaSO4}$ ($M = 233$ г/моль, $M(O) = 16$ г/моль, 4 атома O в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 27.5,
   "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Молярная масса $\\ce{NH4NO3}$: $M = 80$ г/моль. Масса H в формуле: $1 \\times 4 = 4$. Массовая доля: $\\omega = \\dfrac{4}{80} \\times 100\\% \\approx 5\\%$.",
+  "solution": "Молярная масса $\\ce{BaSO4}$: $M = 233$ г/моль. Масса O в формуле: $16 \\times 4 = 64$. Массовая доля: $\\omega = \\dfrac{64}{233} \\times 100\\% \\approx 27.5\\%$.",
   "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-elementa-v-veshestve"

@@ -2,9 +2,9 @@
   "id": "05-009",
   "examNumber": 5,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "high",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{Mn2O7}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{Ca(OH)2}$?",
   "options": [
     {
       "id": "A",
@@ -16,16 +16,16 @@
     },
     {
       "id": "C",
-      "text": "Соль (кислая)"
+      "text": "Кислота"
     },
     {
       "id": "D",
-      "text": "Кислота"
+      "text": "Соль (средняя)"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "$\\ce{Mn2O7}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид.",
+  "solution": "$\\ce{Ca(OH)2}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
   "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"

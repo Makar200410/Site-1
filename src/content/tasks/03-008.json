@@ -4,28 +4,28 @@
   "topicId": "stroenie-atoma",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Сколько нейтронов содержится в атоме $\\ce{Ni}$, если его порядковый номер 28, а атомная масса приблизительно 59?",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{N}$, если его порядковый номер 7, а атомная масса приблизительно 14?",
   "options": [
     {
       "id": "A",
-      "text": "31"
+      "text": "9"
     },
     {
       "id": "B",
-      "text": "33"
+      "text": "14"
     },
     {
       "id": "C",
-      "text": "28"
+      "text": "5"
     },
     {
       "id": "D",
-      "text": "59"
+      "text": "7"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Массовое число $A = 59$, число протонов $Z = 28$. Число нейтронов $N = A - Z = 59 - 28 = 31$.",
+  "solution": "Массовое число $A = 14$, число протонов $Z = 7$. Число нейтронов $N = A - Z = 14 - 7 = 7$.",
   "hint": "Используйте формулу N = A − Z.",
   "theoryRefs": [
     "stroenie-atoma/stroenie-atoma"

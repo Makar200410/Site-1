@@ -8,24 +8,24 @@
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
+      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "D",
   "maxScore": 1,
-  "solution": "Реакция между $\\ce{NaOH}$ и $\\ce{HCl}$ идёт до конца, так как образуется вода (реакция нейтрализации).",
+  "solution": "Реакция между $\\ce{Na2CO3}$ и $\\ce{HCl}$ идёт до конца, так как выделяется газ $\\ce{CO2}$.",
   "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"

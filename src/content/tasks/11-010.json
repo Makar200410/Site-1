@@ -4,35 +4,35 @@
   "topicId": "himicheskie-reaktsii-klassifikatsiya",
   "difficulty": "advanced",
   "answerType": "multiple",
-  "statement": "Выберите два уравнения реакций разложения.",
+  "statement": "Выберите два уравнения реакций обмена.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{2HgO ->[t] 2Hg + O2}$"
-    },
-    {
-      "id": "B",
       "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
     },
     {
+      "id": "B",
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+    },
+    {
       "id": "C",
-      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+      "text": "$\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{S + O2 -> SO2}$"
+      "text": "$\\ce{Mg + 2AgNO3 -> Mg(NO3)2 + 2Ag}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
+      "text": "$\\ce{Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag}$"
     }
   ],
   "correctAnswer": [
     "A",
-    "E"
+    "B"
   ],
   "maxScore": 2,
-  "solution": "Реакция разложения — это распад одного вещества на несколько. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
   "hint": "Сравните число и состав веществ до и после реакции.",
   "theoryRefs": [
     "himicheskie-reaktsii-klassifikatsiya/klassifikatsiya-himicheskih-reaktsiy"
