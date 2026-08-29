@@ -1,0 +1,19 @@
+{
+  "id": "18-011",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента S в веществе $\\ce{MgSO4}$ ($M = 120$ г/моль, $M(S) = 32$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 26.7,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{MgSO4}$: $M = 120$ г/моль. Масса S в формуле: $32 \\times 1 = 32$. Массовая доля: $\\omega = \\dfrac{32}{120} \\times 100\\% \\approx 26.7\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

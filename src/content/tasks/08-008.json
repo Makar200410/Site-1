@@ -1,0 +1,43 @@
+{
+  "id": "08-008",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{Ba(OH)2}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Кислотой $\\ce{H2SO4}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствором $\\ce{FeCl3}$"
+    },
+    {
+      "id": "C",
+      "text": "Другим основанием $\\ce{NaOH}$"
+    },
+    {
+      "id": "D",
+      "text": "Водородом $\\ce{H2}$"
+    },
+    {
+      "id": "E",
+      "text": "Раствором $\\ce{NaNO3}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Ba(OH)2}$ — щёлочь: реагирует с кислотой и с раствором соли, если образуется осадок ($\\ce{Fe(OH)3}$). С раствором соли без осадка, другим основанием и водородом не реагирует.",
+  "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "основания"
+  ]
+}

@@ -1,58 +1,36 @@
 {
   "id": "15-003",
   "examNumber": 15,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "high",
-  "answerType": "matching",
-  "statement": "Установите соответствие между формулой вещества (левый столбец) и классом неорганических соединений, к которому оно относится (правый столбец).",
-  "matchingLeft": [
+  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ восстановителем является:",
+  "options": [
     {
-      "id": "А",
-      "text": "$\\ce{Al2O3}$"
+      "id": "A",
+      "text": "Элемент Mg"
     },
     {
-      "id": "Б",
-      "text": "$\\ce{NaHSO4}$"
+      "id": "B",
+      "text": "Элемент O"
     },
     {
-      "id": "В",
-      "text": "$\\ce{Ba(OH)2}$"
+      "id": "C",
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
-      "id": "Г",
-      "text": "$\\ce{H3PO4}$"
+      "id": "D",
+      "text": "Оба элемента одновременно"
     }
   ],
-  "matchingRight": [
-    {
-      "id": "1",
-      "text": "Кислота"
-    },
-    {
-      "id": "2",
-      "text": "Кислая соль"
-    },
-    {
-      "id": "3",
-      "text": "Амфотерный оксид"
-    },
-    {
-      "id": "4",
-      "text": "Основание"
-    },
-    {
-      "id": "5",
-      "text": "Средняя соль"
-    }
-  ],
-  "correctAnswer": "А-3,Б-2,В-4,Г-1",
-  "maxScore": 2,
-  "solution": "$\\ce{Al2O3}$ — амфотерный оксид (А-3). $\\ce{NaHSO4}$ — кислая соль, водород замещён не полностью (Б-2). $\\ce{Ba(OH)2}$ — основание, растворимая щёлочь (В-4). $\\ce{H3PO4}$ — трёхосновная кислота (Г-1).",
-  "hint": "Обратите внимание на наличие незамещённого водорода или гидроксогруппы.",
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Mg повышает степень окисления, отдавая электроны — это восстановитель.",
+  "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
   ],
   "tags": [
-    "классификация веществ"
+    "ОВР"
   ]
 }

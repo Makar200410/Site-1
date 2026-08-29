@@ -1,0 +1,22 @@
+{
+  "id": "21-003",
+  "examNumber": 21,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{S -> SO2 -> SO3 -> H2SO4}$.",
+  "correctAnswer": "$\\ce{S + O2 -> SO2}$; $\\ce{2SO2 + O2 -> 2SO3}$; $\\ce{SO3 + H2O -> H2SO4}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{S + O2 -> SO2}$\n\n2) $\\ce{2SO2 + O2 -> 2SO3}$\n\n3) $\\ce{SO3 + H2O -> H2SO4}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

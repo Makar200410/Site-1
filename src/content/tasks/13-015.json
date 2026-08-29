@@ -1,0 +1,32 @@
+{
+  "id": "13-015",
+  "examNumber": 13,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "К какому типу электролитов относится $\\ce{NaCl}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Сильный электролит"
+    },
+    {
+      "id": "B",
+      "text": "Слабый электролит"
+    },
+    {
+      "id": "C",
+      "text": "Неэлектролит"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "$\\ce{NaCl}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "электролиты"
+  ]
+}

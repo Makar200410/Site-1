@@ -1,0 +1,43 @@
+{
+  "id": "10-009",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{ZnSO4}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором $\\ce{KCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствором $\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "Раствором $\\ce{Na2SO4}$"
+    },
+    {
+      "id": "D",
+      "text": "Серебром $\\ce{Ag}$"
+    },
+    {
+      "id": "E",
+      "text": "Раствором $\\ce{BaCl2}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "E"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{ZnSO4}$ реагирует с реагентом «Раствором $\\ce{BaCl2}$» (выпадает осадок $\\ce{BaSO4}$) и с реагентом «Раствором $\\ce{NaOH}$» (выпадает осадок $\\ce{Zn(OH)2}$). С остальными перечисленными веществами видимой реакции нет.",
+  "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

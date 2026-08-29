@@ -1,0 +1,19 @@
+{
+  "id": "19-017",
+  "examNumber": 19,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Смешали 150 г раствора с массовой долей вещества 5% и 200 г раствора с массовой долей того же вещества 25%. Найдите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 16.6,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Масса вещества: $150 \\times 0.05 + 200 \\times 0.25 = 58$ г. Масса раствора: $150 + 200 = 350$ г. $\\omega = \\dfrac{58}{350} \\times 100\\% \\approx 16.6\\%$.",
+  "hint": "Сложите отдельно массы вещества и массы растворов, затем разделите.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля раствора"
+  ]
+}

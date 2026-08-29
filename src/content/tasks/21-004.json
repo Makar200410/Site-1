@@ -1,0 +1,22 @@
+{
+  "id": "21-004",
+  "examNumber": 21,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "extended",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Cu -> CuO -> CuSO4 -> Cu(OH)2}$.",
+  "correctAnswer": "$\\ce{2Cu + O2 ->[t] 2CuO}$; $\\ce{CuO + H2SO4 -> CuSO4 + H2O}$; $\\ce{CuSO4 + 2NaOH -> Cu(OH)2v + Na2SO4}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{2Cu + O2 ->[t] 2CuO}$\n\n2) $\\ce{CuO + H2SO4 -> CuSO4 + H2O}$\n\n3) $\\ce{CuSO4 + 2NaOH -> Cu(OH)2v + Na2SO4}$",
+  "criteria": [
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
+  ],
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "генетическая связь"
+  ]
+}

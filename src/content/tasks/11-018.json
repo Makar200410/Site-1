@@ -1,0 +1,41 @@
+{
+  "id": "11-018",
+  "examNumber": 11,
+  "topicId": "himicheskie-reaktsii-klassifikatsiya",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "Выберите два уравнения реакций соединения.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{N2 + 3H2 -> 2NH3}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{2KClO3 ->[t] 2KCl + 3O2}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{BaCl2 + Na2SO4 -> BaSO4 + 2NaCl}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "E"
+  ],
+  "maxScore": 2,
+  "solution": "Реакция соединения — это образование одного вещества из нескольких. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "hint": "Сравните число и состав веществ до и после реакции.",
+  "theoryRefs": [],
+  "tags": [
+    "классификация реакций"
+  ]
+}

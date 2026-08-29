@@ -1,0 +1,43 @@
+{
+  "id": "07-018",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{Cr2O3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Оксидом серы(VI) $\\ce{SO3}$"
+    },
+    {
+      "id": "B",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "C",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "D",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "E",
+      "text": "Водой"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Cr2O3}$ — амфотерный оксид: проявляет двойственные свойства, реагируя и с кислотой, и со щёлочью. С основным оксидом, кислотным оксидом и водой не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

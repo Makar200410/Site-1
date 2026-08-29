@@ -1,0 +1,43 @@
+{
+  "id": "07-016",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{BeO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Оксидом серы(VI) $\\ce{SO3}$"
+    },
+    {
+      "id": "B",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "D",
+      "text": "Водой"
+    },
+    {
+      "id": "E",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "E"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{BeO}$ — амфотерный оксид: проявляет двойственные свойства, реагируя и с кислотой, и со щёлочью. С основным оксидом, кислотным оксидом и водой не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

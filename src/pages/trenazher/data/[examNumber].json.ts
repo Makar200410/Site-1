@@ -2,9 +2,10 @@ import type { APIRoute, GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import { renderChemMarkdown } from '@/lib/markdown';
 import type { FullTask, OptionHtml } from '@/lib/trainer-types';
+import { EXAM_CONFIG } from '@/config/exam';
 
 export const getStaticPaths: GetStaticPaths = () =>
-  Array.from({ length: 24 }, (_, i) => ({ params: { examNumber: String(i + 1) } }));
+  Array.from({ length: EXAM_CONFIG.totalTasks }, (_, i) => ({ params: { examNumber: String(i + 1) } }));
 
 async function renderOptions(options?: { id: string; text: string }[]): Promise<OptionHtml[] | undefined> {
   if (!options) return undefined;

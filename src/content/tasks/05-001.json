@@ -1,36 +1,36 @@
 {
   "id": "05-001",
   "examNumber": 5,
-  "topicId": "valentnost-stepen-okisleniya",
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "Какова степень окисления серы в веществе $\\ce{SO2}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{KOH}$?",
   "options": [
     {
       "id": "A",
-      "text": "+2"
+      "text": "Основание"
     },
     {
       "id": "B",
-      "text": "+4"
+      "text": "Кислота"
     },
     {
       "id": "C",
-      "text": "+6"
+      "text": "Оксид"
     },
     {
       "id": "D",
-      "text": "−2"
+      "text": "Соль (средняя)"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "A",
   "maxScore": 1,
-  "solution": "Кислород имеет степень окисления −2, всего атомов кислорода 2: $-2 \\times 2 = -4$. Сумма степеней окисления равна 0, значит, сера имеет степень окисления $+4$.",
-  "hint": "Составьте уравнение: степень окисления серы + (−2)×2 = 0.",
+  "solution": "$\\ce{KOH}$ состоит из атома металла и гидроксогрупп $\\ce{OH}$ — это основание.",
+  "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
-    "valentnost-stepen-okisleniya/stepen-okisleniya"
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
   ],
   "tags": [
-    "степень окисления"
+    "классификация веществ"
   ]
 }

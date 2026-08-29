@@ -1,0 +1,37 @@
+{
+  "id": "17-012",
+  "examNumber": 17,
+  "topicId": "kachestvennye-reaktsii",
+  "difficulty": "high",
+  "answerType": "single",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{Na2CO3}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{KCl}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{NaOH}$"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ, с $\\ce{NaCl}$ видимых изменений нет.",
+  "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "качественные реакции",
+    "распознавание веществ"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "18-020",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента P в веществе $\\ce{Ca3(PO4)2}$ ($M = 310$ г/моль, $M(P) = 31$ г/моль, 2 атома P в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 20,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{Ca3(PO4)2}$: $M = 310$ г/моль. Масса P в формуле: $31 \\times 2 = 62$. Массовая доля: $\\omega = \\dfrac{62}{310} \\times 100\\% \\approx 20\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "08-013",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует нерастворимое основание $\\ce{Fe(OH)3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором $\\ce{NaCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "C",
+      "text": "Кислотой $\\ce{H2SO4}$"
+    },
+    {
+      "id": "D",
+      "text": "Кислотным оксидом $\\ce{CO2}$"
+    },
+    {
+      "id": "E",
+      "text": "Щёлочью $\\ce{NaOH}$ (раствор)"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Fe(OH)3}$ — нерастворимое основание: реагирует только с кислотами. С кислотными оксидами, растворами солей и щелочами нерастворимое основание не реагирует.",
+  "hint": "Нерастворимые основания реагируют только с кислотами.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "основания"
+  ]
+}

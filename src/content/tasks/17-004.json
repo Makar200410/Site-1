@@ -1,0 +1,37 @@
+{
+  "id": "17-004",
+  "examNumber": 17,
+  "topicId": "kachestvennye-reaktsii",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{HCl}$ и $\\ce{H2SO4}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{NaOH}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{H2O}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{BaCl2}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{KNO3}$"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "Реактив $\\ce{BaCl2}$ позволяет различить эти вещества: с $\\ce{H2SO4}$ выпадает белый осадок $\\ce{BaSO4}$, с $\\ce{HCl}$ осадка нет.",
+  "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "качественные реакции",
+    "распознавание веществ"
+  ]
+}

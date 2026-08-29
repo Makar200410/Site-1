@@ -1,36 +1,36 @@
 {
   "id": "05-002",
   "examNumber": 5,
-  "topicId": "valentnost-stepen-okisleniya",
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
   "difficulty": "advanced",
   "answerType": "single",
-  "statement": "Какова степень окисления азота в ионе аммония $\\ce{NH4+}$?",
+  "statement": "К какому классу неорганических веществ относится $\\ce{AgNO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "−3"
+      "text": "Оксид"
     },
     {
       "id": "B",
-      "text": "+3"
+      "text": "Кислота"
     },
     {
       "id": "C",
-      "text": "−5"
+      "text": "Соль (средняя)"
     },
     {
       "id": "D",
-      "text": "+5"
+      "text": "Соль (кислая)"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Заряд иона равен +1. Водород имеет степень окисления +1, всего 4 атома: $+1 \\times 4 = +4$. Тогда для азота: $x + 4 = +1 \\Rightarrow x = -3$.",
-  "hint": "Сумма степеней окисления в ионе равна заряду иона.",
+  "solution": "$\\ce{AgNO3}$ состоит из атома металла и кислотного остатка, без незамещённого водорода — это соль (средняя).",
+  "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
   "theoryRefs": [
-    "valentnost-stepen-okisleniya/stepen-okisleniya"
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
   ],
   "tags": [
-    "степень окисления"
+    "классификация веществ"
   ]
 }

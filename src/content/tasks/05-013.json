@@ -1,0 +1,36 @@
+{
+  "id": "05-013",
+  "examNumber": 5,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "single",
+  "statement": "К какому классу неорганических веществ относится $\\ce{H2S}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Соль (средняя)"
+    },
+    {
+      "id": "B",
+      "text": "Соль (кислая)"
+    },
+    {
+      "id": "C",
+      "text": "Кислота"
+    },
+    {
+      "id": "D",
+      "text": "Оксид"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "$\\ce{H2S}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
+  "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "классификация веществ"
+  ]
+}

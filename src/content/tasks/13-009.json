@@ -1,0 +1,32 @@
+{
+  "id": "13-009",
+  "examNumber": 13,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "К какому типу электролитов относится $\\ce{H2S}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Неэлектролит"
+    },
+    {
+      "id": "B",
+      "text": "Слабый электролит"
+    },
+    {
+      "id": "C",
+      "text": "Сильный электролит"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "$\\ce{H2S}$ диссоциирует на ионы лишь частично — это слабый электролит.",
+  "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "электролиты"
+  ]
+}

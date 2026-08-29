@@ -1,36 +1,43 @@
 {
   "id": "06-001",
   "examNumber": 6,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "metally",
   "difficulty": "base",
-  "answerType": "single",
-  "statement": "К какому классу неорганических веществ относится $\\ce{CaO}$?",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует натрий $\\ce{Na}$? Выберите два верных ответа.",
   "options": [
     {
       "id": "A",
-      "text": "Оксид"
+      "text": "Раствором соли более активного металла"
     },
     {
       "id": "B",
-      "text": "Основание"
+      "text": "Водой (без нагревания)"
     },
     {
       "id": "C",
-      "text": "Соль"
+      "text": "Раствором $\\ce{CuSO4}$"
     },
     {
       "id": "D",
-      "text": "Кислота"
+      "text": "Серебром (твёрдым)"
+    },
+    {
+      "id": "E",
+      "text": "Аргоном"
     }
   ],
-  "correctAnswer": "A",
-  "maxScore": 1,
-  "solution": "$\\ce{CaO}$ состоит из двух элементов, один из которых кислород в степени окисления −2 — это оксид (оксид кальция).",
-  "hint": "Оксид состоит только из элемента и кислорода.",
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "Натрий — активный металл: реагирует с водой уже при обычных условиях, а также вытесняет менее активный металл из раствора его соли ($\\ce{CuSO4}$). С раствором соли более активного металла, серебром и инертным газом реакции не идёт.",
+  "hint": "Вспомните ряд активности металлов и его крайние (самые активные) элементы.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "metally/obshchaya-harakteristika-metallov"
   ],
   "tags": [
-    "классификация веществ"
+    "свойства металлов"
   ]
 }

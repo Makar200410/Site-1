@@ -3,7 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import ChemHtml from '@/components/ChemHtml.astro';
 import { getCollection, getEntry, render } from 'astro:content';
-import { EXAM_TASKS_META, DIFFICULTY_LABELS } from '@/config/exam';
+import { EXAM_TASKS_META, EXAM_CONFIG, DIFFICULTY_LABELS } from '@/config/exam';
 import { breadcrumbListJsonLd, faqPageJsonLd, learningResourceJsonLd } from '@/lib/seo';
 
 export async function getStaticPaths() {
@@ -54,7 +54,7 @@ const rendered = guide ? await render(guide) : null;
 >
   <Breadcrumbs items={breadcrumbs} />
   <article class="mx-auto max-w-3xl px-4 py-8">
-    <p class="text-sm font-medium text-brand-600">Задание {n} из 24</p>
+    <p class="text-sm font-medium text-brand-600">Задание {n} из {EXAM_CONFIG.totalTasks}</p>
     <h1 class="mt-1 text-3xl font-extrabold text-[var(--text)]">Задание {n} ОГЭ по химии: {meta.title}</h1>
 
     <div class="mt-4 flex flex-wrap gap-2 text-sm">

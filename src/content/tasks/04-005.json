@@ -1,0 +1,36 @@
+{
+  "id": "04-005",
+  "examNumber": 4,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Определите степень окисления элемента N в веществе $\\ce{NO}$.",
+  "options": [
+    {
+      "id": "A",
+      "text": "+3"
+    },
+    {
+      "id": "B",
+      "text": "−3"
+    },
+    {
+      "id": "C",
+      "text": "+2"
+    },
+    {
+      "id": "D",
+      "text": "−2"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "Расставив степени окисления известных элементов (кислород −2, водород +1 и т. д.) и составив уравнение на сумму степеней окисления, получаем степень окисления N в $\\ce{NO}$, равную +2.",
+  "hint": "Сумма степеней окисления всех атомов в нейтральной молекуле равна нулю.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "степень окисления"
+  ]
+}

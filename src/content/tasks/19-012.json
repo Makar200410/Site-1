@@ -1,0 +1,19 @@
+{
+  "id": "19-012",
+  "examNumber": 19,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "Сколько граммов сульфата меди(II) потребуется для приготовления 100 г раствора с массовой долей 10%?",
+  "correctAnswer": 10,
+  "tolerance": 0.5,
+  "maxScore": 1,
+  "solution": "$m_{вещества} = \\omega \\times m_{раствора} = 0.1 \\times 100 = 10$ г.",
+  "hint": "Масса вещества = массовая доля × масса раствора.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля раствора"
+  ]
+}

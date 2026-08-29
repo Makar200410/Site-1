@@ -2,42 +2,42 @@
   "id": "08-002",
   "examNumber": 8,
   "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "multiple",
-  "statement": "С какими из перечисленных веществ реагирует оксид серы(VI) $\\ce{SO3}$? Выберите два верных ответа.",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{KOH}$? Выберите два верных ответа.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{H2O}$"
+      "text": "Раствором $\\ce{NaNO3}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaOH}$"
+      "text": "Раствором $\\ce{MgSO4}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{HCl}$"
+      "text": "Кислотой $\\ce{HNO3}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{CO2}$"
+      "text": "Другим основанием $\\ce{NaOH}$"
     },
     {
       "id": "E",
-      "text": "$\\ce{Cu}$"
+      "text": "Водородом $\\ce{H2}$"
     }
   ],
   "correctAnswer": [
-    "A",
-    "B"
+    "B",
+    "C"
   ],
   "maxScore": 2,
-  "solution": "$\\ce{SO3}$ — кислотный оксид: реагирует с водой, образуя кислоту ($\\ce{SO3 + H2O -> H2SO4}$), и со щёлочью ($\\ce{SO3 + 2NaOH -> Na2SO4 + H2O}$). С кислотой, другим кислотным оксидом и металлом не реагирует.",
-  "hint": "Кислотный оксид реагирует со щелочами и часто с водой.",
+  "solution": "$\\ce{KOH}$ — щёлочь: реагирует с кислотой и с раствором соли, если образуется осадок ($\\ce{Mg(OH)2}$). С раствором соли без осадка, другим основанием и водородом не реагирует.",
+  "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
   "theoryRefs": [
     "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
   ],
   "tags": [
-    "оксиды"
+    "основания"
   ]
 }

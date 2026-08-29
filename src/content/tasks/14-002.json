@@ -1,36 +1,36 @@
 {
   "id": "14-002",
   "examNumber": 14,
-  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
-  "difficulty": "advanced",
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Mg + O2 -> 2MgO}$ восстановителем является:",
+  "statement": "Между какой парой веществ реакция ионного обмена практически не идёт?",
   "options": [
     {
       "id": "A",
-      "text": "Кислород"
+      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
     },
     {
       "id": "B",
-      "text": "Магний"
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
     },
     {
       "id": "C",
-      "text": "Оксид магния"
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
     },
     {
       "id": "D",
-      "text": "Ни один из элементов не меняет степень окисления"
+      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Магний повышает степень окисления с 0 до +2, отдавая электроны кислороду, — значит, магний восстановитель. Кислород понижает степень окисления с 0 до −2 — окислитель.",
-  "hint": "Восстановитель отдаёт электроны и повышает степень окисления.",
+  "solution": "Реакция между $\\ce{KNO3}$ и $\\ce{NaCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
   "theoryRefs": [
-    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [
-    "ОВР"
+    "ионный обмен"
   ]
 }

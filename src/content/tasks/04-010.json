@@ -1,0 +1,36 @@
+{
+  "id": "04-010",
+  "examNumber": 4,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Определите степень окисления элемента Al в веществе $\\ce{Al2O3}$.",
+  "options": [
+    {
+      "id": "A",
+      "text": "−3"
+    },
+    {
+      "id": "B",
+      "text": "+4"
+    },
+    {
+      "id": "C",
+      "text": "+3"
+    },
+    {
+      "id": "D",
+      "text": "−4"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "Расставив степени окисления известных элементов (кислород −2, водород +1 и т. д.) и составив уравнение на сумму степеней окисления, получаем степень окисления Al в $\\ce{Al2O3}$, равную +3.",
+  "hint": "Сумма степеней окисления всех атомов в нейтральной молекуле равна нулю.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "степень окисления"
+  ]
+}

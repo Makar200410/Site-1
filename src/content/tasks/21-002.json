@@ -1,21 +1,22 @@
 {
   "id": "21-002",
   "examNumber": 21,
-  "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "high",
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
   "answerType": "extended",
-  "statement": "Составьте молекулярное, полное и сокращённое ионное уравнения реакции между раствором карбоната натрия и раствором соляной кислоты.",
-  "maxScore": 2,
-  "correctAnswer": "CO3^2- + 2H+ -> H2O + CO2",
-  "solution": "Молекулярное уравнение: $\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2^}$.\n\nПолное ионное: $\\ce{2Na+ + CO3^2- + 2H+ + 2Cl- -> 2Na+ + 2Cl- + H2O + CO2^}$.\n\nСокращённое ионное: $\\ce{CO3^2- + 2H+ -> H2O + CO2^}$.",
+  "statement": "Осуществите цепочку превращений, составив уравнения соответствующих реакций: $\\ce{Ca -> CaO -> Ca(OH)2 -> CaCO3}$.",
+  "correctAnswer": "$\\ce{2Ca + O2 -> 2CaO}$; $\\ce{CaO + H2O -> Ca(OH)2}$; $\\ce{Ca(OH)2 + CO2 -> CaCO3v + H2O}$",
+  "maxScore": 3,
+  "solution": "1) $\\ce{2Ca + O2 -> 2CaO}$\n\n2) $\\ce{CaO + H2O -> Ca(OH)2}$\n\n3) $\\ce{Ca(OH)2 + CO2 -> CaCO3v + H2O}$",
   "criteria": [
-    "Верно составлено молекулярное уравнение реакции с коэффициентами (1 балл)",
-    "Верно составлены полное и сокращённое ионные уравнения, газ и вода записаны в виде формул (1 балл)"
+    "Верно составлено 1-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 2-е уравнение реакции с коэффициентами (1 балл)",
+    "Верно составлено 3-е уравнение реакции с коэффициентами (1 балл)"
   ],
   "theoryRefs": [
-    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
   ],
   "tags": [
-    "ионное уравнение"
+    "генетическая связь"
   ]
 }

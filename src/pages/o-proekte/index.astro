@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { breadcrumbListJsonLd } from '@/lib/seo';
+import { EXAM_CONFIG } from '@/config/exam';
 
 const siteUrl = Astro.site!.toString();
 const breadcrumbs = [
@@ -21,7 +22,7 @@ const jsonLd = breadcrumbListJsonLd(breadcrumbs, siteUrl);
     <h1 class="text-3xl font-extrabold">О проекте</h1>
     <p>
       «ОГЭ Химия» — бесплатный сайт для самостоятельной подготовки девятиклассников к ОГЭ по химии. Здесь есть
-      теория по всем темам кодификатора ФИПИ, тренажёр по каждому из 24 заданий экзамена, пробные варианты с
+      теория по всем темам кодификатора ФИПИ, тренажёр по каждому из {EXAM_CONFIG.totalTasks} заданий экзамена, пробные варианты с
       таймером и справочные таблицы, разрешённые на экзамене.
     </p>
 

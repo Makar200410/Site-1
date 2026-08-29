@@ -189,7 +189,7 @@ export default function MockExam({ variantId, title, taskRefs }: Props) {
       <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-6">
         <h2 className="text-xl font-bold text-[var(--text)]">{title}</h2>
         <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-[var(--text-muted)]">
-          <li>24 задания в порядке настоящего экзамена</li>
+          <li>{EXAM_CONFIG.totalTasks} задания в порядке настоящего экзамена</li>
           <li>{EXAM_CONFIG.durationMinutes} минут на выполнение, таймер не останавливается</li>
           <li>Ответы сохраняются автоматически каждые {EXAM_CONFIG.autosaveIntervalSeconds} секунд — прогресс не потеряется при закрытии вкладки</li>
           <li>Часть 2 (развёрнутые ответы) проверяется вами самостоятельно после завершения</li>

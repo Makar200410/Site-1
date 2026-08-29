@@ -1,0 +1,43 @@
+{
+  "id": "08-012",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{NaOH}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Другим основанием $\\ce{KOH}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствором $\\ce{NaNO3}$"
+    },
+    {
+      "id": "C",
+      "text": "Кислотой $\\ce{HNO3}$"
+    },
+    {
+      "id": "D",
+      "text": "Раствором $\\ce{FeCl3}$"
+    },
+    {
+      "id": "E",
+      "text": "Водородом $\\ce{H2}$"
+    }
+  ],
+  "correctAnswer": [
+    "C",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{NaOH}$ — щёлочь: реагирует с кислотой и с раствором соли, если образуется осадок ($\\ce{Fe(OH)3}$). С раствором соли без осадка, другим основанием и водородом не реагирует.",
+  "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "основания"
+  ]
+}

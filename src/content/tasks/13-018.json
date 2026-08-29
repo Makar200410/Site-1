@@ -1,0 +1,32 @@
+{
+  "id": "13-018",
+  "examNumber": 13,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "К какому типу электролитов относится $\\ce{Na2SO4}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Сильный электролит"
+    },
+    {
+      "id": "B",
+      "text": "Неэлектролит"
+    },
+    {
+      "id": "C",
+      "text": "Слабый электролит"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "$\\ce{Na2SO4}$ полностью диссоциирует на ионы в растворе — это сильный электролит.",
+  "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "электролиты"
+  ]
+}

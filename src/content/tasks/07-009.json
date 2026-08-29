@@ -1,0 +1,43 @@
+{
+  "id": "07-009",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{FeO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "Водой"
+    },
+    {
+      "id": "D",
+      "text": "Оксидом серы(VI) $\\ce{SO3}$"
+    },
+    {
+      "id": "E",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{FeO}$ — основный оксид: реагирует с кислотой и с кислотным оксидом $\\ce{SO3}$ (образуя соль). С водой (не растворяется), щёлочью и другим основным оксидом не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

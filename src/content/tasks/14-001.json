@@ -1,36 +1,36 @@
 {
   "id": "14-001",
   "examNumber": 14,
-  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
   "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{Zn + 2HCl -> ZnCl2 + H2}$ окислителем является:",
+  "statement": "Между какой парой веществ реакция ионного обмена практически не идёт?",
   "options": [
     {
       "id": "A",
-      "text": "Цинк"
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
     },
     {
       "id": "B",
-      "text": "Водород кислоты"
+      "text": "$\\ce{CuSO4}$ и $\\ce{NaOH}$"
     },
     {
       "id": "C",
-      "text": "Хлор"
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     },
     {
       "id": "D",
-      "text": "Хлорид цинка"
+      "text": "$\\ce{K2CO3}$ и $\\ce{H2SO4}$"
     }
   ],
-  "correctAnswer": "B",
+  "correctAnswer": "C",
   "maxScore": 1,
-  "solution": "Цинк повышает степень окисления с 0 до +2 — он восстановитель. Водород понижает степень окисления с +1 до 0 — он окислитель, то есть принимает электроны от цинка.",
-  "hint": "Окислитель — тот, чья степень окисления понижается.",
+  "solution": "Реакция между $\\ce{Na2SO4}$ и $\\ce{KCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
   "theoryRefs": [
-    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [
-    "ОВР"
+    "ионный обмен"
   ]
 }

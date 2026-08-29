@@ -1,0 +1,36 @@
+{
+  "id": "15-011",
+  "examNumber": 15,
+  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "В реакции $\\ce{Cu + Cl2 -> CuCl2}$ восстановителем является:",
+  "options": [
+    {
+      "id": "A",
+      "text": "Элемент Cl"
+    },
+    {
+      "id": "B",
+      "text": "Элемент Cu"
+    },
+    {
+      "id": "C",
+      "text": "Ни один из элементов не меняет степень окисления"
+    },
+    {
+      "id": "D",
+      "text": "Оба элемента одновременно"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Cu повышает степень окисления, отдавая электроны — это восстановитель.",
+  "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
+  "theoryRefs": [
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+  ],
+  "tags": [
+    "ОВР"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "18-018",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента O в веществе $\\ce{MgO}$ ($M = 40$ г/моль, $M(O) = 16$ г/моль). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 40,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{MgO}$: $M = 40$ г/моль. Масса O в формуле: $16 \\times 1 = 16$. Массовая доля: $\\omega = \\dfrac{16}{40} \\times 100\\% \\approx 40\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

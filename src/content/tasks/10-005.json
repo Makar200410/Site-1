@@ -1,0 +1,43 @@
+{
+  "id": "10-005",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{Na2CO3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором $\\ce{NaNO3}$"
+    },
+    {
+      "id": "B",
+      "text": "Кислородом $\\ce{O2}$"
+    },
+    {
+      "id": "C",
+      "text": "Раствором $\\ce{KCl}$"
+    },
+    {
+      "id": "D",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "E",
+      "text": "Раствором $\\ce{CaCl2}$"
+    }
+  ],
+  "correctAnswer": [
+    "D",
+    "E"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Na2CO3}$ реагирует с реагентом «Соляной кислотой $\\ce{HCl}$» (выделяется углекислый газ) и с реагентом «Раствором $\\ce{CaCl2}$» (выпадает осадок $\\ce{CaCO3}$). С остальными перечисленными веществами видимой реакции нет.",
+  "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

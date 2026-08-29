@@ -1,6 +1,6 @@
 import { OGImageRoute } from 'astro-og-canvas';
 import { getCollection } from 'astro:content';
-import { CODIFIER_TOPICS, EXAM_TASKS_META } from '@/config/exam';
+import { CODIFIER_TOPICS, EXAM_TASKS_META, EXAM_CONFIG } from '@/config/exam';
 
 const theoryEntries = await getCollection('theory');
 
@@ -8,10 +8,10 @@ type OgPage = { title: string; description: string };
 const pages: Record<string, OgPage> = {
   '/': {
     title: 'Подготовка к ОГЭ по химии',
-    description: 'Теория, тренажёр по всем 24 заданиям, пробники и справочник — бесплатно.',
+    description: `Теория, тренажёр по всем ${EXAM_CONFIG.totalTasks} заданиям, пробники и справочник — бесплатно.`,
   },
   '/teoriya/': { title: 'Теория по химии', description: 'Все темы кодификатора ОГЭ по химии в одном месте.' },
-  '/zadaniya/': { title: 'Разбор всех 24 заданий ОГЭ', description: 'Что проверяет каждое задание и как его решать.' },
+  '/zadaniya/': { title: `Разбор всех ${EXAM_CONFIG.totalTasks} заданий ОГЭ`, description: 'Что проверяет каждое задание и как его решать.' },
   '/probniki/': { title: 'Пробные варианты ОГЭ по химии', description: 'Полные варианты с таймером 180 минут.' },
   '/trenazher/': { title: 'Тренажёр по химии', description: 'Отработайте любое задание ОГЭ по химии в своём темпе.' },
   '/spravochnik/': { title: 'Справочник по химии', description: 'Таблицы, разрешённые на экзамене ОГЭ по химии.' },

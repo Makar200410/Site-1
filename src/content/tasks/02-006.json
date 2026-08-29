@@ -1,0 +1,36 @@
+{
+  "id": "02-006",
+  "examNumber": 2,
+  "topicId": "periodicheskiy-zakon",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "У какого из атомов — $\\ce{Mg}$ или $\\ce{S}$ — радиус атома больше?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Mg}$ (магний)"
+    },
+    {
+      "id": "B",
+      "text": "Нельзя определить по положению в таблице"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{S}$ (сера)"
+    },
+    {
+      "id": "D",
+      "text": "Одинаково у обоих"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Оба элемента находятся в одном периоде. Известно, что радиус атома в периоде слева направо уменьшается, поэтому у $\\ce{Mg}$ (стоит левее) радиус атома больше.",
+  "hint": "В периоде свойства меняются слева направо по чёткому правилу.",
+  "theoryRefs": [
+    "periodicheskiy-zakon/periodicheskiy-zakon-i-sistema-mendeleeva"
+  ],
+  "tags": [
+    "периодический закон"
+  ]
+}

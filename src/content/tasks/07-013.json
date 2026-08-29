@@ -1,0 +1,43 @@
+{
+  "id": "07-013",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{CuO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "B",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "C",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "D",
+      "text": "Оксидом серы(VI) $\\ce{SO3}$"
+    },
+    {
+      "id": "E",
+      "text": "Водой"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{CuO}$ — основный оксид: реагирует с кислотой и с кислотным оксидом $\\ce{SO3}$ (образуя соль). С водой (не растворяется), щёлочью и другим основным оксидом не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

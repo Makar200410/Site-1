@@ -1,4 +1,5 @@
 ---
+import { EXAM_CONFIG } from '@/config/exam';
 const year = new Date().getFullYear();
 ---
 
@@ -16,7 +17,7 @@ const year = new Date().getFullYear();
         <p class="text-sm font-semibold text-[var(--text)]">Разделы</p>
         <ul class="mt-2 space-y-1.5 text-sm text-[var(--text-muted)]">
           <li><a class="hover:text-[var(--text)]" href="/teoriya/">Теория по темам</a></li>
-          <li><a class="hover:text-[var(--text)]" href="/zadaniya/">Разбор всех 24 заданий</a></li>
+          <li><a class="hover:text-[var(--text)]" href="/zadaniya/">Разбор всех {EXAM_CONFIG.totalTasks} заданий</a></li>
           <li><a class="hover:text-[var(--text)]" href="/trenazher/">Тренажёр</a></li>
           <li><a class="hover:text-[var(--text)]" href="/probniki/">Пробные варианты</a></li>
         </ul>

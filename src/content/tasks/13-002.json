@@ -2,35 +2,31 @@
   "id": "13-002",
   "examNumber": 13,
   "topicId": "elektroliticheskaya-dissotsiatsiya",
-  "difficulty": "advanced",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Реакция между каким веществами сопровождается выделением газа?",
+  "statement": "Является ли C2H5OH (этанол) электролитом? Выберите верную характеристику.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+      "text": "Сильный электролит"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaCl}$ и $\\ce{AgNO3}$"
+      "text": "Неэлектролит"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
-    },
-    {
-      "id": "D",
-      "text": "$\\ce{BaCl2}$ и $\\ce{H2SO4}$"
+      "text": "Слабый электролит"
     }
   ],
-  "correctAnswer": "A",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "При реакции карбоната натрия с соляной кислотой образуется неустойчивая угольная кислота, которая сразу распадается на воду и углекислый газ: $\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2^}$.",
-  "hint": "Ищите реакцию с карбонатом и кислотой.",
+  "solution": "C2H5OH (этанол) не распадается на ионы в растворе и не проводит электрический ток — это неэлектролит.",
+  "hint": "Сильные электролиты — растворимые соли, сильные кислоты, щёлочи. Слабые — слабые кислоты, нерастворимые основания, вода. Неэлектролиты — типичная органика (сахара, спирты).",
   "theoryRefs": [
     "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [
-    "ионный обмен"
+    "электролиты"
   ]
 }

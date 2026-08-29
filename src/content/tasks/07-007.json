@@ -1,0 +1,43 @@
+{
+  "id": "07-007",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{SO2}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "B",
+      "text": "Другим кислотным оксидом $\\ce{P2O5}$"
+    },
+    {
+      "id": "C",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "D",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "E",
+      "text": "Раствором хлорида натрия $\\ce{NaCl}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{SO2}$ — кислотный оксид: реагирует со щёлочью и с основным оксидом $\\ce{CaO}$, образуя соль. С кислотой, с другим кислотным оксидом и с солью не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

@@ -16,7 +16,7 @@ const jsonLd = [
   breadcrumbListJsonLd(breadcrumbs, siteUrl),
   learningResourceJsonLd({
     title: 'Пробные варианты ОГЭ по химии',
-    description: 'Полные варианты ОГЭ по химии на 24 задания с таймером 180 минут.',
+    description: `Полные варианты ОГЭ по химии на ${EXAM_CONFIG.totalTasks} задания с таймером 180 минут.`,
     url: '/probniki/',
     siteUrl,
   }),
@@ -25,7 +25,7 @@ const jsonLd = [
 
 <BaseLayout
   title="Пробные варианты ОГЭ по химии с таймером"
-  description="Полные пробные варианты ОГЭ по химии: 24 задания в порядке экзамена, таймер 180 минут, автосохранение ответов, подсчёт первичного балла и оценки."
+  description={`Полные пробные варианты ОГЭ по химии: ${EXAM_CONFIG.totalTasks} задания в порядке экзамена, таймер 180 минут, автосохранение ответов, подсчёт первичного балла и оценки.`}
   jsonLd={jsonLd}
 >
   <Breadcrumbs items={breadcrumbs} />

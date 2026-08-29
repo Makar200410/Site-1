@@ -1,0 +1,36 @@
+{
+  "id": "14-015",
+  "examNumber": 14,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "high",
+  "answerType": "single",
+  "statement": "Между какой парой веществ реакция ионного обмена практически не идёт?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{AgNO3}$ и $\\ce{KCl}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{BaCl2}$ и $\\ce{Na2SO4}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+    }
+  ],
+  "correctAnswer": "D",
+  "maxScore": 1,
+  "solution": "Реакция между $\\ce{Na2SO4}$ и $\\ce{KCl}$ не идёт: все возможные продукты растворимы — реакция не идёт.",
+  "hint": "Реакция обмена идёт до конца только если образуется осадок, газ или вода.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "ионный обмен"
+  ]
+}

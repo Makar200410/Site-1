@@ -1,0 +1,36 @@
+{
+  "id": "04-007",
+  "examNumber": 4,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Определите степень окисления элемента S в веществе $\\ce{SO2}$.",
+  "options": [
+    {
+      "id": "A",
+      "text": "+2"
+    },
+    {
+      "id": "B",
+      "text": "+4"
+    },
+    {
+      "id": "C",
+      "text": "+3"
+    },
+    {
+      "id": "D",
+      "text": "−5"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Расставив степени окисления известных элементов (кислород −2, водород +1 и т. д.) и составив уравнение на сумму степеней окисления, получаем степень окисления S в $\\ce{SO2}$, равную +4.",
+  "hint": "Сумма степеней окисления всех атомов в нейтральной молекуле равна нулю.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "степень окисления"
+  ]
+}

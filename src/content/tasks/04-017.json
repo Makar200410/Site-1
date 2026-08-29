@@ -1,0 +1,36 @@
+{
+  "id": "04-017",
+  "examNumber": 4,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Какова валентность элемента C в соединении $\\ce{CO2}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "IV"
+    },
+    {
+      "id": "B",
+      "text": "VI"
+    },
+    {
+      "id": "C",
+      "text": "III"
+    },
+    {
+      "id": "D",
+      "text": "V"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "По формуле $\\ce{CO2}$ и известной валентности водорода (I) или кислорода (II) методом перекрёстных индексов определяем: валентность C равна IV.",
+  "hint": "Валентность всегда записывается римской цифрой без знака.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "валентность"
+  ]
+}

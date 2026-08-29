@@ -1,0 +1,41 @@
+{
+  "id": "11-011",
+  "examNumber": 11,
+  "topicId": "himicheskie-reaktsii-klassifikatsiya",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "Выберите два уравнения реакций обмена.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Fe + CuSO4 -> FeSO4 + Cu}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{CuSO4 + 2NaOH -> Cu(OH)2 + Na2SO4}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{2Mg + O2 -> 2MgO}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{CaCO3 ->[t] CaO + CO2}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "hint": "Сравните число и состав веществ до и после реакции.",
+  "theoryRefs": [],
+  "tags": [
+    "классификация реакций"
+  ]
+}

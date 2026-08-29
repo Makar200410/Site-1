@@ -1,0 +1,43 @@
+{
+  "id": "07-006",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{SO3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствором хлорида натрия $\\ce{NaCl}$"
+    },
+    {
+      "id": "C",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "D",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "E",
+      "text": "Другим кислотным оксидом $\\ce{SO2}$"
+    }
+  ],
+  "correctAnswer": [
+    "C",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{SO3}$ — кислотный оксид: реагирует со щёлочью и с основным оксидом $\\ce{CaO}$, образуя соль. С кислотой, с другим кислотным оксидом и с солью не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

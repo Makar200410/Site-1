@@ -1,0 +1,19 @@
+{
+  "id": "19-014",
+  "examNumber": 19,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Сколько граммов сульфата меди(II) потребуется для приготовления 250 г раствора с массовой долей 8%?",
+  "correctAnswer": 20,
+  "tolerance": 0.5,
+  "maxScore": 1,
+  "solution": "$m_{вещества} = \\omega \\times m_{раствора} = 0.08 \\times 250 = 20$ г.",
+  "hint": "Масса вещества = массовая доля × масса раствора.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля раствора"
+  ]
+}

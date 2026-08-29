@@ -1,58 +1,36 @@
 {
   "id": "15-001",
   "examNumber": 15,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
   "difficulty": "base",
-  "answerType": "matching",
-  "statement": "Установите соответствие между исходным веществом (левый столбец) и продуктом одной из характерных для него реакций (правый столбец): натрий, оксид натрия, гидроксид натрия, оксид углерода(IV).",
-  "matchingLeft": [
+  "answerType": "single",
+  "statement": "В реакции $\\ce{Fe + CuSO4 -> FeSO4 + Cu}$ восстановителем является:",
+  "options": [
     {
-      "id": "А",
-      "text": "$\\ce{Na}$"
+      "id": "A",
+      "text": "Элемент Fe"
     },
     {
-      "id": "Б",
-      "text": "$\\ce{Na2O}$"
+      "id": "B",
+      "text": "Элемент Cu"
     },
     {
-      "id": "В",
-      "text": "$\\ce{NaOH}$"
+      "id": "C",
+      "text": "Ни один из элементов не меняет степень окисления"
     },
     {
-      "id": "Г",
-      "text": "$\\ce{CO2}$"
+      "id": "D",
+      "text": "Оба элемента одновременно"
     }
   ],
-  "matchingRight": [
-    {
-      "id": "1",
-      "text": "$\\ce{Na2CO3}$"
-    },
-    {
-      "id": "2",
-      "text": "$\\ce{NaOH}$"
-    },
-    {
-      "id": "3",
-      "text": "$\\ce{Na2O}$"
-    },
-    {
-      "id": "4",
-      "text": "$\\ce{H2CO3}$"
-    },
-    {
-      "id": "5",
-      "text": "$\\ce{H2}$"
-    }
-  ],
-  "correctAnswer": "А-3,Б-2,В-1,Г-4",
-  "maxScore": 2,
-  "solution": "Натрий, окисляясь кислородом, даёт оксид натрия (А-3): $\\ce{4Na + O2 -> 2Na2O}$. Оксид натрия с водой даёт гидроксид натрия (Б-2): $\\ce{Na2O + H2O -> 2NaOH}$. Гидроксид натрия с углекислым газом даёт карбонат натрия (В-1): $\\ce{2NaOH + CO2 -> Na2CO3 + H2O}$. Углекислый газ с водой даёт угольную кислоту (Г-4): $\\ce{CO2 + H2O -> H2CO3}$.",
-  "hint": "Проследите генетическую цепочку: металл → основный оксид → основание → соль.",
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Fe повышает степень окисления, отдавая электроны — это восстановитель.",
+  "hint": "Восстановитель повышает степень окисления (отдаёт электроны), окислитель понижает (принимает электроны).",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "okislitelno-vosstanovitelnye-reaktsii/ovr"
   ],
   "tags": [
-    "генетическая связь"
+    "ОВР"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "18-010",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента Al в веществе $\\ce{Al2(SO4)3}$ ($M = 342$ г/моль, $M(Al) = 27$ г/моль, 2 атома Al в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 15.8,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{Al2(SO4)3}$: $M = 342$ г/моль. Масса Al в формуле: $27 \\times 2 = 54$. Массовая доля: $\\omega = \\dfrac{54}{342} \\times 100\\% \\approx 15.8\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

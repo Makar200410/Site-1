@@ -1,37 +1,43 @@
 {
   "id": "06-002",
   "examNumber": 6,
-  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
-  "difficulty": "advanced",
-  "answerType": "single",
-  "statement": "Какое из веществ является кислой солью?",
+  "topicId": "metally",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует кальций $\\ce{Ca}$? Выберите два верных ответа.",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{Na2CO3}$"
+      "text": "Серебром (твёрдым)"
     },
     {
       "id": "B",
-      "text": "$\\ce{NaHCO3}$"
+      "text": "Аргоном"
     },
     {
       "id": "C",
-      "text": "$\\ce{NaOH}$"
+      "text": "Раствором соли более активного металла"
     },
     {
       "id": "D",
-      "text": "$\\ce{H2CO3}$"
+      "text": "Водой (без нагревания)"
+    },
+    {
+      "id": "E",
+      "text": "Раствором $\\ce{CuSO4}$"
     }
   ],
-  "correctAnswer": "B",
-  "maxScore": 1,
-  "solution": "$\\ce{NaHCO3}$ содержит металл, водород и кислотный остаток одновременно — это признак кислой соли (гидрокарбонат натрия), где водород кислоты замещён не полностью.",
-  "hint": "Кислая соль содержит незамещённый водород наряду с металлом.",
+  "correctAnswer": [
+    "D",
+    "E"
+  ],
+  "maxScore": 2,
+  "solution": "Кальций — активный металл: реагирует с водой уже при обычных условиях, а также вытесняет менее активный металл из раствора его соли ($\\ce{CuSO4}$). С раствором соли более активного металла, серебром и инертным газом реакции не идёт.",
+  "hint": "Вспомните ряд активности металлов и его крайние (самые активные) элементы.",
   "theoryRefs": [
-    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+    "metally/obshchaya-harakteristika-metallov"
   ],
   "tags": [
-    "классификация веществ",
-    "соли"
+    "свойства металлов"
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "03-011",
+  "examNumber": 3,
+  "topicId": "stroenie-atoma",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Si}$, если его порядковый номер 14, а атомная масса приблизительно 28?",
+  "options": [
+    {
+      "id": "A",
+      "text": "15"
+    },
+    {
+      "id": "B",
+      "text": "16"
+    },
+    {
+      "id": "C",
+      "text": "14"
+    },
+    {
+      "id": "D",
+      "text": "12"
+    }
+  ],
+  "correctAnswer": "C",
+  "maxScore": 1,
+  "solution": "Массовое число $A = 28$, число протонов $Z = 14$. Число нейтронов $N = A - Z = 28 - 14 = 14$.",
+  "hint": "Используйте формулу N = A − Z.",
+  "theoryRefs": [
+    "stroenie-atoma/stroenie-atoma"
+  ],
+  "tags": [
+    "строение атома",
+    "нейтроны"
+  ]
+}

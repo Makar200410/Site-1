@@ -1,0 +1,43 @@
+{
+  "id": "07-014",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{N2O5}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором хлорида натрия $\\ce{NaCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "C",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    },
+    {
+      "id": "D",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "E",
+      "text": "Другим кислотным оксидом $\\ce{SO2}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{N2O5}$ — кислотный оксид: реагирует со щёлочью и с основным оксидом $\\ce{CaO}$, образуя соль. С кислотой, с другим кислотным оксидом и с солью не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

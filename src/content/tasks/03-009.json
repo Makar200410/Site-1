@@ -1,0 +1,37 @@
+{
+  "id": "03-009",
+  "examNumber": 3,
+  "topicId": "stroenie-atoma",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{K}$, если его порядковый номер 19, а атомная масса приблизительно 39?",
+  "options": [
+    {
+      "id": "A",
+      "text": "39"
+    },
+    {
+      "id": "B",
+      "text": "18"
+    },
+    {
+      "id": "C",
+      "text": "22"
+    },
+    {
+      "id": "D",
+      "text": "20"
+    }
+  ],
+  "correctAnswer": "D",
+  "maxScore": 1,
+  "solution": "Массовое число $A = 39$, число протонов $Z = 19$. Число нейтронов $N = A - Z = 39 - 19 = 20$.",
+  "hint": "Используйте формулу N = A − Z.",
+  "theoryRefs": [
+    "stroenie-atoma/stroenie-atoma"
+  ],
+  "tags": [
+    "строение атома",
+    "нейтроны"
+  ]
+}

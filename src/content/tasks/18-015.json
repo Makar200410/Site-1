@@ -1,0 +1,19 @@
+{
+  "id": "18-015",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "high",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента Cl в веществе $\\ce{CaCl2}$ ($M = 111$ г/моль, $M(Cl) = 35.5$ г/моль, 2 атома Cl в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 64,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{CaCl2}$: $M = 111$ г/моль. Масса Cl в формуле: $35.5 \\times 2 = 71$. Массовая доля: $\\omega = \\dfrac{71}{111} \\times 100\\% \\approx 64\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

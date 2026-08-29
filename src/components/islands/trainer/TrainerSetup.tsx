@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Difficulty, TaskIndexEntry } from '@/lib/trainer-types';
 import { SESSION_STORAGE_KEY } from '@/lib/trainer-types';
 import { loadProgress } from '@/lib/progress';
+import { EXAM_CONFIG } from '@/config/exam';
 
 interface ExamTaskOption {
   number: number;
@@ -96,7 +97,7 @@ export default function TrainerSetup({ taskIndex, examTasks, topics }: Props) {
             onChange={(e) => setExamNumber(e.target.value ? Number(e.target.value) : '')}
             className="tap-target mt-1.5 w-full rounded-md border border-[var(--border)] bg-[var(--bg)] px-3 py-2 text-sm text-[var(--text)]"
           >
-            <option value="">Любой (1–24)</option>
+            <option value="">Любой (1–{EXAM_CONFIG.totalTasks})</option>
             {examTasks.map((t) => (
               <option key={t.number} value={t.number}>
                 № {t.number} — {t.title}

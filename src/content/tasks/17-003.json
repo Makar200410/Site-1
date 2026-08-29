@@ -1,34 +1,37 @@
 {
   "id": "17-003",
   "examNumber": 17,
-  "topicId": "organicheskie-veshestva-vvedenie",
-  "difficulty": "high",
+  "topicId": "kachestvennye-reaktsii",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "Какое из перечисленных веществ относится к классу карбоновых кислот?",
+  "statement": "С помощью какого реактива можно различить растворы $\\ce{NaCl}$ и $\\ce{Na2CO3}$?",
   "options": [
     {
       "id": "A",
-      "text": "$\\ce{CH3OH}$"
+      "text": "$\\ce{NaOH}$"
     },
     {
       "id": "B",
-      "text": "$\\ce{CH3COOH}$"
+      "text": "$\\ce{HCl}$"
     },
     {
       "id": "C",
-      "text": "$\\ce{C2H6}$"
+      "text": "$\\ce{KCl}$"
     },
     {
       "id": "D",
-      "text": "$\\ce{C2H4}$"
+      "text": "$\\ce{H2O}$"
     }
   ],
   "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Уксусная кислота $\\ce{CH3COOH}$ содержит функциональную группу $\\ce{-COOH}$ — карбоксильную группу, характерную для карбоновых кислот.",
-  "hint": "Функциональная группа карбоновых кислот — -COOH.",
-  "theoryRefs": [],
+  "solution": "Реактив $\\ce{HCl}$ позволяет различить эти вещества: с $\\ce{Na2CO3}$ выделяется газ, с $\\ce{NaCl}$ видимых изменений нет.",
+  "hint": "Правильный реактив должен давать разный (или единственный) видимый эффект с каждым из двух веществ.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
   "tags": [
-    "органическая химия"
+    "качественные реакции",
+    "распознавание веществ"
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "id": "05-007",
+  "examNumber": 5,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "К какому классу неорганических веществ относится $\\ce{H2CO3}$?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Оксид"
+    },
+    {
+      "id": "B",
+      "text": "Кислота"
+    },
+    {
+      "id": "C",
+      "text": "Соль (средняя)"
+    },
+    {
+      "id": "D",
+      "text": "Основание"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "$\\ce{H2CO3}$ состоит из атомов водорода, способных замещаться на металл, и кислотного остатка — это кислота.",
+  "hint": "Посмотрите на состав формулы: есть ли кислород, водород или гидроксогруппа.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "классификация веществ"
+  ]
+}

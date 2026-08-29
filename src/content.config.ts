@@ -11,7 +11,7 @@ const answerTypeSchema = z.enum(['single', 'multiple', 'matching', 'numeric', 's
 
 const taskSchema = z.object({
   id: z.string().regex(/^\d{2}-\d{3}$/, 'Формат id: "08-014" (номер задания-порядковый номер)'),
-  examNumber: z.number().int().min(1).max(24),
+  examNumber: z.number().int().min(1).max(23),
   topicId: z.string(),
   difficulty: z.enum(['base', 'advanced', 'high']),
   answerType: answerTypeSchema,
@@ -36,7 +36,7 @@ const theorySchema = z.object({
   description: z.string().min(50).max(170),
   topicId: z.string(),
   order: z.number().int(),
-  relatedTasks: z.array(z.number().int().min(1).max(24)).default([]),
+  relatedTasks: z.array(z.number().int().min(1).max(23)).default([]),
   updatedAt: z.coerce.date(),
   readingTime: z.number().int().positive(),
 });
@@ -52,7 +52,7 @@ const theory = defineCollection({
 });
 
 const zadaniyaGuideSchema = z.object({
-  examNumber: z.number().int().min(1).max(24),
+  examNumber: z.number().int().min(1).max(23),
   title: z.string().max(60),
   description: z.string().min(50).max(170),
   updatedAt: z.coerce.date(),
@@ -67,7 +67,7 @@ const zadaniya = defineCollection({
 
 const mockVariantSchema = z.object({
   title: z.string(),
-  taskIds: z.array(z.string()).length(24, 'Полный вариант должен содержать ровно 24 задания (по одному на каждый номер ОГЭ)'),
+  taskIds: z.array(z.string()).length(23, 'Полный вариант должен содержать ровно 23 задания (по одному на каждый номер ОГЭ)'),
 });
 
 const mocks = defineCollection({

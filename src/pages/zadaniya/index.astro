@@ -13,7 +13,7 @@ const jsonLd = [
   breadcrumbListJsonLd(breadcrumbs, siteUrl),
   learningResourceJsonLd({
     title: 'Разбор всех заданий ОГЭ по химии',
-    description: 'Что проверяет каждое из 24 заданий ОГЭ по химии и как его решать.',
+    description: `Что проверяет каждое из ${EXAM_CONFIG.totalTasks} заданий ОГЭ по химии и как его решать.`,
     url: '/zadaniya/',
     siteUrl,
   }),
@@ -24,8 +24,8 @@ const part2 = EXAM_TASKS_META.filter((t) => t.part === 2);
 ---
 
 <BaseLayout
-  title="Разбор всех 24 заданий ОГЭ по химии"
-  description="Полный разбор каждого из 24 заданий ОГЭ по химии: что проверяет, алгоритм решения, примеры и ссылка на тренажёр."
+  title={`Разбор всех ${EXAM_CONFIG.totalTasks} заданий ОГЭ по химии`}
+  description={`Полный разбор каждого из ${EXAM_CONFIG.totalTasks} заданий ОГЭ по химии: что проверяет, алгоритм решения, примеры и ссылка на тренажёр.`}
   jsonLd={jsonLd}
 >
   <Breadcrumbs items={breadcrumbs} />

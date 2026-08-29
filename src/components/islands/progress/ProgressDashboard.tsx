@@ -7,6 +7,7 @@ import {
   getWeakExamNumbers,
   type ProgressState,
 } from '@/lib/progress';
+import { EXAM_CONFIG } from '@/config/exam';
 interface ExamMeta {
   number: number;
   title: string;
@@ -77,7 +78,7 @@ export default function ProgressDashboard({ examTasksMeta, taskIdToExamNumber }:
       ) : (
         <>
           <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <Stat label="Заданий решено" value={`${solvedNumbers} / 24`} />
+            <Stat label="Заданий решено" value={`${solvedNumbers} / ${EXAM_CONFIG.totalTasks}`} />
             <Stat label="Статей прочитано" value={String(theoryReadCount)} />
             <Stat label="Пробников пройдено" value={String(state.mocks.length)} />
             <Stat label="Серия дней" value={`${state.streak.current} (макс. ${state.streak.longest})`} />

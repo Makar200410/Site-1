@@ -1,0 +1,19 @@
+{
+  "id": "19-005",
+  "examNumber": 19,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "В 45 г воды растворили 25 г поваренной соли. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 35.7,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Масса раствора: $25 + 45 = 70$ г. Массовая доля: $\\omega = \\dfrac{25}{70} \\times 100\\% \\approx 35.7\\%$.",
+  "hint": "Масса раствора = масса вещества + масса растворителя.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля раствора"
+  ]
+}

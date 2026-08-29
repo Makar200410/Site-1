@@ -1,0 +1,43 @@
+{
+  "id": "10-008",
+  "examNumber": 10,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует раствор $\\ce{FeCl3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором $\\ce{AgNO3}$"
+    },
+    {
+      "id": "B",
+      "text": "Раствором $\\ce{NaOH}$"
+    },
+    {
+      "id": "C",
+      "text": "Раствором $\\ce{KNO3}$"
+    },
+    {
+      "id": "D",
+      "text": "Раствором $\\ce{MgCl2}$"
+    },
+    {
+      "id": "E",
+      "text": "Золотом $\\ce{Au}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "B"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{FeCl3}$ реагирует с реагентом «Раствором $\\ce{NaOH}$» (выпадает осадок $\\ce{Fe(OH)3}$) и с реагентом «Раствором $\\ce{AgNO3}$» (выпадает осадок $\\ce{AgCl}$). С остальными перечисленными веществами видимой реакции нет.",
+  "hint": "Сверьтесь с таблицей растворимости: реакция обмена идёт, если образуется осадок или газ.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "соли"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "07-015",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{Al2O3}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "Водой"
+    },
+    {
+      "id": "C",
+      "text": "Оксидом серы(VI) $\\ce{SO3}$"
+    },
+    {
+      "id": "D",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "E",
+      "text": "Оксидом кальция $\\ce{CaO}$"
+    }
+  ],
+  "correctAnswer": [
+    "A",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Al2O3}$ — амфотерный оксид: проявляет двойственные свойства, реагируя и с кислотой, и со щёлочью. С основным оксидом, кислотным оксидом и водой не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

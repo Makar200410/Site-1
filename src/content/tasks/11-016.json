@@ -1,0 +1,41 @@
+{
+  "id": "11-016",
+  "examNumber": 11,
+  "topicId": "himicheskie-reaktsii-klassifikatsiya",
+  "difficulty": "high",
+  "answerType": "multiple",
+  "statement": "Выберите два уравнения реакций обмена.",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{S + O2 -> SO2}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{NaOH + HCl -> NaCl + H2O}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{AgNO3 + KCl -> AgCl + KNO3}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{2H2O2 -> 2H2O + O2}$"
+    },
+    {
+      "id": "E",
+      "text": "$\\ce{Cu(OH)2 ->[t] CuO + H2O}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "Реакция обмена — это обмен составными частями между двумя сложными веществами. Среди приведённых уравнений этому соответствуют выбранные два.",
+  "hint": "Сравните число и состав веществ до и после реакции.",
+  "theoryRefs": [],
+  "tags": [
+    "классификация реакций"
+  ]
+}

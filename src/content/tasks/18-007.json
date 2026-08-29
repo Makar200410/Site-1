@@ -1,0 +1,19 @@
+{
+  "id": "18-007",
+  "examNumber": 18,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "base",
+  "answerType": "numeric",
+  "statement": "Вычислите массовую долю (в %) элемента Na в веществе $\\ce{Na2SO4}$ ($M = 142$ г/моль, $M(Na) = 23$ г/моль, 2 атома Na в формуле). Ответ округлите до десятых долей процента.",
+  "correctAnswer": 32.4,
+  "tolerance": 0.3,
+  "maxScore": 1,
+  "solution": "Молярная масса $\\ce{Na2SO4}$: $M = 142$ г/моль. Масса Na в формуле: $23 \\times 2 = 46$. Массовая доля: $\\omega = \\dfrac{46}{142} \\times 100\\% \\approx 32.4\\%$.",
+  "hint": "Найдите молярную массу всего вещества, затем долю искомого элемента в ней.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля элемента"
+  ]
+}

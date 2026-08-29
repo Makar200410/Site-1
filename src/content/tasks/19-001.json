@@ -4,12 +4,12 @@
   "topicId": "raschety-massovaya-dolya",
   "difficulty": "base",
   "answerType": "numeric",
-  "statement": "В 90 г воды растворили 10 г сахара. Вычислите массовую долю (в %) сахара в полученном растворе.",
-  "correctAnswer": 10,
-  "tolerance": 0.5,
+  "statement": "В 285 г воды растворили 12 г хлорида натрия. Вычислите массовую долю (в %) вещества в полученном растворе. Ответ округлите до десятых долей процента.",
+  "correctAnswer": 4,
+  "tolerance": 0.3,
   "maxScore": 1,
-  "solution": "Масса раствора: $10 + 90 = 100$ г. Массовая доля: $\\omega = \\dfrac{10}{100} \\times 100\\% = 10\\%$.",
-  "hint": "Масса раствора = масса вещества + масса воды.",
+  "solution": "Масса раствора: $12 + 285 = 297$ г. Массовая доля: $\\omega = \\dfrac{12}{297} \\times 100\\% \\approx 4\\%$.",
+  "hint": "Масса раствора = масса вещества + масса растворителя.",
   "theoryRefs": [
     "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
   ],

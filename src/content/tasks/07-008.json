@@ -1,0 +1,43 @@
+{
+  "id": "07-008",
+  "examNumber": 7,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "advanced",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{BaO}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Гидроксидом натрия $\\ce{NaOH}$ (раствор)"
+    },
+    {
+      "id": "B",
+      "text": "Водой"
+    },
+    {
+      "id": "C",
+      "text": "Соляной кислотой $\\ce{HCl}$"
+    },
+    {
+      "id": "D",
+      "text": "Другим основным оксидом $\\ce{CaO}$"
+    },
+    {
+      "id": "E",
+      "text": "Оксидом меди(II) $\\ce{CuO}$"
+    }
+  ],
+  "correctAnswer": [
+    "B",
+    "C"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{BaO}$ — основный оксид активного металла: реагирует с кислотой ($\\ce{BaO + 2HCl -> ...}$) и с водой, образуя щёлочь. С другим основным оксидом и щёлочью не реагирует.",
+  "hint": "Определите тип оксида: основный, кислотный или амфотерный.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "оксиды"
+  ]
+}

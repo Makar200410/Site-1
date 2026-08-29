@@ -1,0 +1,37 @@
+{
+  "id": "03-010",
+  "examNumber": 3,
+  "topicId": "stroenie-atoma",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Сколько нейтронов содержится в атоме $\\ce{Zn}$, если его порядковый номер 30, а атомная масса приблизительно 65?",
+  "options": [
+    {
+      "id": "A",
+      "text": "33"
+    },
+    {
+      "id": "B",
+      "text": "35"
+    },
+    {
+      "id": "C",
+      "text": "30"
+    },
+    {
+      "id": "D",
+      "text": "36"
+    }
+  ],
+  "correctAnswer": "B",
+  "maxScore": 1,
+  "solution": "Массовое число $A = 65$, число протонов $Z = 30$. Число нейтронов $N = A - Z = 65 - 30 = 35$.",
+  "hint": "Используйте формулу N = A − Z.",
+  "theoryRefs": [
+    "stroenie-atoma/stroenie-atoma"
+  ],
+  "tags": [
+    "строение атома",
+    "нейтроны"
+  ]
+}

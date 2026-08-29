@@ -1,0 +1,43 @@
+{
+  "id": "08-005",
+  "examNumber": 8,
+  "topicId": "klassifikatsiya-neorganicheskih-veshestv",
+  "difficulty": "base",
+  "answerType": "multiple",
+  "statement": "С какими из перечисленных веществ реагирует $\\ce{Ca(OH)2}$? Выберите два верных ответа.",
+  "options": [
+    {
+      "id": "A",
+      "text": "Раствором $\\ce{NaNO3}$"
+    },
+    {
+      "id": "B",
+      "text": "Водородом $\\ce{H2}$"
+    },
+    {
+      "id": "C",
+      "text": "Раствором $\\ce{FeCl3}$"
+    },
+    {
+      "id": "D",
+      "text": "Кислотой $\\ce{HNO3}$"
+    },
+    {
+      "id": "E",
+      "text": "Другим основанием $\\ce{NaOH}$"
+    }
+  ],
+  "correctAnswer": [
+    "C",
+    "D"
+  ],
+  "maxScore": 2,
+  "solution": "$\\ce{Ca(OH)2}$ — щёлочь: реагирует с кислотой и с раствором соли, если образуется осадок ($\\ce{Fe(OH)3}$). С раствором соли без осадка, другим основанием и водородом не реагирует.",
+  "hint": "Щёлочь реагирует с кислотами, кислотными оксидами и с некоторыми растворами солей.",
+  "theoryRefs": [
+    "klassifikatsiya-neorganicheskih-veshestv/klassy-neorganicheskih-veshestv"
+  ],
+  "tags": [
+    "основания"
+  ]
+}

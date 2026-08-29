@@ -1,0 +1,19 @@
+{
+  "id": "19-009",
+  "examNumber": 19,
+  "topicId": "raschety-massovaya-dolya",
+  "difficulty": "advanced",
+  "answerType": "numeric",
+  "statement": "Сколько граммов сахара потребуется для приготовления 150 г раствора с массовой долей 10%?",
+  "correctAnswer": 15,
+  "tolerance": 0.5,
+  "maxScore": 1,
+  "solution": "$m_{вещества} = \\omega \\times m_{раствора} = 0.1 \\times 150 = 15$ г.",
+  "hint": "Масса вещества = массовая доля × масса раствора.",
+  "theoryRefs": [
+    "raschety-massovaya-dolya/massovaya-dolya-veshestva-v-rastvore"
+  ],
+  "tags": [
+    "массовая доля раствора"
+  ]
+}

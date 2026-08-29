@@ -1,36 +1,36 @@
 {
   "id": "14-003",
   "examNumber": 14,
-  "topicId": "okislitelno-vosstanovitelnye-reaktsii",
-  "difficulty": "high",
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "base",
   "answerType": "single",
-  "statement": "В реакции $\\ce{2Al + Fe2O3 -> Al2O3 + 2Fe}$ элемент, который восстанавливается, — это:",
+  "statement": "Между какой парой веществ реакция ионного обмена идёт до конца?",
   "options": [
     {
       "id": "A",
-      "text": "Алюминий"
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
     },
     {
       "id": "B",
-      "text": "Кислород"
+      "text": "$\\ce{NaOH}$ и $\\ce{HCl}$"
     },
     {
       "id": "C",
-      "text": "Железо"
+      "text": "$\\ce{NaCl}$ и $\\ce{KNO3}$"
     },
     {
       "id": "D",
-      "text": "Ни один элемент не меняет степень окисления"
+      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
     }
   ],
-  "correctAnswer": "C",
+  "correctAnswer": "B",
   "maxScore": 1,
-  "solution": "Железо понижает степень окисления с +3 (в $\\ce{Fe2O3}$) до 0 (простое вещество) — это процесс восстановления. Алюминий, наоборот, повышает степень окисления с 0 до +3 — окисляется.",
-  "hint": "Восстановление — это понижение степени окисления.",
+  "solution": "Реакция между $\\ce{NaOH}$ и $\\ce{HCl}$ идёт до конца, так как образуется вода (реакция нейтрализации).",
+  "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
   "theoryRefs": [
-    "okislitelno-vosstanovitelnye-reaktsii/ovr"
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
   ],
   "tags": [
-    "ОВР"
+    "ионный обмен"
   ]
 }

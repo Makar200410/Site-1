@@ -1,0 +1,36 @@
+{
+  "id": "14-007",
+  "examNumber": 14,
+  "topicId": "elektroliticheskaya-dissotsiatsiya",
+  "difficulty": "advanced",
+  "answerType": "single",
+  "statement": "Между какой парой веществ реакция ионного обмена идёт до конца?",
+  "options": [
+    {
+      "id": "A",
+      "text": "$\\ce{Na2CO3}$ и $\\ce{HCl}$"
+    },
+    {
+      "id": "B",
+      "text": "$\\ce{Na2SO4}$ и $\\ce{KCl}$"
+    },
+    {
+      "id": "C",
+      "text": "$\\ce{K2SO4}$ и $\\ce{NaNO3}$"
+    },
+    {
+      "id": "D",
+      "text": "$\\ce{KNO3}$ и $\\ce{NaCl}$"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Реакция между $\\ce{Na2CO3}$ и $\\ce{HCl}$ идёт до конца, так как выделяется газ $\\ce{CO2}$.",
+  "hint": "Проверьте по таблице растворимости: образуется ли осадок, газ или вода.",
+  "theoryRefs": [
+    "elektroliticheskaya-dissotsiatsiya/elektroliticheskaya-dissotsiatsiya-i-ionnye-uravneniya"
+  ],
+  "tags": [
+    "ионный обмен"
+  ]
+}

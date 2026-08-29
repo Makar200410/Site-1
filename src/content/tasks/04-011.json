@@ -1,0 +1,36 @@
+{
+  "id": "04-011",
+  "examNumber": 4,
+  "topicId": "valentnost-stepen-okisleniya",
+  "difficulty": "base",
+  "answerType": "single",
+  "statement": "Определите степень окисления элемента Zn в веществе $\\ce{ZnO}$.",
+  "options": [
+    {
+      "id": "A",
+      "text": "+2"
+    },
+    {
+      "id": "B",
+      "text": "+3"
+    },
+    {
+      "id": "C",
+      "text": "−2"
+    },
+    {
+      "id": "D",
+      "text": "−3"
+    }
+  ],
+  "correctAnswer": "A",
+  "maxScore": 1,
+  "solution": "Расставив степени окисления известных элементов (кислород −2, водород +1 и т. д.) и составив уравнение на сумму степеней окисления, получаем степень окисления Zn в $\\ce{ZnO}$, равную +2.",
+  "hint": "Сумма степеней окисления всех атомов в нейтральной молекуле равна нулю.",
+  "theoryRefs": [
+    "valentnost-stepen-okisleniya/stepen-okisleniya"
+  ],
+  "tags": [
+    "степень окисления"
+  ]
+}
